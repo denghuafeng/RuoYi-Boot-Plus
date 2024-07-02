@@ -384,6 +384,7 @@
         <module>ruoyi-commons</module>
         <module>ruoyi-dependencies</module>
         <module>ruoyi-starters</module>
+        <module>ruoyi-data-services</module>
     </modules>
     <packaging>pom</packaging>
 
