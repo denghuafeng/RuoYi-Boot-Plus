@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.dromara</groupId>
-    <artifactId>ruoyi-vue-plus</artifactId>
+    <artifactId>ruoyi-boot-plus</artifactId>
     <version>${revision}</version>
 
-    <name>RuoYi-Vue-Plus</name>
-    <url>https://gitee.com/dromara/RuoYi-Vue-Plus</url>
-    <description>RuoYi-Vue-Plus多租户管理系统</description>
+    <name>ruoyi-boot-plus</name>
+    <url>https://gitee.com/dromara/ruoyi-boot-plus</url>
+    <description>ruoyi-boot-plus多租户管理系统</description>
 
     <properties>
         <revision>5.2.0</revision>
@@ -378,6 +378,12 @@
         <module>ruoyi-common</module>
         <module>ruoyi-extend</module>
         <module>ruoyi-modules</module>
+        <module>ruoyi-services</module>
+        <module>ruoyi-rest</module>
+        <module>ruoyi-extensions</module>
+        <module>ruoyi-commons</module>
+        <module>ruoyi-dependencies</module>
+        <module>ruoyi-starters</module>
     </modules>
     <packaging>pom</packaging>
 
