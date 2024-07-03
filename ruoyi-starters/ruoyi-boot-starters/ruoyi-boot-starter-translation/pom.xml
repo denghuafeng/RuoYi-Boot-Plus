@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-translation</artifactId>
 
     <description>
-        ruoyi-common-translation 通用翻译功能
+        ruoyi-boot-starter-translation 通用翻译功能
     </description>
 
     <dependencies>

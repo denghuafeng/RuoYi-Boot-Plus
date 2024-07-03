@@ -1,4 +1,4 @@
-package org.dromara.common.translation.core.handler;
+package org.dromara.boot.translation.core.handler;
 
 import com.fasterxml.jackson.databind.BeanDescription;
 import com.fasterxml.jackson.databind.SerializationConfig;

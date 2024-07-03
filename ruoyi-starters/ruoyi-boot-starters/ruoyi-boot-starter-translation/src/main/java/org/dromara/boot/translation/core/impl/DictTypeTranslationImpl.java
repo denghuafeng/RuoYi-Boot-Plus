@@ -1,10 +1,10 @@
-package org.dromara.common.translation.core.impl;
+package org.dromara.boot.translation.core.impl;
 
+import org.dromara.boot.translation.annotation.TranslationType;
+import org.dromara.boot.translation.constant.TransConstant;
+import org.dromara.boot.translation.core.TranslationInterface;
 import org.dromara.common.core.service.DictService;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.translation.annotation.TranslationType;
-import org.dromara.common.translation.constant.TransConstant;
-import org.dromara.common.translation.core.TranslationInterface;
 import lombok.AllArgsConstructor;
 
 /**

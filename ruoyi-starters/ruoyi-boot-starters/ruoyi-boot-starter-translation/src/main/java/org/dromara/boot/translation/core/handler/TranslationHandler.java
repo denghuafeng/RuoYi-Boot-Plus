@@ -1,4 +1,4 @@
-package org.dromara.common.translation.core.handler;
+package org.dromara.boot.translation.core.handler;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.fasterxml.jackson.core.JsonGenerator;
@@ -7,10 +7,10 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.ContextualSerializer;
+import org.dromara.boot.translation.annotation.Translation;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.common.core.utils.reflect.ReflectUtils;
-import org.dromara.common.translation.annotation.Translation;
-import org.dromara.common.translation.core.TranslationInterface;
+import org.dromara.boot.translation.core.TranslationInterface;
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;

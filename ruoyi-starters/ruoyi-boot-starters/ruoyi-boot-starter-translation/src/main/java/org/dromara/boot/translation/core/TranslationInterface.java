@@ -1,6 +1,6 @@
-package org.dromara.common.translation.core;
+package org.dromara.boot.translation.core;
 
-import org.dromara.common.translation.annotation.TranslationType;
+import org.dromara.boot.translation.annotation.TranslationType;
 
 /**
  * 翻译接口 (实现类需标注 {@link TranslationType} 注解标明翻译类型)

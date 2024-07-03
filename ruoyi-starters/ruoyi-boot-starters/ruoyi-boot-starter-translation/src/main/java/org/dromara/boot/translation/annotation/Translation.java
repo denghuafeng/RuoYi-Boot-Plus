@@ -1,8 +1,8 @@
-package org.dromara.common.translation.annotation;
+package org.dromara.boot.translation.annotation;
 
 import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import org.dromara.common.translation.core.handler.TranslationHandler;
+import org.dromara.boot.translation.core.handler.TranslationHandler;
 
 import java.lang.annotation.*;
 

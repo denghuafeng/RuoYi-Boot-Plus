@@ -1,6 +1,6 @@
-package org.dromara.common.translation.annotation;
+package org.dromara.boot.translation.annotation;
 
-import org.dromara.common.translation.core.TranslationInterface;
+import org.dromara.boot.translation.core.TranslationInterface;
 
 import java.lang.annotation.*;
 
