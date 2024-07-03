@@ -1,4 +1,4 @@
-package org.dromara.common.doc.config;
+package org.dromara.boot.doc.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.Paths;
@@ -6,8 +6,8 @@ import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.security.SecurityRequirement;
 import lombok.RequiredArgsConstructor;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.doc.config.properties.SpringDocProperties;
-import org.dromara.common.doc.handler.OpenApiHandler;
+import org.dromara.boot.doc.config.properties.SpringDocProperties;
+import org.dromara.boot.doc.handler.OpenApiHandler;
 import org.springdoc.core.configuration.SpringDocConfiguration;
 import org.springdoc.core.customizers.OpenApiBuilderCustomizer;
 import org.springdoc.core.customizers.OpenApiCustomizer;
