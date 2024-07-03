@@ -19,7 +19,7 @@ import org.dromara.common.core.domain.model.RegisterBody;
 import org.dromara.common.core.domain.model.SocialLoginBody;
 import org.dromara.common.core.utils.*;
 import org.dromara.boot.encrypt.annotation.ApiEncrypt;
-import org.dromara.common.json.utils.JsonUtils;
+import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.common.satoken.utils.LoginHelper;
 import org.dromara.common.social.config.properties.SocialLoginConfigProperties;
 import org.dromara.common.social.config.properties.SocialProperties;

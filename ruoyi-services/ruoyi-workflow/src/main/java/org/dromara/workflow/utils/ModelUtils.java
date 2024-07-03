@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.json.utils.JsonUtils;
+import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.workflow.domain.vo.MultiInstanceVo;
 import org.flowable.bpmn.converter.BpmnXMLConverter;
 import org.flowable.bpmn.model.*;
