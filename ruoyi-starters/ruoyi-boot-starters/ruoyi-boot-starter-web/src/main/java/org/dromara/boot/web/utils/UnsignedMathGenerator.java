@@ -1,4 +1,4 @@
-package org.dromara.common.web.utils;
+package org.dromara.boot.web.utils;
 
 import cn.hutool.captcha.generator.CodeGenerator;
 import cn.hutool.core.math.Calculator;

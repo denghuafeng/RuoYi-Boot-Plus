@@ -10,7 +10,7 @@ import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.workflow.domain.bo.ProcessInstanceBo;
 import org.dromara.workflow.domain.bo.ProcessInvalidBo;
 import org.dromara.workflow.domain.bo.TaskUrgingBo;

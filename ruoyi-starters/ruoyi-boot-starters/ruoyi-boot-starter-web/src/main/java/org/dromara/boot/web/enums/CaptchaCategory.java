@@ -1,4 +1,4 @@
-package org.dromara.common.web.enums;
+package org.dromara.boot.web.enums;
 
 import cn.hutool.captcha.AbstractCaptcha;
 import cn.hutool.captcha.CircleCaptcha;

@@ -1,4 +1,4 @@
-package org.dromara.common.web.filter;
+package org.dromara.boot.web.filter;
 
 import cn.hutool.core.io.IoUtil;
 import org.dromara.common.core.constant.Constants;

@@ -7,7 +7,7 @@ import org.dromara.common.core.utils.ValidatorUtils;
 import org.dromara.common.core.validate.AddGroup;
 import org.dromara.common.core.validate.EditGroup;
 import org.dromara.common.core.validate.QueryGroup;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;

@@ -8,7 +8,7 @@ import org.dromara.common.core.domain.R;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.system.domain.bo.SysDeptBo;
 import org.dromara.system.domain.vo.SysDeptVo;
 import org.dromara.system.service.ISysDeptService;

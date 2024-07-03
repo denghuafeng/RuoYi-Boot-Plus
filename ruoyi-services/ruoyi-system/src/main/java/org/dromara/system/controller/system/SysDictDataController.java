@@ -3,7 +3,7 @@ package org.dromara.system.controller.system;
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import cn.hutool.core.util.ObjectUtil;
 import org.dromara.boot.log.annotation.Log;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.common.core.domain.R;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;

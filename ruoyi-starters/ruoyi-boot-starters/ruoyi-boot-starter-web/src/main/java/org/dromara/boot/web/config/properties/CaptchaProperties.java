@@ -1,7 +1,7 @@
-package org.dromara.common.web.config.properties;
+package org.dromara.boot.web.config.properties;
 
-import org.dromara.common.web.enums.CaptchaCategory;
-import org.dromara.common.web.enums.CaptchaType;
+import org.dromara.boot.web.enums.CaptchaCategory;
+import org.dromara.boot.web.enums.CaptchaType;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

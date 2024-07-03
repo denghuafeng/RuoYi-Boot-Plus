@@ -1,7 +1,7 @@
 package org.dromara.demo.controller;
 
 import org.dromara.common.core.domain.R;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.common.sensitive.annotation.Sensitive;
 import org.dromara.common.sensitive.core.SensitiveStrategy;
 import lombok.Data;

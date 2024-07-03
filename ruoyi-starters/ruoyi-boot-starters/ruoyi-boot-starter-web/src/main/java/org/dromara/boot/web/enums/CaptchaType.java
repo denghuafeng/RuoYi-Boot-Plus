@@ -1,8 +1,8 @@
-package org.dromara.common.web.enums;
+package org.dromara.boot.web.enums;
 
 import cn.hutool.captcha.generator.CodeGenerator;
 import cn.hutool.captcha.generator.RandomGenerator;
-import org.dromara.common.web.utils.UnsignedMathGenerator;
+import org.dromara.boot.web.utils.UnsignedMathGenerator;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

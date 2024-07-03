@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.validation.annotation.Validated;
 import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.boot.log.annotation.Log;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.common.core.domain.R;
 import org.dromara.common.core.validate.AddGroup;

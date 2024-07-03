@@ -22,7 +22,7 @@ import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.tenant.helper.TenantHelper;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.system.domain.bo.SysDeptBo;
 import org.dromara.system.domain.bo.SysPostBo;
 import org.dromara.system.domain.bo.SysRoleBo;

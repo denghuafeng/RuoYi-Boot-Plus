@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-web</artifactId>
 
     <description>
-        ruoyi-common-web web服务
+        ruoyi-boot-starter-web web服务
     </description>
 
     <dependencies>

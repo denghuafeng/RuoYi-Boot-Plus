@@ -1,4 +1,4 @@
-package org.dromara.common.web.core;
+package org.dromara.boot.web.core;
 
 import org.springframework.web.servlet.LocaleResolver;
 

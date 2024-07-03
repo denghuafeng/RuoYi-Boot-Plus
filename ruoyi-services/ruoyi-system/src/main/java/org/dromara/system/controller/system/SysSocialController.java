@@ -3,7 +3,7 @@ package org.dromara.system.controller.system;
 import lombok.RequiredArgsConstructor;
 import org.dromara.common.core.domain.R;
 import org.dromara.boot.satoken.utils.LoginHelper;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.system.domain.vo.SysSocialVo;
 import org.dromara.system.service.ISysSocialService;
 import org.springframework.validation.annotation.Validated;

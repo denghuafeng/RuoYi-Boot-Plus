@@ -1,4 +1,4 @@
-package org.dromara.common.web.interceptor;
+package org.dromara.boot.web.interceptor;
 
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.map.MapUtil;
@@ -6,10 +6,10 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.time.StopWatch;
+import org.dromara.boot.web.filter.RepeatedlyRequestWrapper;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.json.utils.JsonUtils;
-import org.dromara.common.web.filter.RepeatedlyRequestWrapper;
 import org.springframework.http.MediaType;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;

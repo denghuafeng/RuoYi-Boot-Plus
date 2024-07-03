@@ -5,7 +5,7 @@ import cn.hutool.core.convert.Convert;
 import cn.hutool.core.io.IoUtil;
 import org.dromara.common.core.domain.R;
 import org.dromara.boot.mybatis.helper.DataBaseHelper;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.log.annotation.Log;

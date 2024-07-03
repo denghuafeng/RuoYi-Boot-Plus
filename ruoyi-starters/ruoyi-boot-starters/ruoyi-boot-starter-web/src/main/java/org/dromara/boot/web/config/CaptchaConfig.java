@@ -1,10 +1,10 @@
-package org.dromara.common.web.config;
+package org.dromara.boot.web.config;
 
 import cn.hutool.captcha.CaptchaUtil;
 import cn.hutool.captcha.CircleCaptcha;
 import cn.hutool.captcha.LineCaptcha;
 import cn.hutool.captcha.ShearCaptcha;
-import org.dromara.common.web.config.properties.CaptchaProperties;
+import org.dromara.boot.web.config.properties.CaptchaProperties;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;

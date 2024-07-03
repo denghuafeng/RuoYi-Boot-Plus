@@ -1,7 +1,7 @@
-package org.dromara.common.web.config;
+package org.dromara.boot.web.config;
 
-import org.dromara.common.web.handler.GlobalExceptionHandler;
-import org.dromara.common.web.interceptor.PlusWebInvokeTimeInterceptor;
+import org.dromara.boot.web.handler.GlobalExceptionHandler;
+import org.dromara.boot.web.interceptor.PlusWebInvokeTimeInterceptor;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.cors.CorsConfiguration;

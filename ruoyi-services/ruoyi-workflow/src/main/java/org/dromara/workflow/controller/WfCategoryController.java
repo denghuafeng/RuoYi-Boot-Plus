@@ -12,7 +12,7 @@ import org.dromara.common.excel.utils.ExcelUtil;
 import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;
-import org.dromara.common.web.core.BaseController;
+import org.dromara.boot.web.core.BaseController;
 import org.dromara.workflow.domain.bo.WfCategoryBo;
 import org.dromara.workflow.domain.vo.WfCategoryVo;
 import org.dromara.workflow.service.IWfCategoryService;
