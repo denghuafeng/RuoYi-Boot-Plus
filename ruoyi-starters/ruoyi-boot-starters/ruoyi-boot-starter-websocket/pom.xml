@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common</artifactId>
+        <artifactId>ruoyi-boot-starters</artifactId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ruoyi-common-websocket</artifactId>
+    <artifactId>ruoyi-boot-starter-websocket</artifactId>
 
     <description>
         ruoyi-common-websocket 模块
@@ -22,15 +22,15 @@
         </dependency>
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-redis</artifactId>
+            <artifactId>ruoyi-boot-starter-redis</artifactId>
         </dependency>
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-satoken</artifactId>
+            <artifactId>ruoyi-boot-starter-satoken</artifactId>
         </dependency>
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-json</artifactId>
+            <artifactId>ruoyi-boot-starter-json</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
