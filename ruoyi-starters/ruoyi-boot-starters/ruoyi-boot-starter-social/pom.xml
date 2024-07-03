@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-social</artifactId>
 
     <description>
-        ruoyi-common-social 授权认证
+        ruoyi-boot-starter-social 授权认证
     </description>
 
     <dependencies>

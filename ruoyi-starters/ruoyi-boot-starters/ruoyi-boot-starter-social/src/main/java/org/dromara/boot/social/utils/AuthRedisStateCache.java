@@ -1,4 +1,4 @@
-package org.dromara.common.social.utils;
+package org.dromara.boot.social.utils;
 
 import lombok.AllArgsConstructor;
 import me.zhyd.oauth.cache.AuthStateCache;

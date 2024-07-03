@@ -1,4 +1,4 @@
-package org.dromara.common.social.utils;
+package org.dromara.boot.social.utils;
 
 import cn.hutool.core.util.ObjectUtil;
 import me.zhyd.oauth.config.AuthConfig;
@@ -7,11 +7,11 @@ import me.zhyd.oauth.model.AuthCallback;
 import me.zhyd.oauth.model.AuthResponse;
 import me.zhyd.oauth.model.AuthUser;
 import me.zhyd.oauth.request.*;
+import org.dromara.boot.social.config.properties.SocialLoginConfigProperties;
+import org.dromara.boot.social.topiam.AuthTopIamRequest;
 import org.dromara.common.core.utils.SpringUtils;
-import org.dromara.common.social.config.properties.SocialLoginConfigProperties;
-import org.dromara.common.social.config.properties.SocialProperties;
-import org.dromara.common.social.maxkey.AuthMaxKeyRequest;
-import org.dromara.common.social.topiam.AuthTopIamRequest;
+import org.dromara.boot.social.config.properties.SocialProperties;
+import org.dromara.boot.social.maxkey.AuthMaxKeyRequest;
 
 /**
  * 认证授权工具类
