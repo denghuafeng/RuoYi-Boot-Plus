@@ -25,37 +25,37 @@
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-doc</artifactId>
+            <artifactId>ruoyi-boot-starter-doc</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-sms</artifactId>
+            <artifactId>ruoyi-boot-starter-sms</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-mail</artifactId>
+            <artifactId>ruoyi-boot-starter-mail</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-redis</artifactId>
+            <artifactId>ruoyi-boot-starter-redis</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-idempotent</artifactId>
+            <artifactId>ruoyi-boot-starter-idempotent</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-mybatis</artifactId>
+            <artifactId>ruoyi-boot-starter-mybatis</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-log</artifactId>
+            <artifactId>ruoyi-boot-starter-log</artifactId>
         </dependency>
 
         <dependency>
@@ -65,22 +65,22 @@
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-security</artifactId>
+            <artifactId>ruoyi-boot-starter-security</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-web</artifactId>
+            <artifactId>ruoyi-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-ratelimiter</artifactId>
+            <artifactId>ruoyi-boot-starter-ratelimiter</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-translation</artifactId>
+            <artifactId>ruoyi-boot-starter-translation</artifactId>
         </dependency>
 
         <dependency>
@@ -90,17 +90,17 @@
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-encrypt</artifactId>
+            <artifactId>ruoyi-boot-starter-encrypt</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-tenant</artifactId>
+            <artifactId>ruoyi-boot-starter-tenant</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-websocket</artifactId>
+            <artifactId>ruoyi-boot-starter-websocket</artifactId>
         </dependency>
 
     </dependencies>

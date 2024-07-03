@@ -15,13 +15,11 @@
         <dependency>
             <groupId>com.aizuda</groupId>
             <artifactId>snail-job-server-starter</artifactId>
-            <version>${snailjob.version}</version>
         </dependency>
 
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
-            <version>${spring-boot-admin.version}</version>
         </dependency>
     </dependencies>
 

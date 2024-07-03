@@ -20,12 +20,12 @@
         <!-- 通用工具-->
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-json</artifactId>
+            <artifactId>ruoyi-boot-starter-json</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-job</artifactId>
+            <artifactId>ruoyi-boot-starter-job</artifactId>
         </dependency>
 
     </dependencies>
