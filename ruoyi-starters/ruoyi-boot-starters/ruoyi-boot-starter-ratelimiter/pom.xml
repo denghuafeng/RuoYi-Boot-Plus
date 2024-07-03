@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-ratelimiter</artifactId>
 
     <description>
-        ruoyi-common-ratelimiter 限流功能
+        ruoyi-boot-starter-ratelimiter 限流功能
     </description>
 
     <dependencies>
