@@ -1,4 +1,4 @@
-package org.dromara.common.log.aspect;
+package org.dromara.boot.log.aspect;
 
 import cn.hutool.core.lang.Dict;
 import cn.hutool.core.map.MapUtil;
@@ -13,14 +13,14 @@ import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.dromara.boot.log.enums.BusinessStatus;
+import org.dromara.boot.log.event.OperLogEvent;
 import org.dromara.common.core.domain.model.LoginUser;
 import org.dromara.common.core.utils.ServletUtils;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.json.utils.JsonUtils;
-import org.dromara.common.log.annotation.Log;
-import org.dromara.common.log.enums.BusinessStatus;
-import org.dromara.common.log.event.OperLogEvent;
+import org.dromara.boot.log.annotation.Log;
 import org.dromara.common.satoken.utils.LoginHelper;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.http.HttpMethod;

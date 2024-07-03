@@ -19,7 +19,7 @@ import org.dromara.common.core.enums.TenantStatus;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.exception.user.UserException;
 import org.dromara.common.core.utils.*;
-import org.dromara.common.log.event.LogininforEvent;
+import org.dromara.boot.log.event.LogininforEvent;
 import org.dromara.common.mybatis.helper.DataPermissionHelper;
 import org.dromara.common.redis.utils.RedisUtils;
 import org.dromara.common.satoken.utils.LoginHelper;

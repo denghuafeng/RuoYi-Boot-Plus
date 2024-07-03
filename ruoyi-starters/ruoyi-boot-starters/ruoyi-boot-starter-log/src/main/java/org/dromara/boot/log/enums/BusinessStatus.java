@@ -1,4 +1,4 @@
-package org.dromara.common.log.enums;
+package org.dromara.boot.log.enums;
 
 /**
  * 操作状态

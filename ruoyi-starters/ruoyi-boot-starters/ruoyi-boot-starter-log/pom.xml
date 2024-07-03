@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-log</artifactId>
 
     <description>
-        ruoyi-common-log 日志记录
+        ruoyi-boot-starter-log 日志记录
     </description>
 
     <dependencies>

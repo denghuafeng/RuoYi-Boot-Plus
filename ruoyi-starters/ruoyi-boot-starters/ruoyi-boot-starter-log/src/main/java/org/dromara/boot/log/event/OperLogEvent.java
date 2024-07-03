@@ -1,4 +1,4 @@
-package org.dromara.common.log.event;
+package org.dromara.boot.log.event;
 
 import lombok.Data;
 

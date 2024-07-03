@@ -8,7 +8,7 @@ import org.dromara.common.mybatis.core.page.PageQuery;
 import org.dromara.common.mybatis.core.page.TableDataInfo;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.common.core.utils.ip.AddressUtils;
-import org.dromara.common.log.event.OperLogEvent;
+import org.dromara.boot.log.event.OperLogEvent;
 import org.dromara.system.domain.SysOperLog;
 import org.dromara.system.domain.bo.SysOperLogBo;
 import org.dromara.system.domain.vo.SysOperLogVo;

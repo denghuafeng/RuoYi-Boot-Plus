@@ -2,12 +2,12 @@ package org.dromara.system.controller.system;
 
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import cn.hutool.core.util.ObjectUtil;
-import org.dromara.common.log.annotation.Log;
+import org.dromara.boot.log.annotation.Log;
 import org.dromara.common.web.core.BaseController;
 import org.dromara.common.mybatis.core.page.PageQuery;
 import org.dromara.common.core.domain.R;
 import org.dromara.common.mybatis.core.page.TableDataInfo;
-import org.dromara.common.log.enums.BusinessType;
+import org.dromara.boot.log.enums.BusinessType;
 import org.dromara.common.excel.utils.ExcelUtil;
 import org.dromara.system.domain.bo.SysDictDataBo;
 import org.dromara.system.domain.vo.SysDictDataVo;

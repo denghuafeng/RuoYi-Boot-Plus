@@ -1,6 +1,6 @@
 package org.dromara.system.domain.bo;
 
-import org.dromara.common.log.event.OperLogEvent;
+import org.dromara.boot.log.event.OperLogEvent;
 import org.dromara.system.domain.SysOperLog;
 import io.github.linpeilie.annotations.AutoMapper;
 import io.github.linpeilie.annotations.AutoMappers;
