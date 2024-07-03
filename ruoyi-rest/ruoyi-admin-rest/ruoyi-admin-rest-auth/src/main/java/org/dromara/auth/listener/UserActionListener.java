@@ -1,4 +1,4 @@
-package org.dromara.web.listener;
+package org.dromara.auth.listener;
 
 import cn.dev33.satoken.config.SaTokenConfig;
 import cn.dev33.satoken.listener.SaTokenListener;
@@ -18,7 +18,7 @@ import org.dromara.boot.log.event.LogininforEvent;
 import org.dromara.boot.redis.utils.RedisUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.tenant.helper.TenantHelper;
-import org.dromara.web.service.SysLoginService;
+import org.dromara.auth.service.SysLoginService;
 import org.springframework.stereotype.Component;
 
 import java.time.Duration;
