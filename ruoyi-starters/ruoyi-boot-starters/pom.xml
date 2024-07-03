@@ -10,14 +10,25 @@
     <artifactId>ruoyi-boot-starters</artifactId>
     <packaging>pom</packaging>
 
-    <distributionManagement>
-        <site>
-            <id>website</id>
-            <url>scp://webhost.company.com/www/website</url>
-        </site>
-    </distributionManagement>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <modules>
+        <module>ruoyi-boot-starter-social</module>
+        <module>ruoyi-boot-starter-doc</module>
+        <module>ruoyi-boot-starter-idempotent</module>
+        <module>ruoyi-boot-starter-job</module>
+        <module>ruoyi-boot-starter-log</module>
+        <module>ruoyi-boot-starter-mail</module>
+        <module>ruoyi-boot-starter-mybatis</module>
+        <module>ruoyi-boot-starter-oss</module>
+        <module>ruoyi-boot-starter-ratelimiter</module>
+        <module>ruoyi-boot-starter-redis</module>
+        <module>ruoyi-boot-starter-satoken</module>
+        <module>ruoyi-boot-starter-security</module>
+        <module>ruoyi-boot-starter-sms</module>
+        <module>ruoyi-boot-starter-web</module>
+        <module>ruoyi-boot-starter-translation</module>
+        <module>ruoyi-boot-starter-json</module>
+        <module>ruoyi-boot-starter-encrypt</module>
+        <module>ruoyi-boot-starter-tenant</module>
+        <module>ruoyi-boot-starter-websocket</module>
+    </modules>
 </project>
