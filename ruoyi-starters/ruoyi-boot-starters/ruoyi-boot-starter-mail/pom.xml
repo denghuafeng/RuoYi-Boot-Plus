@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-mail</artifactId>
 
     <description>
-        ruoyi-common-mail 邮件模块
+        ruoyi-boot-starter-mail 邮件模块
     </description>
 
     <dependencies>

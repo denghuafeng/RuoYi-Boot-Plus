@@ -1,7 +1,7 @@
-package org.dromara.common.mail.config;
+package org.dromara.boot.mail.config;
 
-import org.dromara.common.mail.config.properties.MailProperties;
-import org.dromara.common.mail.utils.MailAccount;
+import org.dromara.boot.mail.config.properties.MailProperties;
+import org.dromara.boot.mail.utils.MailAccount;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

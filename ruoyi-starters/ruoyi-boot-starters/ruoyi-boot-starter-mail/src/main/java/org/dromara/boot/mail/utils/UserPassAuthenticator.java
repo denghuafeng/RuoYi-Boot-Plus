@@ -1,4 +1,4 @@
-package org.dromara.common.mail.utils;
+package org.dromara.boot.mail.utils;
 
 import jakarta.mail.Authenticator;
 import jakarta.mail.PasswordAuthentication;

@@ -1,4 +1,4 @@
-package org.dromara.common.mail.utils;
+package org.dromara.boot.mail.utils;
 
 import cn.hutool.core.exceptions.ExceptionUtil;
 import cn.hutool.core.util.StrUtil;

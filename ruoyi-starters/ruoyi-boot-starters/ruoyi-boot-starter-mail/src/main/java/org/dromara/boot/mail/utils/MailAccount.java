@@ -1,4 +1,4 @@
-package org.dromara.common.mail.utils;
+package org.dromara.boot.mail.utils;
 
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.core.util.ObjectUtil;

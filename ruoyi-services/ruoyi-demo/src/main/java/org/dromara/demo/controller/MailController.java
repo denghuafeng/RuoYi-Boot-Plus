@@ -1,7 +1,7 @@
 package org.dromara.demo.controller;
 
 import org.dromara.common.core.domain.R;
-import org.dromara.common.mail.utils.MailUtils;
+import org.dromara.boot.mail.utils.MailUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
