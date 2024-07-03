@@ -30,5 +30,6 @@
         <module>ruoyi-boot-starter-encrypt</module>
         <module>ruoyi-boot-starter-tenant</module>
         <module>ruoyi-boot-starter-websocket</module>
+        <module>ruoyi-boot-starter</module>
     </modules>
 </project>
