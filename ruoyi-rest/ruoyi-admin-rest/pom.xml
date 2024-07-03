@@ -9,5 +9,14 @@
 
     <artifactId>ruoyi-admin-rest</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>ruoyi-admin-rest-auth</module>
+        <module>ruoyi-admin-rest-generator</module>
+        <module>ruoyi-admin-rest-monitor</module>
+        <module>ruoyi-admin-rest-oss</module>
+        <module>ruoyi-admin-rest-system</module>
+        <module>ruoyi-admin-rest-demo</module>
+        <module>ruoyi-admin-rest-workflow</module>
+    </modules>
 
 </project>
