@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Constants;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import org.apache.ibatis.annotations.Param;
-import org.dromara.common.mybatis.core.mapper.BaseMapperPlus;
+import org.dromara.boot.mybatis.core.mapper.BaseMapperPlus;
 import org.dromara.workflow.domain.vo.TaskVo;
 
 

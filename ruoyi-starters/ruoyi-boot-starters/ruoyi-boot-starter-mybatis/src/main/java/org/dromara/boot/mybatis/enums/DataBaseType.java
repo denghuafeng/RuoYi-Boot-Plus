@@ -1,4 +1,4 @@
-package org.dromara.common.mybatis.enums;
+package org.dromara.boot.mybatis.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

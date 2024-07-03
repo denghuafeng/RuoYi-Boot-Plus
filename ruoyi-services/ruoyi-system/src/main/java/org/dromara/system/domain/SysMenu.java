@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import org.dromara.common.core.constant.Constants;
 import org.dromara.common.core.constant.UserConstants;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.mybatis.core.domain.BaseEntity;
+import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

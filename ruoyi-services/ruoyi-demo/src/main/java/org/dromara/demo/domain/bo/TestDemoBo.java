@@ -2,7 +2,7 @@ package org.dromara.demo.domain.bo;
 
 import org.dromara.common.core.validate.AddGroup;
 import org.dromara.common.core.validate.EditGroup;
-import org.dromara.common.mybatis.core.domain.BaseEntity;
+import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import org.dromara.demo.domain.TestDemo;
 import io.github.linpeilie.annotations.AutoMapper;
 import lombok.Data;

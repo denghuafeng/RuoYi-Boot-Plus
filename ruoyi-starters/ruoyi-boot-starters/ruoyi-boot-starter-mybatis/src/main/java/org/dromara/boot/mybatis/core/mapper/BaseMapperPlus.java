@@ -1,4 +1,4 @@
-package org.dromara.common.mybatis.core.mapper;
+package org.dromara.boot.mybatis.core.mapper;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ObjectUtil;

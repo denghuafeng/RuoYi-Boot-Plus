@@ -3,7 +3,7 @@ package org.dromara.generator.mapper;
 import com.baomidou.dynamic.datasource.annotation.DS;
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import org.apache.ibatis.annotations.Param;
-import org.dromara.common.mybatis.core.mapper.BaseMapperPlus;
+import org.dromara.boot.mybatis.core.mapper.BaseMapperPlus;
 import org.dromara.generator.domain.GenTableColumn;
 
 import java.util.List;

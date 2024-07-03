@@ -1,6 +1,6 @@
 package org.dromara.system.domain;
 
-import org.dromara.common.mybatis.core.domain.BaseEntity;
+import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

@@ -9,7 +9,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import jakarta.validation.constraints.*;
 
-import org.dromara.common.mybatis.core.domain.BaseEntity;
+import org.dromara.boot.mybatis.core.domain.BaseEntity;
 
 /**
  * 租户套餐业务对象 sys_tenant_package

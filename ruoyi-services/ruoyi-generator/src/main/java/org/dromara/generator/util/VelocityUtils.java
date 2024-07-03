@@ -7,7 +7,7 @@ import org.dromara.generator.constant.GenConstants;
 import org.dromara.common.core.utils.DateUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.json.utils.JsonUtils;
-import org.dromara.common.mybatis.helper.DataBaseHelper;
+import org.dromara.boot.mybatis.helper.DataBaseHelper;
 import org.dromara.generator.domain.GenTable;
 import org.dromara.generator.domain.GenTableColumn;
 import lombok.AccessLevel;

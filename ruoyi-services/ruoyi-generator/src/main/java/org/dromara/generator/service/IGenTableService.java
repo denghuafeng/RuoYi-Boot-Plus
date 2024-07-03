@@ -1,7 +1,7 @@
 package org.dromara.generator.service;
 
-import org.dromara.common.mybatis.core.page.PageQuery;
-import org.dromara.common.mybatis.core.page.TableDataInfo;
+import org.dromara.boot.mybatis.core.page.PageQuery;
+import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.generator.domain.GenTable;
 import org.dromara.generator.domain.GenTableColumn;
 

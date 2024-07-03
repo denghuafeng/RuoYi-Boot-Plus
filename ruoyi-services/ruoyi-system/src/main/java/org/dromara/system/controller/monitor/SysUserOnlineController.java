@@ -12,7 +12,7 @@ import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;
-import org.dromara.common.mybatis.core.page.TableDataInfo;
+import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.common.redis.utils.RedisUtils;
 import org.dromara.common.web.core.BaseController;
 import org.dromara.system.domain.SysUserOnline;

@@ -1,6 +1,6 @@
 package org.dromara.demo.mapper;
 
-import org.dromara.common.mybatis.core.mapper.BaseMapperPlus;
+import org.dromara.boot.mybatis.core.mapper.BaseMapperPlus;
 import org.dromara.demo.domain.TestDemoEncrypt;
 
 /**

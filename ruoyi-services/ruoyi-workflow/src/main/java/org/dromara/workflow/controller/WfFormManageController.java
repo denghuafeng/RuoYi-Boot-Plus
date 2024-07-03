@@ -11,7 +11,7 @@ import org.springframework.validation.annotation.Validated;
 import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.common.web.core.BaseController;
-import org.dromara.common.mybatis.core.page.PageQuery;
+import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.common.core.domain.R;
 import org.dromara.common.core.validate.AddGroup;
 import org.dromara.common.core.validate.EditGroup;
@@ -20,7 +20,7 @@ import org.dromara.common.excel.utils.ExcelUtil;
 import org.dromara.workflow.domain.vo.WfFormManageVo;
 import org.dromara.workflow.domain.bo.WfFormManageBo;
 import org.dromara.workflow.service.IWfFormManageService;
-import org.dromara.common.mybatis.core.page.TableDataInfo;
+import org.dromara.boot.mybatis.core.page.TableDataInfo;
 
 /**
  * 表单管理

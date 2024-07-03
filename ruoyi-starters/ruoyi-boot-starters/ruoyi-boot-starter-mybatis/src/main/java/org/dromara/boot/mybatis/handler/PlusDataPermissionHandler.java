@@ -1,4 +1,4 @@
-package org.dromara.common.mybatis.handler;
+package org.dromara.boot.mybatis.handler;
 
 import cn.hutool.core.annotation.AnnotationUtil;
 import cn.hutool.core.collection.CollUtil;
@@ -10,16 +10,16 @@ import net.sf.jsqlparser.expression.Parenthesis;
 import net.sf.jsqlparser.expression.operators.conditional.AndExpression;
 import net.sf.jsqlparser.parser.CCJSqlParserUtil;
 import org.apache.ibatis.io.Resources;
+import org.dromara.boot.mybatis.helper.DataPermissionHelper;
 import org.dromara.common.core.domain.dto.RoleDTO;
 import org.dromara.common.core.domain.model.LoginUser;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.mybatis.annotation.DataColumn;
-import org.dromara.common.mybatis.annotation.DataPermission;
-import org.dromara.common.mybatis.enums.DataScopeType;
-import org.dromara.common.mybatis.helper.DataPermissionHelper;
+import org.dromara.boot.mybatis.annotation.DataColumn;
+import org.dromara.boot.mybatis.annotation.DataPermission;
+import org.dromara.boot.mybatis.enums.DataScopeType;
 import org.dromara.common.satoken.utils.LoginHelper;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.expression.BeanFactoryResolver;

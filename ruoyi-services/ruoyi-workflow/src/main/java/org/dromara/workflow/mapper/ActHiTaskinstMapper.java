@@ -2,7 +2,7 @@ package org.dromara.workflow.mapper;
 
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
 import org.dromara.workflow.domain.ActHiTaskinst;
-import org.dromara.common.mybatis.core.mapper.BaseMapperPlus;
+import org.dromara.boot.mybatis.core.mapper.BaseMapperPlus;
 
 /**
  * 流程历史任务Mapper接口

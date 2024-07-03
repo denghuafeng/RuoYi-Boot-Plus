@@ -1,7 +1,7 @@
 package org.dromara.workflow.mapper;
 
 import com.baomidou.mybatisplus.annotation.InterceptorIgnore;
-import org.dromara.common.mybatis.core.mapper.BaseMapperPlus;
+import org.dromara.boot.mybatis.core.mapper.BaseMapperPlus;
 import org.dromara.workflow.domain.ActHiProcinst;
 
 /**

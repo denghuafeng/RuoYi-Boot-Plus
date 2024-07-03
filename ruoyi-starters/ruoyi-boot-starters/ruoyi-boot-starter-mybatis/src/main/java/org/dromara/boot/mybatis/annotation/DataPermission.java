@@ -1,4 +1,4 @@
-package org.dromara.common.mybatis.annotation;
+package org.dromara.boot.mybatis.annotation;
 
 import java.lang.annotation.*;
 

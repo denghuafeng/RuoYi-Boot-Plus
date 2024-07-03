@@ -1,10 +1,10 @@
-package org.dromara.common.mybatis.enums;
+package org.dromara.boot.mybatis.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import org.dromara.boot.mybatis.helper.DataPermissionHelper;
 import org.dromara.common.core.domain.model.LoginUser;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.mybatis.helper.DataPermissionHelper;
 
 /**
  * 数据权限类型枚举

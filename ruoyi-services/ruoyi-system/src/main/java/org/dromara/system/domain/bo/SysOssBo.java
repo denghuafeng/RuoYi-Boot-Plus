@@ -1,6 +1,6 @@
 package org.dromara.system.domain.bo;
 
-import org.dromara.common.mybatis.core.domain.BaseEntity;
+import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import org.dromara.system.domain.SysOss;
 import io.github.linpeilie.annotations.AutoMapper;
 import lombok.Data;

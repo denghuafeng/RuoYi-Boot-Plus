@@ -1,4 +1,4 @@
-package org.dromara.common.mybatis.core.page;
+package org.dromara.boot.mybatis.core.page;
 
 import cn.hutool.http.HttpStatus;
 import com.baomidou.mybatisplus.core.metadata.IPage;

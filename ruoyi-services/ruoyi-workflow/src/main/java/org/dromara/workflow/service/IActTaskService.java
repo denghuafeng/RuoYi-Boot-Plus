@@ -1,7 +1,7 @@
 package org.dromara.workflow.service;
 
-import org.dromara.common.mybatis.core.page.PageQuery;
-import org.dromara.common.mybatis.core.page.TableDataInfo;
+import org.dromara.boot.mybatis.core.page.PageQuery;
+import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.workflow.domain.bo.*;
 import org.dromara.workflow.domain.vo.TaskVo;
 import org.dromara.workflow.domain.vo.VariableVo;

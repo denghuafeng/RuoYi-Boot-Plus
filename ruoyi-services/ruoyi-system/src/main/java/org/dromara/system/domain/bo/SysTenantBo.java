@@ -10,7 +10,7 @@ import jakarta.validation.constraints.*;
 
 import java.util.Date;
 
-import org.dromara.common.mybatis.core.domain.BaseEntity;
+import org.dromara.boot.mybatis.core.domain.BaseEntity;
 
 /**
  * 租户业务对象 sys_tenant

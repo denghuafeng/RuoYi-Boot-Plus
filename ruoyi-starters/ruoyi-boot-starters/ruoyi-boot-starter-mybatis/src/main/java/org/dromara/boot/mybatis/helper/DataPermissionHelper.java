@@ -1,4 +1,4 @@
-package org.dromara.common.mybatis.helper;
+package org.dromara.boot.mybatis.helper;
 
 import cn.dev33.satoken.context.SaHolder;
 import cn.dev33.satoken.context.model.SaStorage;

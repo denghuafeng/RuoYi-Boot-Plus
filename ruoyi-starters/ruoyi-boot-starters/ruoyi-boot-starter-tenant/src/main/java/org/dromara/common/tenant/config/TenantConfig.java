@@ -4,7 +4,7 @@ import cn.dev33.satoken.dao.SaTokenDao;
 import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.extension.plugins.inner.TenantLineInnerInterceptor;
 import org.dromara.common.core.utils.reflect.ReflectUtils;
-import org.dromara.common.mybatis.config.MybatisPlusConfig;
+import org.dromara.boot.mybatis.config.MybatisPlusConfig;
 import org.dromara.common.redis.config.RedisConfig;
 import org.dromara.common.redis.config.properties.RedissonProperties;
 import org.dromara.common.tenant.core.TenantSaTokenDao;

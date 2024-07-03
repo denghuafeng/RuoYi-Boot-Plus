@@ -1,8 +1,8 @@
 package org.dromara.workflow.service;
 
 import jakarta.servlet.http.HttpServletResponse;
-import org.dromara.common.mybatis.core.page.PageQuery;
-import org.dromara.common.mybatis.core.page.TableDataInfo;
+import org.dromara.boot.mybatis.core.page.PageQuery;
+import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.workflow.domain.bo.ModelBo;
 import org.dromara.workflow.domain.vo.ModelVo;
 import org.flowable.engine.repository.Model;

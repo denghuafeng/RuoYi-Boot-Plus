@@ -1,4 +1,4 @@
-package org.dromara.common.mybatis.config;
+package org.dromara.boot.mybatis.config;
 
 import cn.hutool.core.net.NetUtil;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
@@ -10,9 +10,9 @@ import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerIntercept
 import com.baomidou.mybatisplus.extension.plugins.inner.TenantLineInnerInterceptor;
 import org.dromara.common.core.factory.YmlPropertySourceFactory;
 import org.dromara.common.core.utils.SpringUtils;
-import org.dromara.common.mybatis.handler.InjectionMetaObjectHandler;
-import org.dromara.common.mybatis.handler.MybatisExceptionHandler;
-import org.dromara.common.mybatis.interceptor.PlusDataPermissionInterceptor;
+import org.dromara.boot.mybatis.handler.InjectionMetaObjectHandler;
+import org.dromara.boot.mybatis.handler.MybatisExceptionHandler;
+import org.dromara.boot.mybatis.interceptor.PlusDataPermissionInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.BeansException;
 import org.springframework.context.annotation.Bean;
