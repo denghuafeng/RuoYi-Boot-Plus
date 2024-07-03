@@ -1,4 +1,4 @@
-package org.dromara.web.controller;
+package org.dromara.captcha.controller;
 
 import cn.dev33.satoken.annotation.SaIgnore;
 import cn.hutool.captcha.AbstractCaptcha;
@@ -8,6 +8,7 @@ import cn.hutool.core.util.RandomUtil;
 import jakarta.validation.constraints.NotBlank;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.dromara.captcha.domain.vo.CaptchaVo;
 import org.dromara.common.core.constant.Constants;
 import org.dromara.common.core.constant.GlobalConstants;
 import org.dromara.common.core.domain.R;
@@ -24,7 +25,6 @@ import org.dromara.boot.web.enums.CaptchaType;
 import org.dromara.sms4j.api.SmsBlend;
 import org.dromara.sms4j.api.entity.SmsResponse;
 import org.dromara.sms4j.core.factory.SmsFactory;
-import org.dromara.web.domain.vo.CaptchaVo;
 import org.springframework.expression.Expression;
 import org.springframework.expression.ExpressionParser;
 import org.springframework.expression.spel.standard.SpelExpressionParser;

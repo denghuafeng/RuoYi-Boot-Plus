@@ -9,5 +9,8 @@
 
     <artifactId>ruoyi-public-rest</artifactId>
     <packaging>pom</packaging>
+    <modules>
+        <module>ruoyi-public-rest-captcha</module>
+    </modules>
 
 </project>
