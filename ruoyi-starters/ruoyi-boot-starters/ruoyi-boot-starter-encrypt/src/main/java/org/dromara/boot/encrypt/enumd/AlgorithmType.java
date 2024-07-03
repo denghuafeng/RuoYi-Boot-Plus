@@ -3,7 +3,6 @@ package org.dromara.boot.encrypt.enumd;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.dromara.boot.encrypt.core.encryptor.*;
-import org.dromara.common.encrypt.core.encryptor.*;
 
 /**
  * 算法名称
