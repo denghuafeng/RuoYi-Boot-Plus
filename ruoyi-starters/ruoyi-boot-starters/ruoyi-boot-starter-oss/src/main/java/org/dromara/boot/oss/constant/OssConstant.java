@@ -1,4 +1,4 @@
-package org.dromara.common.oss.constant;
+package org.dromara.boot.oss.constant;
 
 import org.dromara.common.core.constant.GlobalConstants;
 

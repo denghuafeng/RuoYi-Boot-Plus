@@ -1,4 +1,4 @@
-package org.dromara.common.oss.entity;
+package org.dromara.boot.oss.entity;
 
 import lombok.Builder;
 import lombok.Data;

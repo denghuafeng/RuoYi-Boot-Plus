@@ -15,7 +15,7 @@ import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
-import org.dromara.common.oss.constant.OssConstant;
+import org.dromara.boot.oss.constant.OssConstant;
 import org.dromara.common.redis.utils.CacheUtils;
 import org.dromara.common.redis.utils.RedisUtils;
 import org.dromara.system.domain.SysOssConfig;

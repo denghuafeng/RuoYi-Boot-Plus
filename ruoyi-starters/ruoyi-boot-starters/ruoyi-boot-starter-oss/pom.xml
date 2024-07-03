@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-oss</artifactId>
 
     <description>
-        ruoyi-common-oss oss服务
+        ruoyi-boot-starter-oss oss服务
     </description>
 
     <dependencies>

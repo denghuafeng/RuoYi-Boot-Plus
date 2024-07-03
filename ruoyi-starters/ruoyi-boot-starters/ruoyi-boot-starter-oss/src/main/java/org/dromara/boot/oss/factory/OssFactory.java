@@ -1,13 +1,13 @@
-package org.dromara.common.oss.factory;
+package org.dromara.boot.oss.factory;
 
 import lombok.extern.slf4j.Slf4j;
+import org.dromara.boot.oss.core.OssClient;
 import org.dromara.common.core.constant.CacheNames;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.json.utils.JsonUtils;
-import org.dromara.common.oss.constant.OssConstant;
-import org.dromara.common.oss.core.OssClient;
-import org.dromara.common.oss.exception.OssException;
-import org.dromara.common.oss.properties.OssProperties;
+import org.dromara.boot.oss.constant.OssConstant;
+import org.dromara.boot.oss.exception.OssException;
+import org.dromara.boot.oss.properties.OssProperties;
 import org.dromara.common.redis.utils.CacheUtils;
 import org.dromara.common.redis.utils.RedisUtils;
 
