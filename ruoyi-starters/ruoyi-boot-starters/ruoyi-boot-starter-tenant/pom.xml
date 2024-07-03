@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common</artifactId>
+        <artifactId>ruoyi-boot-starters</artifactId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ruoyi-common-tenant</artifactId>
+    <artifactId>ruoyi-boot-starter-tenant</artifactId>
 
     <description>
         ruoyi-common-tenant 租户模块
@@ -18,13 +18,13 @@
     <dependencies>
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-mybatis</artifactId>
+            <artifactId>ruoyi-boot-starter-mybatis</artifactId>
             <optional>true</optional>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-redis</artifactId>
+            <artifactId>ruoyi-boot-starter-redis</artifactId>
         </dependency>
 
     </dependencies>
