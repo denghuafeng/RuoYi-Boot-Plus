@@ -377,7 +377,6 @@
         <module>ruoyi-admin</module>
         <module>ruoyi-common</module>
         <module>ruoyi-extend</module>
-        <module>ruoyi-modules</module>
         <module>ruoyi-services</module>
         <module>ruoyi-rest</module>
         <module>ruoyi-extensions</module>
