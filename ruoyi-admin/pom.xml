@@ -40,22 +40,22 @@
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-doc</artifactId>
+            <artifactId>ruoyi-boot-starter-doc</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-social</artifactId>
+            <artifactId>ruoyi-boot-starter-social</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-ratelimiter</artifactId>
+            <artifactId>ruoyi-boot-starter-ratelimiter</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-mail</artifactId>
+            <artifactId>ruoyi-boot-starter-mail</artifactId>
         </dependency>
 
         <dependency>
