@@ -1,4 +1,4 @@
-package org.dromara.system.controller.monitor;
+package org.dromara.monitor.controller;
 
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import org.dromara.common.core.domain.R;
