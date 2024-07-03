@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-websocket</artifactId>
 
     <description>
-        ruoyi-common-websocket 模块
+        ruoyi-boot-starter-websocket 模块
     </description>
 
     <dependencies>

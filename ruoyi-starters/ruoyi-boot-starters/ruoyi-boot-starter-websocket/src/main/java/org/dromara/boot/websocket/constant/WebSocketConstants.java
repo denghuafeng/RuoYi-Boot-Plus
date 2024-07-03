@@ -1,4 +1,4 @@
-package org.dromara.common.websocket.constant;
+package org.dromara.boot.websocket.constant;
 
 /**
  * websocket的常量配置

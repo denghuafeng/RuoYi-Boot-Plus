@@ -1,4 +1,4 @@
-package org.dromara.common.websocket.config.properties;
+package org.dromara.boot.websocket.config.properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

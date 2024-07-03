@@ -1,4 +1,4 @@
-package org.dromara.common.websocket.interceptor;
+package org.dromara.boot.websocket.interceptor;
 
 import cn.dev33.satoken.exception.NotLoginException;
 import cn.dev33.satoken.stp.StpUtil;
@@ -14,7 +14,7 @@ import org.springframework.web.socket.server.HandshakeInterceptor;
 
 import java.util.Map;
 
-import static org.dromara.common.websocket.constant.WebSocketConstants.LOGIN_USER_KEY;
+import static org.dromara.boot.websocket.constant.WebSocketConstants.LOGIN_USER_KEY;
 
 /**
  * WebSocket握手请求的拦截器

@@ -1,18 +1,17 @@
-package org.dromara.common.websocket.handler;
+package org.dromara.boot.websocket.handler;
 
 import cn.hutool.core.util.ObjectUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.dromara.boot.websocket.constant.WebSocketConstants;
+import org.dromara.boot.websocket.dto.WebSocketMessageDto;
+import org.dromara.boot.websocket.holder.WebSocketSessionHolder;
+import org.dromara.boot.websocket.utils.WebSocketUtils;
 import org.dromara.common.core.domain.model.LoginUser;
-import org.dromara.common.websocket.dto.WebSocketMessageDto;
-import org.dromara.common.websocket.holder.WebSocketSessionHolder;
-import org.dromara.common.websocket.utils.WebSocketUtils;
 import org.springframework.web.socket.*;
 import org.springframework.web.socket.handler.AbstractWebSocketHandler;
 
 import java.io.IOException;
 import java.util.List;
-
-import static org.dromara.common.websocket.constant.WebSocketConstants.LOGIN_USER_KEY;
 
 /**
  * WebSocketHandler 实现类
@@ -27,7 +26,7 @@ public class PlusWebSocketHandler extends AbstractWebSocketHandler {
      */
     @Override
     public void afterConnectionEstablished(WebSocketSession session) throws IOException {
-        LoginUser loginUser = (LoginUser) session.getAttributes().get(LOGIN_USER_KEY);
+        LoginUser loginUser = (LoginUser) session.getAttributes().get(WebSocketConstants.LOGIN_USER_KEY);
         if (ObjectUtil.isNull(loginUser)) {
             session.close(CloseStatus.BAD_DATA);
             log.info("[connect] invalid token received. sessionId: {}", session.getId());
@@ -47,7 +46,7 @@ public class PlusWebSocketHandler extends AbstractWebSocketHandler {
     @Override
     protected void handleTextMessage(WebSocketSession session, TextMessage message) throws Exception {
         // 从WebSocket会话中获取登录用户信息
-        LoginUser loginUser = (LoginUser) session.getAttributes().get(LOGIN_USER_KEY);
+        LoginUser loginUser = (LoginUser) session.getAttributes().get(WebSocketConstants.LOGIN_USER_KEY);
 
         // 创建WebSocket消息DTO对象
         WebSocketMessageDto webSocketMessageDto = new WebSocketMessageDto();
@@ -100,7 +99,7 @@ public class PlusWebSocketHandler extends AbstractWebSocketHandler {
      */
     @Override
     public void afterConnectionClosed(WebSocketSession session, CloseStatus status) {
-        LoginUser loginUser = (LoginUser) session.getAttributes().get(LOGIN_USER_KEY);
+        LoginUser loginUser = (LoginUser) session.getAttributes().get(WebSocketConstants.LOGIN_USER_KEY);
         if (ObjectUtil.isNull(loginUser)) {
             log.info("[disconnect] invalid token received. sessionId: {}", session.getId());
             return;

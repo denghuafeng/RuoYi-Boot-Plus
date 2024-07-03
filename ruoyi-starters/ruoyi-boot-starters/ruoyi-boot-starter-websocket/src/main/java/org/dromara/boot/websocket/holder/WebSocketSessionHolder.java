@@ -1,4 +1,4 @@
-package org.dromara.common.websocket.holder;
+package org.dromara.boot.websocket.holder;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
