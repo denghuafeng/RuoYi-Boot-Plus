@@ -1,4 +1,4 @@
-package org.dromara.system.controller.system;
+package org.dromara.system.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.dromara.common.core.domain.R;
