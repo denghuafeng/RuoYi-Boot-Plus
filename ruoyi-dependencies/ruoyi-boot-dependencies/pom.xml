@@ -3,172 +3,184 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.dromara</groupId>
+        <artifactId>ruoyi-dependencies</artifactId>
+        <version>${revision}</version>
+    </parent>
 
-    <groupId>org.dromara</groupId>
-    <artifactId>ruoyi-common-bom</artifactId>
-    <version>${revision}</version>
+    <artifactId>ruoyi-boot-dependencies</artifactId>
     <packaging>pom</packaging>
 
     <description>
-        ruoyi-common-bom common依赖项
+        ruoyi-boot-dependencies
     </description>
 
-    <properties>
-        <revision>5.2.0</revision>
-    </properties>
 
     <dependencyManagement>
         <dependencies>
-            <!-- 核心模块 -->
+
             <dependency>
-                <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-core</artifactId>
-                <version>${revision}</version>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>ruoyi-build-dependencies</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>ruoyi-commons-dependencies</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>ruoyi-services-dependencies</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>ruoyi-rest-dependencies</artifactId>
+                <version>${project.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
             <!-- 接口模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-doc</artifactId>
-                <version>${revision}</version>
-            </dependency>
-
-            <!-- excel -->
-            <dependency>
-                <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-excel</artifactId>
+                <artifactId>ruoyi-boot-starter-doc</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 幂等 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-idempotent</artifactId>
+                <artifactId>ruoyi-boot-starter-idempotent</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 调度模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-job</artifactId>
+                <artifactId>ruoyi-boot-starter-job</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 日志记录 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-log</artifactId>
+                <artifactId>ruoyi-boot-starter-log</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 邮件服务 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-mail</artifactId>
+                <artifactId>ruoyi-boot-starter-mail</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 数据库服务 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-mybatis</artifactId>
+                <artifactId>ruoyi-boot-starter-mybatis</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- OSS -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-oss</artifactId>
+                <artifactId>ruoyi-boot-starter-oss</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 限流 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-ratelimiter</artifactId>
+                <artifactId>ruoyi-boot-starter-ratelimiter</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 缓存服务 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-redis</artifactId>
+                <artifactId>ruoyi-boot-starter-redis</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- satoken -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-satoken</artifactId>
+                <artifactId>ruoyi-boot-starter-satoken</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 安全模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-security</artifactId>
+                <artifactId>ruoyi-boot-starter-security</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 短信模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-sms</artifactId>
+                <artifactId>ruoyi-boot-starter-sms</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-social</artifactId>
+                <artifactId>ruoyi-boot-starter-social</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- web服务 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-web</artifactId>
+                <artifactId>ruoyi-boot-starter-web</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 翻译模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-translation</artifactId>
-                <version>${revision}</version>
-            </dependency>
-
-            <!-- 脱敏模块 -->
-            <dependency>
-                <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-sensitive</artifactId>
+                <artifactId>ruoyi-boot-starter-translation</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 序列化模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-json</artifactId>
+                <artifactId>ruoyi-boot-starter-json</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 数据库加解密模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-encrypt</artifactId>
+                <artifactId>ruoyi-boot-starter-encrypt</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- 租户模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-tenant</artifactId>
+                <artifactId>ruoyi-boot-starter-tenant</artifactId>
                 <version>${revision}</version>
             </dependency>
 
             <!-- WebSocket模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-websocket</artifactId>
+                <artifactId>ruoyi-boot-starter-websocket</artifactId>
                 <version>${revision}</version>
             </dependency>
 
