@@ -13,7 +13,7 @@ import org.dromara.common.core.domain.R;
 import org.dromara.common.core.domain.model.LoginUser;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.encrypt.annotation.ApiEncrypt;
+import org.dromara.boot.encrypt.annotation.ApiEncrypt;
 import org.dromara.common.excel.core.ExcelResult;
 import org.dromara.common.excel.utils.ExcelUtil;
 import org.dromara.common.log.annotation.Log;
