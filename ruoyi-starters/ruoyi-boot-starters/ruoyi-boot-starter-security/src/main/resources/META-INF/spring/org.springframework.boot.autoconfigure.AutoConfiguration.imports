@@ -1,2 +1,2 @@
-org.dromara.common.security.handler.AllUrlHandler
-org.dromara.common.security.config.SecurityConfig
+org.dromara.boot.security.handler.AllUrlHandler
+org.dromara.boot.security.config.SecurityConfig

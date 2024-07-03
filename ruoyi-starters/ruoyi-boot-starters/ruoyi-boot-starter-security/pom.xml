@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-security</artifactId>
 
     <description>
-        ruoyi-common-security 安全模块
+        ruoyi-boot-starter-security 安全模块
     </description>
 
     <dependencies>
