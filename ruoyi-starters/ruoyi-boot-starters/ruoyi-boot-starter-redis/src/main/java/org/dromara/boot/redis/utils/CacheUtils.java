@@ -1,4 +1,4 @@
-package org.dromara.common.redis.utils;
+package org.dromara.boot.redis.utils;
 
 import org.dromara.common.core.utils.SpringUtils;
 import lombok.AccessLevel;

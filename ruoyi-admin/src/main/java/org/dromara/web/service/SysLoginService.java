@@ -21,7 +21,7 @@ import org.dromara.common.core.exception.user.UserException;
 import org.dromara.common.core.utils.*;
 import org.dromara.boot.log.event.LogininforEvent;
 import org.dromara.boot.mybatis.helper.DataPermissionHelper;
-import org.dromara.common.redis.utils.RedisUtils;
+import org.dromara.boot.redis.utils.RedisUtils;
 import org.dromara.common.satoken.utils.LoginHelper;
 import org.dromara.common.tenant.exception.TenantException;
 import org.dromara.common.tenant.helper.TenantHelper;

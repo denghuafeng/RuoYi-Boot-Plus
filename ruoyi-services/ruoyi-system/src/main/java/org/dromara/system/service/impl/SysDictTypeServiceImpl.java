@@ -16,7 +16,7 @@ import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
-import org.dromara.common.redis.utils.CacheUtils;
+import org.dromara.boot.redis.utils.CacheUtils;
 import org.dromara.system.domain.SysDictData;
 import org.dromara.system.domain.SysDictType;
 import org.dromara.system.domain.bo.SysDictTypeBo;

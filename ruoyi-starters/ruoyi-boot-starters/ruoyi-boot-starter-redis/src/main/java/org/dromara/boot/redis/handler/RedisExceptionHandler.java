@@ -1,4 +1,4 @@
-package org.dromara.common.redis.handler;
+package org.dromara.boot.redis.handler;
 
 import cn.hutool.http.HttpStatus;
 import com.baomidou.lock.exception.LockFailureException;

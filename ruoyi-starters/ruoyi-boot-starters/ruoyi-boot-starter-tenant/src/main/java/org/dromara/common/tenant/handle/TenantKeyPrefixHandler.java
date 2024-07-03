@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.plugins.InterceptorIgnoreHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.common.core.constant.GlobalConstants;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.redis.handler.KeyPrefixHandler;
+import org.dromara.boot.redis.handler.KeyPrefixHandler;
 import org.dromara.common.tenant.helper.TenantHelper;
 
 /**

@@ -8,8 +8,8 @@ import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.oss.constant.OssConstant;
 import org.dromara.boot.oss.exception.OssException;
 import org.dromara.boot.oss.properties.OssProperties;
-import org.dromara.common.redis.utils.CacheUtils;
-import org.dromara.common.redis.utils.RedisUtils;
+import org.dromara.boot.redis.utils.CacheUtils;
+import org.dromara.boot.redis.utils.RedisUtils;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

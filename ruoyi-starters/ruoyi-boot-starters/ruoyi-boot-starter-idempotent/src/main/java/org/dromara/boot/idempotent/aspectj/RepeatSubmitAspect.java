@@ -19,7 +19,7 @@ import org.dromara.common.core.utils.ServletUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.boot.json.utils.JsonUtils;
-import org.dromara.common.redis.utils.RedisUtils;
+import org.dromara.boot.redis.utils.RedisUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.multipart.MultipartFile;
 

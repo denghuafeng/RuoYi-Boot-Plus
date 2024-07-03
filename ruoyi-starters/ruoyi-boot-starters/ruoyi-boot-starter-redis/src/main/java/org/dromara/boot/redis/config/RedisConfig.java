@@ -1,4 +1,4 @@
-package org.dromara.common.redis.config;
+package org.dromara.boot.redis.config;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
@@ -9,10 +9,10 @@ import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateTimeDeserializer;
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 import lombok.extern.slf4j.Slf4j;
+import org.dromara.boot.redis.config.properties.RedissonProperties;
+import org.dromara.boot.redis.handler.RedisExceptionHandler;
 import org.dromara.common.core.utils.SpringUtils;
-import org.dromara.common.redis.config.properties.RedissonProperties;
-import org.dromara.common.redis.handler.KeyPrefixHandler;
-import org.dromara.common.redis.handler.RedisExceptionHandler;
+import org.dromara.boot.redis.handler.KeyPrefixHandler;
 import org.redisson.client.codec.StringCodec;
 import org.redisson.codec.CompositeCodec;
 import org.redisson.codec.TypedJsonJacksonCodec;

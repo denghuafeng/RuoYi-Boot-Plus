@@ -18,7 +18,7 @@ import org.dromara.common.core.utils.MessageUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.common.core.utils.ValidatorUtils;
 import org.dromara.boot.json.utils.JsonUtils;
-import org.dromara.common.redis.utils.RedisUtils;
+import org.dromara.boot.redis.utils.RedisUtils;
 import org.dromara.common.satoken.utils.LoginHelper;
 import org.dromara.common.tenant.helper.TenantHelper;
 import org.dromara.system.domain.SysUser;

@@ -2,7 +2,7 @@ package org.dromara.demo.controller;
 
 import org.dromara.common.core.constant.CacheNames;
 import org.dromara.common.core.domain.R;
-import org.dromara.common.redis.utils.RedisUtils;
+import org.dromara.boot.redis.utils.RedisUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;

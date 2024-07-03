@@ -13,7 +13,7 @@ import org.dromara.common.core.utils.ServletUtils;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.ratelimiter.annotation.RateLimiter;
-import org.dromara.common.redis.utils.RedisUtils;
+import org.dromara.boot.redis.utils.RedisUtils;
 import org.redisson.api.RateType;
 import org.springframework.context.expression.BeanFactoryResolver;
 import org.springframework.context.expression.MethodBasedEvaluationContext;

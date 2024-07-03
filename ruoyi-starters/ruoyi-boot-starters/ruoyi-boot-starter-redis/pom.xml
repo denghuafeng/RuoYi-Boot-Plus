@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-redis</artifactId>
 
     <description>
-        ruoyi-common-redis 缓存服务
+        ruoyi-boot-starter-redis 缓存服务
     </description>
 
     <dependencies>

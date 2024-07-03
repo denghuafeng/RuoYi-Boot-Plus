@@ -15,7 +15,7 @@ import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
-import org.dromara.common.redis.utils.CacheUtils;
+import org.dromara.boot.redis.utils.CacheUtils;
 import org.dromara.common.tenant.helper.TenantHelper;
 import org.dromara.system.domain.SysConfig;
 import org.dromara.system.domain.bo.SysConfigBo;
