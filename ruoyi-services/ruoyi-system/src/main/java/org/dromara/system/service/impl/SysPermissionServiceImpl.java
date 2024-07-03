@@ -1,7 +1,7 @@
 package org.dromara.system.service.impl;
 
 import org.dromara.common.core.constant.TenantConstants;
-import org.dromara.common.satoken.utils.LoginHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.system.service.ISysMenuService;
 import org.dromara.system.service.ISysPermissionService;
 import org.dromara.system.service.ISysRoleService;

@@ -20,7 +20,7 @@ import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.mybatis.annotation.DataColumn;
 import org.dromara.boot.mybatis.annotation.DataPermission;
 import org.dromara.boot.mybatis.enums.DataScopeType;
-import org.dromara.common.satoken.utils.LoginHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.expression.BeanFactoryResolver;
 import org.springframework.core.io.Resource;

@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.satoken.utils.LoginHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.workflow.domain.WfTaskBackNode;
 import org.dromara.workflow.domain.vo.MultiInstanceVo;
 import org.dromara.workflow.mapper.WfTaskBackNodeMapper;

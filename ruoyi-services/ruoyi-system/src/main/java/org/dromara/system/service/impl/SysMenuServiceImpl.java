@@ -13,7 +13,7 @@ import org.dromara.common.core.utils.MapstructUtils;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.common.core.utils.TreeBuildUtils;
-import org.dromara.common.satoken.utils.LoginHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.system.domain.SysMenu;
 import org.dromara.system.domain.SysRole;
 import org.dromara.system.domain.SysRoleMenu;

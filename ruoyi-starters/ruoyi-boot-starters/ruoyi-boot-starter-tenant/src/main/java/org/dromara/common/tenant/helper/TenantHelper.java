@@ -12,7 +12,7 @@ import org.dromara.common.core.constant.GlobalConstants;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.redis.utils.RedisUtils;
-import org.dromara.common.satoken.utils.LoginHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 
 import java.util.function.Supplier;
 

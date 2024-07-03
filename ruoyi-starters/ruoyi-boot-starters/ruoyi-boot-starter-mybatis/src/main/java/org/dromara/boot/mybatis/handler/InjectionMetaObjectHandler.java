@@ -8,7 +8,7 @@ import org.apache.ibatis.reflection.MetaObject;
 import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import org.dromara.common.core.domain.model.LoginUser;
 import org.dromara.common.core.exception.ServiceException;
-import org.dromara.common.satoken.utils.LoginHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 
 import java.util.Date;
 

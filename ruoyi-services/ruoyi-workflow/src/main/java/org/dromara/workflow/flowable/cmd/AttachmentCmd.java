@@ -4,7 +4,7 @@ import cn.hutool.core.collection.CollUtil;
 import org.dromara.common.core.domain.dto.OssDTO;
 import org.dromara.common.core.service.OssService;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.satoken.utils.LoginHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 import org.flowable.common.engine.impl.interceptor.Command;
 import org.flowable.common.engine.impl.interceptor.CommandContext;
 import org.flowable.engine.impl.persistence.entity.AttachmentEntity;

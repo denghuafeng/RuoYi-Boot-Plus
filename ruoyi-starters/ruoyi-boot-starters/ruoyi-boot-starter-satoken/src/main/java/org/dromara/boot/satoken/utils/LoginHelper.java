@@ -1,4 +1,4 @@
-package org.dromara.common.satoken.utils;
+package org.dromara.boot.satoken.utils;
 
 import cn.dev33.satoken.session.SaSession;
 import cn.dev33.satoken.stp.SaLoginModel;

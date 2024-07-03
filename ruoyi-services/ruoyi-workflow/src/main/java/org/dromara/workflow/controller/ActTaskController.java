@@ -11,7 +11,7 @@ import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
-import org.dromara.common.satoken.utils.LoginHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.common.web.core.BaseController;
 import org.dromara.workflow.domain.WfTaskBackNode;
 import org.dromara.workflow.domain.bo.*;

@@ -1,4 +1,4 @@
-package org.dromara.common.satoken.core.dao;
+package org.dromara.boot.satoken.core.dao;
 
 import cn.dev33.satoken.dao.SaTokenDao;
 import cn.dev33.satoken.util.SaFoxUtil;
