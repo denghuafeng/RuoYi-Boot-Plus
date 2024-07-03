@@ -3,7 +3,7 @@ package org.dromara.system.domain;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import org.dromara.common.core.constant.UserConstants;
-import org.dromara.common.tenant.core.TenantEntity;
+import org.dromara.boot.tenant.core.TenantEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

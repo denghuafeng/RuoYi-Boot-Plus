@@ -24,7 +24,7 @@ import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.social.config.properties.SocialLoginConfigProperties;
 import org.dromara.boot.social.config.properties.SocialProperties;
 import org.dromara.boot.social.utils.SocialUtils;
-import org.dromara.common.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.common.websocket.dto.WebSocketMessageDto;
 import org.dromara.common.websocket.utils.WebSocketUtils;
 import org.dromara.system.domain.bo.SysTenantBo;

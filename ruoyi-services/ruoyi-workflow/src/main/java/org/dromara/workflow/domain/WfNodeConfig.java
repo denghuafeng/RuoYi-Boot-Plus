@@ -1,6 +1,6 @@
 package org.dromara.workflow.domain;
 
-import org.dromara.common.tenant.core.TenantEntity;
+import org.dromara.boot.tenant.core.TenantEntity;
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

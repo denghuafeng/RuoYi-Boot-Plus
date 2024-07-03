@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.dromara.common.core.validate.AddGroup;
 import org.dromara.common.core.validate.EditGroup;
-import org.dromara.common.tenant.core.TenantEntity;
+import org.dromara.boot.tenant.core.TenantEntity;
 import org.dromara.system.domain.SysSocial;
 
 /**

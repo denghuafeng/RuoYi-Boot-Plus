@@ -1,9 +1,9 @@
-package org.dromara.common.tenant.manager;
+package org.dromara.boot.tenant.manager;
 
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.common.core.constant.GlobalConstants;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.redis.manager.PlusSpringCacheManager;
-import org.dromara.common.tenant.helper.TenantHelper;
 import org.springframework.cache.Cache;
 
 /**

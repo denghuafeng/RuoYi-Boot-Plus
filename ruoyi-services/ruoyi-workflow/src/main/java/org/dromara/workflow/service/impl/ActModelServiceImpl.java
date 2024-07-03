@@ -17,7 +17,7 @@ import org.apache.batik.transcoder.image.PNGTranscoder;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
-import org.dromara.common.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.workflow.common.constant.FlowConstant;
 import org.dromara.workflow.domain.WfNodeConfig;
 import org.dromara.workflow.domain.bo.ModelBo;

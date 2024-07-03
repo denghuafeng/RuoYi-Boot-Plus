@@ -21,7 +21,7 @@ import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.social.config.properties.SocialProperties;
 import org.dromara.boot.social.utils.SocialUtils;
-import org.dromara.common.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.system.domain.vo.SysClientVo;
 import org.dromara.system.domain.vo.SysSocialVo;
 import org.dromara.system.domain.vo.SysUserVo;

@@ -14,7 +14,7 @@ import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.mail.utils.MailUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
-import org.dromara.common.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.common.websocket.dto.WebSocketMessageDto;
 import org.dromara.common.websocket.utils.WebSocketUtils;
 import org.dromara.workflow.common.constant.FlowConstant;

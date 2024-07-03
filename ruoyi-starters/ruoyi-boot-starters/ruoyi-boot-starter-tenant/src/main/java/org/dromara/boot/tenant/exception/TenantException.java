@@ -1,4 +1,4 @@
-package org.dromara.common.tenant.exception;
+package org.dromara.boot.tenant.exception;
 
 import org.dromara.common.core.exception.base.BaseException;
 

@@ -1,4 +1,4 @@
-package org.dromara.common.tenant.helper;
+package org.dromara.boot.tenant.helper;
 
 import cn.dev33.satoken.stp.StpUtil;
 import cn.hutool.core.convert.Convert;

@@ -1,17 +1,17 @@
-package org.dromara.common.tenant.config;
+package org.dromara.boot.tenant.config;
 
 import cn.dev33.satoken.dao.SaTokenDao;
 import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.extension.plugins.inner.TenantLineInnerInterceptor;
+import org.dromara.boot.tenant.handle.PlusTenantLineHandler;
+import org.dromara.boot.tenant.handle.TenantKeyPrefixHandler;
+import org.dromara.boot.tenant.manager.TenantSpringCacheManager;
+import org.dromara.boot.tenant.properties.TenantProperties;
 import org.dromara.common.core.utils.reflect.ReflectUtils;
 import org.dromara.boot.mybatis.config.MybatisPlusConfig;
 import org.dromara.boot.redis.config.RedisConfig;
 import org.dromara.boot.redis.config.properties.RedissonProperties;
-import org.dromara.common.tenant.core.TenantSaTokenDao;
-import org.dromara.common.tenant.handle.PlusTenantLineHandler;
-import org.dromara.common.tenant.handle.TenantKeyPrefixHandler;
-import org.dromara.common.tenant.manager.TenantSpringCacheManager;
-import org.dromara.common.tenant.properties.TenantProperties;
+import org.dromara.boot.tenant.core.TenantSaTokenDao;
 import org.redisson.config.ClusterServersConfig;
 import org.redisson.config.SingleServerConfig;
 import org.redisson.spring.starter.RedissonAutoConfigurationCustomizer;

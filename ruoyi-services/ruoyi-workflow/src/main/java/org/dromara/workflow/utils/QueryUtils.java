@@ -4,7 +4,7 @@ import cn.hutool.core.bean.BeanUtil;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.dromara.common.core.utils.SpringUtils;
-import org.dromara.common.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.workflow.domain.vo.TaskVo;
 import org.flowable.engine.ProcessEngine;
 import org.flowable.engine.history.HistoricActivityInstanceQuery;

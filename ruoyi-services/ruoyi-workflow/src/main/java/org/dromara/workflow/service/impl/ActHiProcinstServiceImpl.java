@@ -3,7 +3,7 @@ package org.dromara.workflow.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import lombok.RequiredArgsConstructor;
-import org.dromara.common.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.workflow.domain.ActHiProcinst;
 import org.dromara.workflow.mapper.ActHiProcinstMapper;
 import org.dromara.workflow.service.IActHiProcinstService;

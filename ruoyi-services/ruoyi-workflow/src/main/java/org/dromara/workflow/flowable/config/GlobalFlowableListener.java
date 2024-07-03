@@ -2,7 +2,7 @@ package org.dromara.workflow.flowable.config;
 
 import cn.hutool.core.collection.CollUtil;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.workflow.common.enums.TaskStatusEnum;
 import org.dromara.workflow.flowable.handler.TaskTimeoutJobHandler;
 import org.dromara.workflow.utils.QueryUtils;

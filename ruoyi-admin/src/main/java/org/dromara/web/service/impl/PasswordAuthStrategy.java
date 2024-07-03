@@ -22,7 +22,7 @@ import org.dromara.common.core.utils.ValidatorUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.redis.utils.RedisUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
-import org.dromara.common.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.common.web.config.properties.CaptchaProperties;
 import org.dromara.system.domain.SysUser;
 import org.dromara.system.domain.vo.SysClientVo;

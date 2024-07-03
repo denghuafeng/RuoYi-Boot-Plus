@@ -1,4 +1,4 @@
-package org.dromara.common.tenant.handle;
+package org.dromara.boot.tenant.handle;
 
 import cn.hutool.core.collection.ListUtil;
 import com.baomidou.mybatisplus.extension.plugins.handler.TenantLineHandler;
@@ -7,9 +7,9 @@ import lombok.extern.slf4j.Slf4j;
 import net.sf.jsqlparser.expression.Expression;
 import net.sf.jsqlparser.expression.NullValue;
 import net.sf.jsqlparser.expression.StringValue;
+import org.dromara.boot.tenant.helper.TenantHelper;
+import org.dromara.boot.tenant.properties.TenantProperties;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.tenant.helper.TenantHelper;
-import org.dromara.common.tenant.properties.TenantProperties;
 
 import java.util.List;
 

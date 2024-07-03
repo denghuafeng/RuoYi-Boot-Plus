@@ -1,4 +1,4 @@
-package org.dromara.common.tenant.core;
+package org.dromara.boot.tenant.core;
 
 import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import lombok.Data;
