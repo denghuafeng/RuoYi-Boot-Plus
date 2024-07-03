@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <groupId>org.dromara</groupId>
-        <artifactId>ruoyi-common</artifactId>
+        <artifactId>ruoyi-boot-starters</artifactId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ruoyi-common-translation</artifactId>
+    <artifactId>ruoyi-boot-starter-translation</artifactId>
 
     <description>
         ruoyi-common-translation 通用翻译功能
@@ -19,7 +19,7 @@
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-json</artifactId>
+            <artifactId>ruoyi-boot-starter-json</artifactId>
         </dependency>
 
     </dependencies>
