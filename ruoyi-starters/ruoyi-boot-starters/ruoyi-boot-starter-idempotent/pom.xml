@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-idempotent</artifactId>
 
     <description>
-        ruoyi-common-idempotent 幂等功能
+        ruoyi-boot-starter-idempotent 幂等功能
     </description>
 
     <dependencies>

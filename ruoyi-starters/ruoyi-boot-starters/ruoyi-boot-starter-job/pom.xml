@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-job</artifactId>
 
     <description>
-        ruoyi-common-job 定时任务
+        ruoyi-boot-starter-job 定时任务
     </description>
 
     <dependencies>

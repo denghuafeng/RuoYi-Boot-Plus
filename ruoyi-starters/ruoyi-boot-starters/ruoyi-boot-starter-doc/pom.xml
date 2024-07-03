@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-doc</artifactId>
 
     <description>
-        ruoyi-common-doc 系统接口
+        ruoyi-boot-starter-doc 系统接口
     </description>
 
     <dependencies>
