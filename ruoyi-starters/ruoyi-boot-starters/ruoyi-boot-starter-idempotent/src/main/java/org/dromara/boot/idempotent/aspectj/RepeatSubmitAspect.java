@@ -1,4 +1,4 @@
-package org.dromara.common.idempotent.aspectj;
+package org.dromara.boot.idempotent.aspectj;
 
 import cn.dev33.satoken.SaManager;
 import cn.hutool.core.util.ArrayUtil;
@@ -17,7 +17,7 @@ import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.utils.MessageUtils;
 import org.dromara.common.core.utils.ServletUtils;
 import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.idempotent.annotation.RepeatSubmit;
+import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.common.json.utils.JsonUtils;
 import org.dromara.common.redis.utils.RedisUtils;
 import org.springframework.validation.BindingResult;

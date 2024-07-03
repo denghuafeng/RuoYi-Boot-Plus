@@ -8,7 +8,7 @@ import org.dromara.common.core.domain.R;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.common.core.utils.file.MimeTypeUtils;
 import org.dromara.boot.encrypt.annotation.ApiEncrypt;
-import org.dromara.common.idempotent.annotation.RepeatSubmit;
+import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.common.log.annotation.Log;
 import org.dromara.common.log.enums.BusinessType;
 import org.dromara.common.satoken.utils.LoginHelper;

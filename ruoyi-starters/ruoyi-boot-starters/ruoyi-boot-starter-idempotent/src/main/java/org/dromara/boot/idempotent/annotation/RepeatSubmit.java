@@ -1,4 +1,4 @@
-package org.dromara.common.idempotent.annotation;
+package org.dromara.boot.idempotent.annotation;
 
 import java.lang.annotation.*;
 import java.util.concurrent.TimeUnit;
