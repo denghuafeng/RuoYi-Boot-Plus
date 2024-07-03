@@ -12,7 +12,7 @@
     <artifactId>ruoyi-boot-starter-sms</artifactId>
 
     <description>
-        ruoyi-common-sms 短信模块
+        ruoyi-boot-starter-sms 短信模块
     </description>
 
     <dependencies>
