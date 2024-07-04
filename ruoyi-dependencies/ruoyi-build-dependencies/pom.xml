@@ -45,6 +45,7 @@
         <fastjson.version>1.2.83</fastjson.version>
         <!--工作流配置-->
         <flowable.version>7.0.0</flowable.version>
+        <commons-compress.version>1.26.2</commons-compress.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -291,6 +292,11 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-compress</artifactId>
+                <version>${commons-compress.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
