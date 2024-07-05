@@ -46,6 +46,7 @@
         <!--工作流配置-->
         <flowable.version>7.0.0</flowable.version>
         <commons-compress.version>1.26.2</commons-compress.version>
+        <xnio-api.version>3.8.16.Final</xnio-api.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -296,6 +297,12 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-compress</artifactId>
                 <version>${commons-compress.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jboss.xnio</groupId>
+                <artifactId>xnio-api</artifactId>
+                <version>${xnio-api.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
