@@ -15,7 +15,18 @@
     <dependencies>
         <dependency>
             <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-boot-starter-ratelimiter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.dromara</groupId>
+            <artifactId>ruoyi-boot-starter-mail</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.dromara</groupId>
             <artifactId>ruoyi-demo</artifactId>
         </dependency>
+
     </dependencies>
 </project>
