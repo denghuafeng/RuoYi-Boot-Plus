@@ -15,39 +15,41 @@
     <description>
         ruoyi-boot-dependencies
     </description>
-
+    <modules>
+        <module>ruoyi-boot-starter-parent</module>
+    </modules>
 
     <dependencyManagement>
         <dependencies>
 
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-build-dependencies</artifactId>
-                <version>${project.version}</version>
+                <version>${ruoyi-boot-plus.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
 
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-commons-dependencies</artifactId>
-                <version>${project.version}</version>
+                <version>${ruoyi-boot-plus.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
 
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-services-dependencies</artifactId>
-                <version>${project.version}</version>
+                <version>${ruoyi-boot-plus.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
 
             <dependency>
-                <groupId>${project.groupId}</groupId>
+                <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-rest-dependencies</artifactId>
-                <version>${project.version}</version>
+                <version>${ruoyi-boot-plus.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -56,138 +58,138 @@
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-doc</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 幂等 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-idempotent</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 调度模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-job</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 日志记录 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-log</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 邮件服务 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-mail</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 数据库服务 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-mybatis</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- OSS -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-oss</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 限流 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-ratelimiter</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 缓存服务 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-redis</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- satoken -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-satoken</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 安全模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-security</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 短信模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-sms</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-social</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- web服务 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-web</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 翻译模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-translation</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 序列化模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-json</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 数据库加解密模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-encrypt</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 租户模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-tenant</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- WebSocket模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter-websocket</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-boot-starter</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
         </dependencies>

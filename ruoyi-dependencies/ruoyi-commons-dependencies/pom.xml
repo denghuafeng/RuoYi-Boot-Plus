@@ -17,21 +17,21 @@
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-common-core</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- excel -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-common-excel</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!-- 脱敏模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-common-sensitive</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
         </dependencies>

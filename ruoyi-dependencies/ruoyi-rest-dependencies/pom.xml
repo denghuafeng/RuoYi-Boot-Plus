@@ -16,43 +16,43 @@
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-admin-rest-auth</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-admin-rest-demo</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-admin-rest-generator</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-admin-rest-monitor</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-admin-rest-oss</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-admin-rest-system</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-admin-rest-workflow</artifactId>
-                <version>${revision}</version>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
         </dependencies>
