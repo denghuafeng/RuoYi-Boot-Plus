@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ruoyi-common-sensitive</artifactId>
+    <artifactId>ruoyi-boot-starter-sensitive</artifactId>
 
     <description>
-        ruoyi-common-sensitive 脱敏模块
+        ruoyi-boot-starter-sensitive 脱敏模块
     </description>
 
     <dependencies>
