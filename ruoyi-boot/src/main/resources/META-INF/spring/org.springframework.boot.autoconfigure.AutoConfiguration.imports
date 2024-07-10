@@ -3,4 +3,4 @@ org.dromara.boot.config.AsyncConfig
 org.dromara.boot.config.RuoYiConfig
 org.dromara.boot.config.ThreadPoolConfig
 org.dromara.boot.config.ValidatorConfig
-org.dromara.common.core.utils.SpringUtils
+org.dromara.boot.utils.SpringUtils
