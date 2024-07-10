@@ -1,4 +1,4 @@
-package org.dromara.common.core.config;
+package org.dromara.boot.config;
 
 import cn.hutool.core.util.ArrayUtil;
 import org.dromara.common.core.exception.ServiceException;

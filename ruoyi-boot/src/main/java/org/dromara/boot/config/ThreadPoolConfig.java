@@ -1,9 +1,9 @@
-package org.dromara.common.core.config;
+package org.dromara.boot.config;
 
 import jakarta.annotation.PreDestroy;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
-import org.dromara.common.core.config.properties.ThreadPoolProperties;
+import org.dromara.boot.config.properties.ThreadPoolProperties;
 import org.dromara.common.core.utils.Threads;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

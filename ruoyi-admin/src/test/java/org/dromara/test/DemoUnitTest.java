@@ -1,6 +1,6 @@
 package org.dromara.test;
 
-import org.dromara.common.core.config.RuoYiConfig;
+import org.dromara.boot.config.RuoYiConfig;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

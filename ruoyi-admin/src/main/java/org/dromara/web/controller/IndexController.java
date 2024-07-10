@@ -1,7 +1,7 @@
 package org.dromara.web.controller;
 
 import cn.dev33.satoken.annotation.SaIgnore;
-import org.dromara.common.core.config.RuoYiConfig;
+import org.dromara.boot.config.RuoYiConfig;
 import org.dromara.common.core.utils.StringUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
