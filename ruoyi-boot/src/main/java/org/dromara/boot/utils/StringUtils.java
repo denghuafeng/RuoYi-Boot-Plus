@@ -1,4 +1,4 @@
-package org.dromara.common.core.utils;
+package org.dromara.boot.utils;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.convert.Convert;

@@ -1,4 +1,4 @@
-package org.dromara.common.core.utils;
+package org.dromara.boot.utils;
 
 import cn.hutool.extra.spring.SpringUtil;
 import org.springframework.beans.factory.NoSuchBeanDefinitionException;

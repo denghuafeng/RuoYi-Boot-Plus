@@ -1,4 +1,4 @@
-package org.dromara.common.core.utils;
+package org.dromara.boot.utils;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
