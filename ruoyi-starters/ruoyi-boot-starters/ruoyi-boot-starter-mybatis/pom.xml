@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-boot</artifactId>
+            <artifactId>ruoyi-boot-starter</artifactId>
         </dependency>
 
         <dependency>
