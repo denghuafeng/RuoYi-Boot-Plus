@@ -13,12 +13,7 @@
     <dependencyManagement>
         <dependencies>
 
-            <!-- 核心模块 -->
-            <dependency>
-                <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-common-core</artifactId>
-                <version>${ruoyi-boot-plus.version}</version>
-            </dependency>
+
 
             <!-- excel -->
             <dependency>

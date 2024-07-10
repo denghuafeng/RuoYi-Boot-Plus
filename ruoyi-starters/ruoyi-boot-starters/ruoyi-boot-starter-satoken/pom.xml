@@ -15,7 +15,7 @@
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-core</artifactId>
+            <artifactId>ruoyi-boot</artifactId>
         </dependency>
 
         <!-- RuoYi Common Redis-->

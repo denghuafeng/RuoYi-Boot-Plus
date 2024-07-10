@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ruoyi-common-core</module>
+
         <module>ruoyi-common-excel</module>
         <module>ruoyi-common-sensitive</module>
     </modules>

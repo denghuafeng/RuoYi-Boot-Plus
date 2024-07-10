@@ -30,28 +30,11 @@
                 <scope>import</scope>
             </dependency>
 
+            <!-- 核心模块 -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-commons-dependencies</artifactId>
+                <artifactId>ruoyi-boot</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-services-dependencies</artifactId>
-                <version>${ruoyi-boot-plus.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-rest-dependencies</artifactId>
-                <version>${ruoyi-boot-plus.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
             </dependency>
 
             <!-- 接口模块 -->
@@ -192,6 +175,29 @@
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>ruoyi-commons-dependencies</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>ruoyi-services-dependencies</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>ruoyi-rest-dependencies</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

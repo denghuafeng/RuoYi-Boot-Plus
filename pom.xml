@@ -80,6 +80,7 @@
 
 
     <modules>
+        <module>ruoyi-boot</module>
         <module>ruoyi-admin</module>
         <module>ruoyi-services</module>
         <module>ruoyi-rest</module>
