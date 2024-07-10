@@ -1,6 +1,6 @@
 package org.dromara.boot.sms.core.dao;
 
-import org.dromara.common.core.constant.GlobalConstants;
+import org.dromara.boot.constant.GlobalConstants;
 import org.dromara.boot.redis.utils.RedisUtils;
 import org.dromara.sms4j.api.dao.SmsDao;
 

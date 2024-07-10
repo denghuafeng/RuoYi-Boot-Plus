@@ -1,4 +1,4 @@
-package org.dromara.common.core.constant;
+package org.dromara.boot.constant;
 
 /**
  * 用户常量信息

@@ -2,7 +2,7 @@ package org.dromara.boot.social.utils;
 
 import lombok.AllArgsConstructor;
 import me.zhyd.oauth.cache.AuthStateCache;
-import org.dromara.common.core.constant.GlobalConstants;
+import org.dromara.boot.constant.GlobalConstants;
 import org.dromara.boot.redis.utils.RedisUtils;
 
 import java.time.Duration;

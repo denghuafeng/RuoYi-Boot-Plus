@@ -1,4 +1,4 @@
-package org.dromara.common.core.constant;
+package org.dromara.boot.constant;
 
 /**
  * 缓存组名称常量

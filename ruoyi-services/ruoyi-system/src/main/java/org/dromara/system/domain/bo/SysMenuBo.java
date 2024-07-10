@@ -8,7 +8,7 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.dromara.common.core.constant.RegexConstants;
+import org.dromara.boot.constant.RegexConstants;
 import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import org.dromara.system.domain.SysMenu;
 

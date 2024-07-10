@@ -1,6 +1,6 @@
 package org.dromara.generator.util;
 
-import org.dromara.common.core.constant.Constants;
+import org.dromara.boot.constant.Constants;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.apache.velocity.app.Velocity;

@@ -3,7 +3,7 @@ package org.dromara.boot.tenant.handle;
 import com.baomidou.mybatisplus.core.plugins.InterceptorIgnoreHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.tenant.helper.TenantHelper;
-import org.dromara.common.core.constant.GlobalConstants;
+import org.dromara.boot.constant.GlobalConstants;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.redis.handler.KeyPrefixHandler;
 

@@ -6,7 +6,7 @@ import jakarta.servlet.ServletInputStream;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletRequestWrapper;
 import org.dromara.boot.encrypt.utils.EncryptUtils;
-import org.dromara.common.core.constant.Constants;
+import org.dromara.boot.constant.Constants;
 import org.springframework.http.MediaType;
 
 import java.io.BufferedReader;

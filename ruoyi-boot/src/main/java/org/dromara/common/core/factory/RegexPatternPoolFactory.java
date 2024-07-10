@@ -1,7 +1,7 @@
 package org.dromara.common.core.factory;
 
 import cn.hutool.core.lang.PatternPool;
-import org.dromara.common.core.constant.RegexConstants;
+import org.dromara.boot.constant.RegexConstants;
 
 import java.util.regex.Pattern;
 

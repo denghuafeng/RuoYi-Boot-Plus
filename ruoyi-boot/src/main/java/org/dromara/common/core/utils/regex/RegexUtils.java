@@ -2,7 +2,7 @@ package org.dromara.common.core.utils.regex;
 
 
 import cn.hutool.core.util.ReUtil;
-import org.dromara.common.core.constant.RegexConstants;
+import org.dromara.boot.constant.RegexConstants;
 
 /**
  * 正则相关工具类

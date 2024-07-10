@@ -4,7 +4,7 @@ import cn.hutool.core.util.ObjectUtil;
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.dromara.common.core.constant.HttpStatus;
+import org.dromara.boot.constant.HttpStatus;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;

@@ -1,7 +1,7 @@
 package org.dromara.system.domain;
 
 import com.baomidou.mybatisplus.annotation.*;
-import org.dromara.common.core.constant.UserConstants;
+import org.dromara.boot.constant.UserConstants;
 import org.dromara.boot.tenant.core.TenantEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

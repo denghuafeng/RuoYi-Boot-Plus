@@ -1,6 +1,6 @@
 package org.dromara.boot.tenant.core;
 
-import org.dromara.common.core.constant.GlobalConstants;
+import org.dromara.boot.constant.GlobalConstants;
 import org.dromara.boot.redis.utils.RedisUtils;
 import org.dromara.boot.satoken.core.dao.PlusSaTokenDao;
 

@@ -1,6 +1,6 @@
 package org.dromara.demo.controller;
 
-import org.dromara.common.core.constant.CacheNames;
+import org.dromara.boot.constant.CacheNames;
 import org.dromara.common.core.domain.R;
 import org.dromara.boot.redis.utils.RedisUtils;
 import lombok.RequiredArgsConstructor;

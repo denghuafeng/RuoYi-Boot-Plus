@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import org.hibernate.validator.constraints.Length;
 
-import static org.dromara.common.core.constant.UserConstants.*;
+import static org.dromara.boot.constant.UserConstants.*;
 
 /**
  * 密码登录对象

@@ -1,6 +1,6 @@
 package org.dromara.common.core.domain;
 
-import org.dromara.common.core.constant.HttpStatus;
+import org.dromara.boot.constant.HttpStatus;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
