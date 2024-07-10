@@ -1,4 +1,4 @@
-package org.dromara.common.core.service;
+package org.dromara.boot.service;
 
 import org.dromara.boot.domain.dto.UserDTO;
 

@@ -1,4 +1,4 @@
-package org.dromara.common.core.service;
+package org.dromara.boot.service;
 
 /**
  * 通用 部门服务

@@ -2,7 +2,7 @@ package org.dromara.workflow.flowable.cmd;
 
 import cn.hutool.core.collection.CollUtil;
 import org.dromara.boot.domain.dto.OssDTO;
-import org.dromara.common.core.service.OssService;
+import org.dromara.boot.service.OssService;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.flowable.common.engine.impl.interceptor.Command;

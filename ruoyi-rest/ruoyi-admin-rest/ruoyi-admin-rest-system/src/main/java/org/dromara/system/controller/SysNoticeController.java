@@ -3,7 +3,7 @@ package org.dromara.system.controller;
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import lombok.RequiredArgsConstructor;
 import org.dromara.boot.domain.R;
-import org.dromara.common.core.service.DictService;
+import org.dromara.boot.service.DictService;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;
 import org.dromara.boot.mybatis.core.page.PageQuery;

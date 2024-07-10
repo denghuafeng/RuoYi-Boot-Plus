@@ -2,7 +2,7 @@ package org.dromara.workflow.service.impl;
 
 import cn.hutool.core.util.StrUtil;
 import lombok.RequiredArgsConstructor;
-import org.dromara.common.core.service.WorkflowService;
+import org.dromara.boot.service.WorkflowService;
 import org.dromara.workflow.domain.ActHiProcinst;
 import org.dromara.workflow.service.IActHiProcinstService;
 import org.dromara.workflow.service.IActProcessInstanceService;

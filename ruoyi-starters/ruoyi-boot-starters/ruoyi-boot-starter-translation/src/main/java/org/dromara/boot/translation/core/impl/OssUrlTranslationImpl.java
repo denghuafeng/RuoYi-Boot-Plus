@@ -1,7 +1,7 @@
 package org.dromara.boot.translation.core.impl;
 
 import org.dromara.boot.translation.annotation.TranslationType;
-import org.dromara.common.core.service.OssService;
+import org.dromara.boot.service.OssService;
 import org.dromara.boot.translation.constant.TransConstant;
 import org.dromara.boot.translation.core.TranslationInterface;
 import lombok.AllArgsConstructor;

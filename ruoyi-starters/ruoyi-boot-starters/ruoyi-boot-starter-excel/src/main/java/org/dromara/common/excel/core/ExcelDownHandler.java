@@ -17,7 +17,7 @@ import org.apache.poi.ss.util.CellRangeAddressList;
 import org.apache.poi.ss.util.WorkbookUtil;
 import org.apache.poi.xssf.usermodel.XSSFDataValidation;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.common.core.service.DictService;
+import org.dromara.boot.service.DictService;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;

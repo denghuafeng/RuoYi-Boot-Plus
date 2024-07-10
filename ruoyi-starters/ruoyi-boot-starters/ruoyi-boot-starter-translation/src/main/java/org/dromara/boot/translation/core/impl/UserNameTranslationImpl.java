@@ -3,7 +3,7 @@ package org.dromara.boot.translation.core.impl;
 import org.dromara.boot.translation.annotation.TranslationType;
 import org.dromara.boot.translation.constant.TransConstant;
 import org.dromara.boot.translation.core.TranslationInterface;
-import org.dromara.common.core.service.UserService;
+import org.dromara.boot.service.UserService;
 import lombok.AllArgsConstructor;
 
 /**

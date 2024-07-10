@@ -10,7 +10,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.common.core.service.UserService;
+import org.dromara.boot.service.UserService;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.mybatis.core.page.PageQuery;

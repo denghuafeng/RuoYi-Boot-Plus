@@ -1,4 +1,4 @@
-package org.dromara.common.core.service;
+package org.dromara.boot.service;
 
 import java.util.Map;
 

@@ -8,7 +8,7 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.dromara.boot.domain.dto.RoleDTO;
 import org.dromara.boot.domain.dto.UserDTO;
-import org.dromara.common.core.service.UserService;
+import org.dromara.boot.service.UserService;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
