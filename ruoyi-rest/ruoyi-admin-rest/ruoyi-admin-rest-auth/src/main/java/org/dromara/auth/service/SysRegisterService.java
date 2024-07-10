@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 import org.dromara.boot.constant.Constants;
 import org.dromara.boot.constant.GlobalConstants;
 import org.dromara.boot.domain.model.RegisterBody;
-import org.dromara.common.core.enums.UserType;
+import org.dromara.boot.enums.UserType;
 import org.dromara.common.core.exception.user.CaptchaException;
 import org.dromara.common.core.exception.user.CaptchaExpireException;
 import org.dromara.common.core.exception.user.UserException;

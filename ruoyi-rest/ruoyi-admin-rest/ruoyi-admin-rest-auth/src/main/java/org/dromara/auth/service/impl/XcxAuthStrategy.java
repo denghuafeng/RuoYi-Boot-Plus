@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.domain.model.XcxLoginBody;
 import org.dromara.boot.domain.model.XcxLoginUser;
-import org.dromara.common.core.enums.UserStatus;
+import org.dromara.boot.enums.UserStatus;
 import org.dromara.common.core.utils.ValidatorUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;

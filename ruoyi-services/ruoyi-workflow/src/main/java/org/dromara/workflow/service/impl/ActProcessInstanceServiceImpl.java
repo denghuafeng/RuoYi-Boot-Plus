@@ -17,7 +17,7 @@ import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.workflow.common.constant.FlowConstant;
-import org.dromara.common.core.enums.BusinessStatusEnum;
+import org.dromara.boot.enums.BusinessStatusEnum;
 import org.dromara.workflow.common.enums.TaskStatusEnum;
 import org.dromara.workflow.domain.ActHiProcinst;
 import org.dromara.workflow.domain.bo.ProcessInstanceBo;

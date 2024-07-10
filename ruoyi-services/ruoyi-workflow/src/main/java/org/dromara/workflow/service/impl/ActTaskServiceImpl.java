@@ -20,7 +20,7 @@ import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.workflow.common.constant.FlowConstant;
-import org.dromara.common.core.enums.BusinessStatusEnum;
+import org.dromara.boot.enums.BusinessStatusEnum;
 import org.dromara.workflow.common.enums.TaskStatusEnum;
 import org.dromara.workflow.domain.ActHiTaskinst;
 import org.dromara.workflow.domain.WfTaskBackNode;

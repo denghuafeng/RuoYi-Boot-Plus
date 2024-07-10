@@ -7,7 +7,7 @@ import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.dromara.common.core.enums.UserStatus;
+import org.dromara.boot.enums.UserStatus;
 import org.dromara.common.core.validate.AddGroup;
 import org.dromara.common.core.validate.EditGroup;
 import org.dromara.common.excel.annotation.ExcelDictFormat;

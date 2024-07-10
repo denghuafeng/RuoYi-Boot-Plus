@@ -3,7 +3,7 @@ package org.dromara.boot.satoken.core.service;
 import cn.dev33.satoken.stp.StpInterface;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.domain.model.LoginUser;
-import org.dromara.common.core.enums.UserType;
+import org.dromara.boot.enums.UserType;
 
 import java.util.ArrayList;
 import java.util.List;

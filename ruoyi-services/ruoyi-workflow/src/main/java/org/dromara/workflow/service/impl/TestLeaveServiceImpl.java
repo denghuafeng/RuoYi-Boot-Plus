@@ -7,7 +7,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.domain.event.ProcessEvent;
 import org.dromara.boot.domain.event.ProcessTaskEvent;
-import org.dromara.common.core.enums.BusinessStatusEnum;
+import org.dromara.boot.enums.BusinessStatusEnum;
 import org.dromara.common.core.service.WorkflowService;
 import org.dromara.common.core.utils.MapstructUtils;
 import org.dromara.common.core.utils.StreamUtils;

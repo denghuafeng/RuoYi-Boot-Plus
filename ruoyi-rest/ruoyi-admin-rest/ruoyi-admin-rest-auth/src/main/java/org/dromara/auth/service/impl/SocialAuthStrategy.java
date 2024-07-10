@@ -13,7 +13,7 @@ import me.zhyd.oauth.model.AuthResponse;
 import me.zhyd.oauth.model.AuthUser;
 import org.dromara.boot.domain.model.LoginUser;
 import org.dromara.boot.domain.model.SocialLoginBody;
-import org.dromara.common.core.enums.UserStatus;
+import org.dromara.boot.enums.UserStatus;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.exception.user.UserException;
 import org.dromara.common.core.utils.ValidatorUtils;
