@@ -8,7 +8,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.dromara.boot.constant.UserConstants;
-import org.dromara.common.core.xss.Xss;
+import org.dromara.boot.xss.Xss;
 import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import org.dromara.system.domain.SysUser;
 

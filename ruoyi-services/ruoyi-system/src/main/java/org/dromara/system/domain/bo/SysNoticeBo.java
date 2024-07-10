@@ -5,7 +5,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.dromara.common.core.xss.Xss;
+import org.dromara.boot.xss.Xss;
 import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import org.dromara.system.domain.SysNotice;
 

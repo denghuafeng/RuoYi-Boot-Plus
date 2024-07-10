@@ -1,4 +1,4 @@
-package org.dromara.common.core.xss;
+package org.dromara.boot.xss;
 
 import cn.hutool.core.util.ReUtil;
 import cn.hutool.http.HtmlUtil;

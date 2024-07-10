@@ -1,4 +1,4 @@
-package org.dromara.common.core.xss;
+package org.dromara.boot.xss;
 
 import jakarta.validation.Constraint;
 import jakarta.validation.Payload;

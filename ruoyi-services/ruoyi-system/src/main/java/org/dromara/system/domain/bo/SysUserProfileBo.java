@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.dromara.boot.constant.RegexConstants;
-import org.dromara.common.core.xss.Xss;
+import org.dromara.boot.xss.Xss;
 import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import org.dromara.common.sensitive.annotation.Sensitive;
 import org.dromara.common.sensitive.core.SensitiveStrategy;
