@@ -85,7 +85,6 @@
         <module>ruoyi-services</module>
         <module>ruoyi-rest</module>
         <module>ruoyi-extensions</module>
-        <module>ruoyi-commons</module>
         <module>ruoyi-dependencies</module>
         <module>ruoyi-starters</module>
         <module>ruoyi-data-services</module>

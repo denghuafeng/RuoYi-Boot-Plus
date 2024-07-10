@@ -47,7 +47,7 @@
         <!-- excel-->
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-excel</artifactId>
+            <artifactId>ruoyi-boot-starter-excel</artifactId>
         </dependency>
 
         <!-- SMS功能模块 -->
@@ -78,7 +78,7 @@
 
         <dependency>
             <groupId>org.dromara</groupId>
-            <artifactId>ruoyi-common-sensitive</artifactId>
+            <artifactId>ruoyi-boot-starter-sensitive</artifactId>
         </dependency>
 
         <dependency>

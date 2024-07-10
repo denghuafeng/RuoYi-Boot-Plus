@@ -175,17 +175,23 @@
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
+            <!-- excel -->
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-tools-dependencies</artifactId>
+                <artifactId>ruoyi-boot-starter-excel</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
+            </dependency>
+
+            <!-- 脱敏模块 -->
+            <dependency>
+                <groupId>org.dromara</groupId>
+                <artifactId>ruoyi-boot-starter-sensitive</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>org.dromara</groupId>
-                <artifactId>ruoyi-commons-dependencies</artifactId>
+                <artifactId>ruoyi-tools-dependencies</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
                 <type>pom</type>
                 <scope>import</scope>

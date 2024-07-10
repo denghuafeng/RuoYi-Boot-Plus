@@ -11,10 +11,13 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ruoyi-boot-starter-social</module>
+        <module>ruoyi-boot-starter</module>
         <module>ruoyi-boot-starter-doc</module>
+        <module>ruoyi-boot-starter-encrypt</module>
+        <module>ruoyi-boot-starter-excel</module>
         <module>ruoyi-boot-starter-idempotent</module>
         <module>ruoyi-boot-starter-job</module>
+        <module>ruoyi-boot-starter-json</module>
         <module>ruoyi-boot-starter-log</module>
         <module>ruoyi-boot-starter-mail</module>
         <module>ruoyi-boot-starter-mybatis</module>
@@ -23,13 +26,12 @@
         <module>ruoyi-boot-starter-redis</module>
         <module>ruoyi-boot-starter-satoken</module>
         <module>ruoyi-boot-starter-security</module>
+        <module>ruoyi-boot-starter-sensitive</module>
         <module>ruoyi-boot-starter-sms</module>
-        <module>ruoyi-boot-starter-web</module>
-        <module>ruoyi-boot-starter-translation</module>
-        <module>ruoyi-boot-starter-json</module>
-        <module>ruoyi-boot-starter-encrypt</module>
+        <module>ruoyi-boot-starter-social</module>
         <module>ruoyi-boot-starter-tenant</module>
+        <module>ruoyi-boot-starter-translation</module>
+        <module>ruoyi-boot-starter-web</module>
         <module>ruoyi-boot-starter-websocket</module>
-        <module>ruoyi-boot-starter</module>
     </modules>
 </project>

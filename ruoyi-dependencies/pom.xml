@@ -14,7 +14,6 @@
     <modules>
         <module>ruoyi-boot-dependencies</module>
         <module>ruoyi-build-dependencies</module>
-        <module>ruoyi-commons-dependencies</module>
         <module>ruoyi-services-dependencies</module>
         <module>ruoyi-rest-dependencies</module>
         <module>ruoyi-tools-dependencies</module>
