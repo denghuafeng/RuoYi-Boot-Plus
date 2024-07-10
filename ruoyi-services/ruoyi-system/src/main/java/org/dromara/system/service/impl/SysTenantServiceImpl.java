@@ -11,7 +11,7 @@ import lombok.RequiredArgsConstructor;
 import org.dromara.boot.constant.CacheNames;
 import org.dromara.boot.constant.Constants;
 import org.dromara.boot.constant.TenantConstants;
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.common.core.utils.MapstructUtils;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;

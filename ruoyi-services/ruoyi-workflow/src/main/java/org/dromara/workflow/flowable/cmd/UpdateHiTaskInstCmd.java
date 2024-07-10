@@ -1,6 +1,6 @@
 package org.dromara.workflow.flowable.cmd;
 
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.flowable.common.engine.impl.interceptor.Command;
 import org.flowable.common.engine.impl.interceptor.CommandContext;
 import org.flowable.engine.impl.util.CommandContextUtil;

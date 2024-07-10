@@ -9,7 +9,7 @@ import org.dromara.common.core.utils.MapstructUtils;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.system.domain.SysDictData;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.redis.utils.CacheUtils;
 import org.dromara.system.domain.bo.SysDictDataBo;

@@ -10,7 +10,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.domain.dto.RoleDTO;
 import org.dromara.boot.domain.dto.UserDTO;
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.common.core.service.OssService;
 import org.dromara.common.core.service.UserService;
 import org.dromara.common.core.utils.StreamUtils;

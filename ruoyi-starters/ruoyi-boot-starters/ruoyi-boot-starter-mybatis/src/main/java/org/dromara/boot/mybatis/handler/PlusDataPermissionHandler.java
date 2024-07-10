@@ -13,7 +13,7 @@ import org.apache.ibatis.io.Resources;
 import org.dromara.boot.mybatis.helper.DataPermissionHelper;
 import org.dromara.boot.domain.dto.RoleDTO;
 import org.dromara.boot.domain.model.LoginUser;
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;

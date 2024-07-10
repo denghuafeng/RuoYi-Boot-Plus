@@ -1,4 +1,4 @@
-package org.dromara.common.core.exception;
+package org.dromara.boot.exception;
 
 import lombok.*;
 

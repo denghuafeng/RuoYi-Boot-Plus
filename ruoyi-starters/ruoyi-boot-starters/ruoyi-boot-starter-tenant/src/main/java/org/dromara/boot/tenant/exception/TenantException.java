@@ -1,6 +1,6 @@
 package org.dromara.boot.tenant.exception;
 
-import org.dromara.common.core.exception.base.BaseException;
+import org.dromara.boot.exception.base.BaseException;
 
 import java.io.Serial;
 

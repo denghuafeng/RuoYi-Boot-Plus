@@ -1,7 +1,7 @@
 package org.dromara.auth.service;
 
 
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.system.domain.vo.SysClientVo;
 import org.dromara.auth.domain.vo.LoginVo;

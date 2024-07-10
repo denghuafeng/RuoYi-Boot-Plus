@@ -3,7 +3,7 @@ package org.dromara.boot.enums;
 import cn.hutool.core.util.StrUtil;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.common.core.utils.StringUtils;
 
 import java.util.Arrays;

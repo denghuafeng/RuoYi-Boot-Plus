@@ -1,4 +1,4 @@
-package org.dromara.common.core.exception.user;
+package org.dromara.boot.exception.user;
 
 import java.io.Serial;
 

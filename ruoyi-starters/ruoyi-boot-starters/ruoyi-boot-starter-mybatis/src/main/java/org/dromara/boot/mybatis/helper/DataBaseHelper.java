@@ -5,7 +5,7 @@ import com.baomidou.dynamic.datasource.DynamicRoutingDataSource;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.dromara.boot.mybatis.enums.DataBaseType;
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.common.core.utils.SpringUtils;
 
 import javax.sql.DataSource;

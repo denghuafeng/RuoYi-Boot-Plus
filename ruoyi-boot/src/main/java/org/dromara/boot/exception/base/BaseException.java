@@ -1,4 +1,4 @@
-package org.dromara.common.core.exception.base;
+package org.dromara.boot.exception.base;
 
 import lombok.AllArgsConstructor;
 import org.dromara.common.core.utils.MessageUtils;

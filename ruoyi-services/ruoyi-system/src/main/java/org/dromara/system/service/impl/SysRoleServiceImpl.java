@@ -15,7 +15,7 @@ import lombok.RequiredArgsConstructor;
 import org.dromara.boot.constant.TenantConstants;
 import org.dromara.boot.constant.UserConstants;
 import org.dromara.boot.domain.model.LoginUser;
-import org.dromara.common.core.exception.ServiceException;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.common.core.utils.MapstructUtils;
 import org.dromara.common.core.utils.StreamUtils;
 import org.dromara.common.core.utils.StringUtils;
