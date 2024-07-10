@@ -4,7 +4,7 @@ import jakarta.annotation.PreDestroy;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.dromara.boot.config.properties.ThreadPoolProperties;
-import org.dromara.common.core.utils.Threads;
+import org.dromara.boot.utils.Threads;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

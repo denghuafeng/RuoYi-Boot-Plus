@@ -4,7 +4,7 @@ import org.dromara.boot.translation.annotation.TranslationType;
 import org.dromara.boot.translation.constant.TransConstant;
 import org.dromara.boot.translation.core.TranslationInterface;
 import org.dromara.boot.service.DictService;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import lombok.AllArgsConstructor;
 
 /**

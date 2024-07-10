@@ -1,6 +1,6 @@
 package org.dromara.boot.web.filter;
 
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.springframework.http.MediaType;
 
 import jakarta.servlet.*;

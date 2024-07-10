@@ -8,8 +8,8 @@ import com.fasterxml.jackson.databind.JsonSerializer;
 import com.fasterxml.jackson.databind.SerializerProvider;
 import com.fasterxml.jackson.databind.ser.ContextualSerializer;
 import org.dromara.boot.translation.annotation.Translation;
-import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.core.utils.reflect.ReflectUtils;
+import org.dromara.boot.utils.StringUtils;
+import org.dromara.boot.utils.reflect.ReflectUtils;
 import org.dromara.boot.translation.core.TranslationInterface;
 import lombok.extern.slf4j.Slf4j;
 

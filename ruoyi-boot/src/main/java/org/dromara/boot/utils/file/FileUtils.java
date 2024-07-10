@@ -1,4 +1,4 @@
-package org.dromara.common.core.utils.file;
+package org.dromara.boot.utils.file;
 
 import cn.hutool.core.io.FileUtil;
 import jakarta.servlet.http.HttpServletResponse;

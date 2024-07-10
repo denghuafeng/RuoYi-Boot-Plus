@@ -9,8 +9,8 @@ import jakarta.mail.Authenticator;
 import jakarta.mail.Session;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
-import org.dromara.common.core.utils.SpringUtils;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.SpringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 import java.io.File;
 import java.io.InputStream;

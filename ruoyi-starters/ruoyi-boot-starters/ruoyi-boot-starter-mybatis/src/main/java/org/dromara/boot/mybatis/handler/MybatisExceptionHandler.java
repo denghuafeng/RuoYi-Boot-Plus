@@ -3,7 +3,7 @@ package org.dromara.boot.mybatis.handler;
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.domain.R;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.mybatis.spring.MyBatisSystemException;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.web.bind.annotation.ExceptionHandler;

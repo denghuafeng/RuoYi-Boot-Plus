@@ -1,7 +1,7 @@
 package org.dromara.demo.controller;
 
 import org.dromara.boot.domain.R;
-import org.dromara.common.core.utils.MessageUtils;
+import org.dromara.boot.utils.MessageUtils;
 import lombok.Data;
 import org.hibernate.validator.constraints.Range;
 import org.springframework.validation.annotation.Validated;

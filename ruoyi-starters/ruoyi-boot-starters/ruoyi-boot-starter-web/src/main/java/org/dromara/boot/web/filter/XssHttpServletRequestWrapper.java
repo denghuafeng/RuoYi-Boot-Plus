@@ -3,7 +3,7 @@ package org.dromara.boot.web.filter;
 import cn.hutool.core.io.IoUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.HtmlUtil;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 

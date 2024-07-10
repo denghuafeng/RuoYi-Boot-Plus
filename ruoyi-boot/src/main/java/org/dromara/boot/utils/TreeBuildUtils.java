@@ -5,7 +5,7 @@ import cn.hutool.core.lang.tree.Tree;
 import cn.hutool.core.lang.tree.TreeNodeConfig;
 import cn.hutool.core.lang.tree.TreeUtil;
 import cn.hutool.core.lang.tree.parser.NodeParser;
-import org.dromara.common.core.utils.reflect.ReflectUtils;
+import org.dromara.boot.utils.reflect.ReflectUtils;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

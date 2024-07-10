@@ -1,8 +1,8 @@
-package org.dromara.common.core.utils.ip;
+package org.dromara.boot.utils.ip;
 
 import cn.hutool.core.net.NetUtil;
 import cn.hutool.http.HtmlUtil;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

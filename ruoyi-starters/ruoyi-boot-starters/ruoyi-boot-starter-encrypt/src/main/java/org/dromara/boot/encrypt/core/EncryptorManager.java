@@ -6,7 +6,7 @@ import cn.hutool.core.util.ReflectUtil;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.io.Resources;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.encrypt.annotation.EncryptField;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.io.Resource;

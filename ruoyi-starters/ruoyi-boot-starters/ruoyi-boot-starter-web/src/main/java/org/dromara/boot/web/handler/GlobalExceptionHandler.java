@@ -9,7 +9,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.domain.R;
 import org.dromara.boot.exception.ServiceException;
 import org.dromara.boot.exception.base.BaseException;
-import org.dromara.common.core.utils.StreamUtils;
+import org.dromara.boot.utils.StreamUtils;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.validation.BindException;
 import org.springframework.web.HttpRequestMethodNotSupportedException;

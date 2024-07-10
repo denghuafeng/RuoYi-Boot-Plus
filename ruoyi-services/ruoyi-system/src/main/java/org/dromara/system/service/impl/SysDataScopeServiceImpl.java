@@ -4,7 +4,7 @@ import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.convert.Convert;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import lombok.RequiredArgsConstructor;
-import org.dromara.common.core.utils.StreamUtils;
+import org.dromara.boot.utils.StreamUtils;
 import org.dromara.boot.mybatis.helper.DataBaseHelper;
 import org.dromara.system.domain.SysDept;
 import org.dromara.system.domain.SysRoleDept;

@@ -8,7 +8,7 @@ import me.zhyd.oauth.model.AuthCallback;
 import me.zhyd.oauth.model.AuthToken;
 import me.zhyd.oauth.model.AuthUser;
 import me.zhyd.oauth.request.AuthDefaultRequest;
-import org.dromara.common.core.utils.SpringUtils;
+import org.dromara.boot.utils.SpringUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 
 /**

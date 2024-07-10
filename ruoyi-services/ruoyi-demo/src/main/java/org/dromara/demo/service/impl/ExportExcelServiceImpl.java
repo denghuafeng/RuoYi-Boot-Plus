@@ -5,7 +5,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.dromara.boot.enums.UserStatus;
-import org.dromara.common.core.utils.StreamUtils;
+import org.dromara.boot.utils.StreamUtils;
 import org.dromara.common.excel.core.DropDownOptions;
 import org.dromara.common.excel.utils.ExcelUtil;
 import org.dromara.demo.domain.vo.ExportDemoVo;

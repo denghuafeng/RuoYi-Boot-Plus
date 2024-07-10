@@ -2,7 +2,7 @@ package org.dromara.boot.mybatis.enums;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 /**
  * 数据库类型

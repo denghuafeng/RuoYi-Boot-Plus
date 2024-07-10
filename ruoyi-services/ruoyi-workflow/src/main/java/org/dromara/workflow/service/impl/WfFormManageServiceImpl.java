@@ -1,7 +1,7 @@
 package org.dromara.workflow.service.impl;
 
-import org.dromara.common.core.utils.MapstructUtils;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.MapstructUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;

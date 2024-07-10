@@ -9,8 +9,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.exc.MismatchedInputException;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
-import org.dromara.common.core.utils.SpringUtils;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.SpringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 import java.io.IOException;
 import java.util.ArrayList;

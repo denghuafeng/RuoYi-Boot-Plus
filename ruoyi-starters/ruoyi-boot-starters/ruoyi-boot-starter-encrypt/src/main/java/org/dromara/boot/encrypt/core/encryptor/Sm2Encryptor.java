@@ -4,7 +4,7 @@ import org.dromara.boot.encrypt.core.EncryptContext;
 import org.dromara.boot.encrypt.enumd.AlgorithmType;
 import org.dromara.boot.encrypt.enumd.EncodeType;
 import org.dromara.boot.encrypt.utils.EncryptUtils;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 /**
  * sm2算法实现

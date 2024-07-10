@@ -18,7 +18,7 @@ import org.dromara.boot.enums.LoginType;
 import org.dromara.boot.enums.TenantStatus;
 import org.dromara.boot.exception.ServiceException;
 import org.dromara.boot.exception.user.UserException;
-import org.dromara.common.core.utils.*;
+import org.dromara.boot.utils.*;
 import org.dromara.boot.log.event.LogininforEvent;
 import org.dromara.boot.mybatis.helper.DataPermissionHelper;
 import org.dromara.boot.redis.utils.RedisUtils;

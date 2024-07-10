@@ -2,7 +2,7 @@ package org.dromara.workflow.flowable.handler;
 
 import org.dromara.boot.domain.event.ProcessEvent;
 import org.dromara.boot.domain.event.ProcessTaskEvent;
-import org.dromara.common.core.utils.SpringUtils;
+import org.dromara.boot.utils.SpringUtils;
 import org.springframework.stereotype.Component;
 
 /**

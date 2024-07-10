@@ -9,7 +9,7 @@ import me.zhyd.oauth.model.AuthUser;
 import me.zhyd.oauth.request.*;
 import org.dromara.boot.social.config.properties.SocialLoginConfigProperties;
 import org.dromara.boot.social.topiam.AuthTopIamRequest;
-import org.dromara.common.core.utils.SpringUtils;
+import org.dromara.boot.utils.SpringUtils;
 import org.dromara.boot.social.config.properties.SocialProperties;
 import org.dromara.boot.social.maxkey.AuthMaxKeyRequest;
 

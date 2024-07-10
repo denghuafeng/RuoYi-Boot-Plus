@@ -1,4 +1,4 @@
-package org.dromara.common.core.utils.regex;
+package org.dromara.boot.utils.regex;
 
 
 import cn.hutool.core.util.ReUtil;

@@ -10,7 +10,7 @@ import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.plugin.Intercepts;
 import org.apache.ibatis.plugin.Invocation;
 import org.apache.ibatis.plugin.Signature;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.encrypt.annotation.EncryptField;
 import org.dromara.boot.encrypt.core.EncryptContext;
 import org.dromara.boot.encrypt.core.EncryptorManager;

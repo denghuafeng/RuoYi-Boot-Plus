@@ -4,7 +4,7 @@ import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import lombok.RequiredArgsConstructor;
-import org.dromara.common.core.utils.StreamUtils;
+import org.dromara.boot.utils.StreamUtils;
 import org.dromara.workflow.domain.vo.WfFormManageVo;
 import org.dromara.workflow.service.IWfFormManageService;
 import org.springframework.stereotype.Service;

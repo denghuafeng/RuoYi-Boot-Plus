@@ -1,6 +1,6 @@
 package org.dromara.boot.enums;
 
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

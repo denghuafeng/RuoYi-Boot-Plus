@@ -1,4 +1,4 @@
-package org.dromara.common.core.utils.file;
+package org.dromara.boot.utils.file;
 
 /**
  * 媒体类型工具类

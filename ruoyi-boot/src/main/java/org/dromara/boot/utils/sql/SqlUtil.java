@@ -1,8 +1,8 @@
-package org.dromara.common.core.utils.sql;
+package org.dromara.boot.utils.sql;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 /**
  * sql操作工具类

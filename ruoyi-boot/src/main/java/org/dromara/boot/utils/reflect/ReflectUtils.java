@@ -1,7 +1,7 @@
-package org.dromara.common.core.utils.reflect;
+package org.dromara.boot.utils.reflect;
 
 import cn.hutool.core.util.ReflectUtil;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 

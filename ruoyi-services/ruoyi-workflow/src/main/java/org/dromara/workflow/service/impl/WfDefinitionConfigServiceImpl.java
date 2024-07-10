@@ -1,7 +1,7 @@
 package org.dromara.workflow.service.impl;
 
 import cn.hutool.core.collection.CollUtil;
-import org.dromara.common.core.utils.MapstructUtils;
+import org.dromara.boot.utils.MapstructUtils;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import lombok.RequiredArgsConstructor;
 import org.dromara.workflow.domain.WfDefinitionConfig;

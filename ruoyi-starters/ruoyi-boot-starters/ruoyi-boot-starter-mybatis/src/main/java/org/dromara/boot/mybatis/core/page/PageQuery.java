@@ -6,8 +6,8 @@ import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import lombok.Data;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.common.core.utils.StringUtils;
-import org.dromara.common.core.utils.sql.SqlUtil;
+import org.dromara.boot.utils.StringUtils;
+import org.dromara.boot.utils.sql.SqlUtil;
 
 import java.io.Serial;
 import java.io.Serializable;

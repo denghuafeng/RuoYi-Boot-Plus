@@ -1,6 +1,6 @@
 package org.dromara.common.excel.annotation;
 
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 import java.lang.annotation.*;
 

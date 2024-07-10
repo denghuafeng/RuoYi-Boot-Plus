@@ -1,7 +1,7 @@
 package org.dromara.boot.web.core;
 
 import org.dromara.boot.domain.R;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 /**
  * web层通用数据处理

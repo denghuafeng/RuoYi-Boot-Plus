@@ -1,6 +1,6 @@
 package org.dromara.workflow.flowable.cmd;
 
-import org.dromara.common.core.utils.StreamUtils;
+import org.dromara.boot.utils.StreamUtils;
 import org.flowable.common.engine.impl.interceptor.Command;
 import org.flowable.common.engine.impl.interceptor.CommandContext;
 import org.flowable.engine.impl.persistence.entity.ExecutionEntity;

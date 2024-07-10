@@ -1,10 +1,10 @@
-package org.dromara.common.core.utils.ip;
+package org.dromara.boot.utils.ip;
 
 import cn.hutool.core.io.FileUtil;
 import cn.hutool.core.io.resource.ClassPathResource;
 import cn.hutool.core.util.ObjectUtil;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.common.core.utils.file.FileUtils;
+import org.dromara.boot.utils.file.FileUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.lionsoul.ip2region.xdb.Searcher;
 

@@ -3,7 +3,7 @@ package org.dromara.generator.util;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.apache.commons.lang3.RegExUtils;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.generator.config.GenConfig;
 import org.dromara.generator.constant.GenConstants;
 import org.dromara.generator.domain.GenTable;

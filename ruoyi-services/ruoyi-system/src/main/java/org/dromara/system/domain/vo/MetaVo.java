@@ -1,6 +1,6 @@
 package org.dromara.system.domain.vo;
 
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import lombok.Data;
 
 /**

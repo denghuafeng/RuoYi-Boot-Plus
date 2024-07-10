@@ -11,7 +11,7 @@ import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.redis.config.properties.RedissonProperties;
 import org.dromara.boot.redis.handler.RedisExceptionHandler;
-import org.dromara.common.core.utils.SpringUtils;
+import org.dromara.boot.utils.SpringUtils;
 import org.dromara.boot.redis.handler.KeyPrefixHandler;
 import org.redisson.client.codec.StringCodec;
 import org.redisson.codec.CompositeCodec;

@@ -1,6 +1,6 @@
 package org.dromara.boot.encrypt.core.encryptor;
 
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.encrypt.core.EncryptContext;
 import org.dromara.boot.encrypt.enumd.AlgorithmType;
 import org.dromara.boot.encrypt.enumd.EncodeType;

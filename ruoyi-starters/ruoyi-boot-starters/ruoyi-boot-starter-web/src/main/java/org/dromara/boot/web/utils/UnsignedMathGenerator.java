@@ -4,7 +4,7 @@ import cn.hutool.captcha.generator.CodeGenerator;
 import cn.hutool.core.math.Calculator;
 import cn.hutool.core.util.CharUtil;
 import cn.hutool.core.util.RandomUtil;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 import java.io.Serial;
 

@@ -2,7 +2,7 @@ package org.dromara.demo.listener;
 
 import cn.hutool.core.util.NumberUtil;
 import com.alibaba.excel.context.AnalysisContext;
-import org.dromara.common.core.utils.ValidatorUtils;
+import org.dromara.boot.utils.ValidatorUtils;
 import org.dromara.boot.validate.AddGroup;
 import org.dromara.boot.validate.EditGroup;
 import org.dromara.common.excel.core.DefaultExcelListener;

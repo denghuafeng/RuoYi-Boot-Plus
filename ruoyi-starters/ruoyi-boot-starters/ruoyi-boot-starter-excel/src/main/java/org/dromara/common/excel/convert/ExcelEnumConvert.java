@@ -9,7 +9,7 @@ import com.alibaba.excel.metadata.GlobalConfiguration;
 import com.alibaba.excel.metadata.data.ReadCellData;
 import com.alibaba.excel.metadata.data.WriteCellData;
 import com.alibaba.excel.metadata.property.ExcelContentProperty;
-import org.dromara.common.core.utils.reflect.ReflectUtils;
+import org.dromara.boot.utils.reflect.ReflectUtils;
 import org.dromara.common.excel.annotation.ExcelEnumFormat;
 import lombok.extern.slf4j.Slf4j;
 

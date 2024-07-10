@@ -3,7 +3,7 @@ package org.dromara.workflow.utils;
 import cn.hutool.core.bean.BeanUtil;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
-import org.dromara.common.core.utils.SpringUtils;
+import org.dromara.boot.utils.SpringUtils;
 import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.workflow.domain.vo.TaskVo;
 import org.flowable.engine.ProcessEngine;

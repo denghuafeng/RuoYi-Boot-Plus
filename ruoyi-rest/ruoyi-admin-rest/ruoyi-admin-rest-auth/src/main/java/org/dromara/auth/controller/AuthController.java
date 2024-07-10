@@ -17,7 +17,7 @@ import org.dromara.boot.domain.R;
 import org.dromara.boot.domain.model.LoginBody;
 import org.dromara.boot.domain.model.RegisterBody;
 import org.dromara.boot.domain.model.SocialLoginBody;
-import org.dromara.common.core.utils.*;
+import org.dromara.boot.utils.*;
 import org.dromara.boot.encrypt.annotation.ApiEncrypt;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;

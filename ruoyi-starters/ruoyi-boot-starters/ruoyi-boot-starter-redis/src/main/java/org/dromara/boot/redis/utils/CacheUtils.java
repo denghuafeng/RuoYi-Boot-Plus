@@ -1,6 +1,6 @@
 package org.dromara.boot.redis.utils;
 
-import org.dromara.common.core.utils.SpringUtils;
+import org.dromara.boot.utils.SpringUtils;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.redisson.api.RMap;

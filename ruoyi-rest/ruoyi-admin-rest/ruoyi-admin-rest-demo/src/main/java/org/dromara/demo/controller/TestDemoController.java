@@ -2,8 +2,8 @@ package org.dromara.demo.controller;
 
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import org.dromara.boot.domain.R;
-import org.dromara.common.core.utils.MapstructUtils;
-import org.dromara.common.core.utils.ValidatorUtils;
+import org.dromara.boot.utils.MapstructUtils;
+import org.dromara.boot.utils.ValidatorUtils;
 import org.dromara.boot.validate.AddGroup;
 import org.dromara.boot.validate.EditGroup;
 import org.dromara.boot.validate.QueryGroup;

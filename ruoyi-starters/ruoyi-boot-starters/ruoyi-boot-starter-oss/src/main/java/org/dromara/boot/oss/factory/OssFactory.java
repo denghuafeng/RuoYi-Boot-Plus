@@ -3,7 +3,7 @@ package org.dromara.boot.oss.factory;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.oss.core.OssClient;
 import org.dromara.boot.constant.CacheNames;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.oss.constant.OssConstant;
 import org.dromara.boot.oss.exception.OssException;

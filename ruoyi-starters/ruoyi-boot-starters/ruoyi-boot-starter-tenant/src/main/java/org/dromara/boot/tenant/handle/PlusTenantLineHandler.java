@@ -9,7 +9,7 @@ import net.sf.jsqlparser.expression.NullValue;
 import net.sf.jsqlparser.expression.StringValue;
 import org.dromara.boot.tenant.helper.TenantHelper;
 import org.dromara.boot.tenant.properties.TenantProperties;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 import java.util.List;
 

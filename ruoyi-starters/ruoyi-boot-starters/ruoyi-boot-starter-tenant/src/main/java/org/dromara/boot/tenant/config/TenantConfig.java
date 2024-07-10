@@ -7,7 +7,7 @@ import org.dromara.boot.tenant.handle.PlusTenantLineHandler;
 import org.dromara.boot.tenant.handle.TenantKeyPrefixHandler;
 import org.dromara.boot.tenant.manager.TenantSpringCacheManager;
 import org.dromara.boot.tenant.properties.TenantProperties;
-import org.dromara.common.core.utils.reflect.ReflectUtils;
+import org.dromara.boot.utils.reflect.ReflectUtils;
 import org.dromara.boot.mybatis.config.MybatisPlusConfig;
 import org.dromara.boot.redis.config.RedisConfig;
 import org.dromara.boot.redis.config.properties.RedissonProperties;

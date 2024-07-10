@@ -1,6 +1,6 @@
 package org.dromara.boot.factory;
 
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
 import org.springframework.core.env.PropertiesPropertySource;
 import org.springframework.core.env.PropertySource;

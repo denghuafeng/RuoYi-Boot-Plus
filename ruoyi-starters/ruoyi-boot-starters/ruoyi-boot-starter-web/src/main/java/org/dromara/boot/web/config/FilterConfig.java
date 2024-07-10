@@ -3,7 +3,7 @@ package org.dromara.boot.web.config;
 import org.dromara.boot.web.config.properties.XssProperties;
 import org.dromara.boot.web.filter.RepeatableFilter;
 import org.dromara.boot.web.filter.XssFilter;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import jakarta.servlet.DispatcherType;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

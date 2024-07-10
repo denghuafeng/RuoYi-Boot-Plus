@@ -2,7 +2,7 @@ package org.dromara.boot.config;
 
 import cn.hutool.core.util.ArrayUtil;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.common.core.utils.SpringUtils;
+import org.dromara.boot.utils.SpringUtils;
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 import org.springframework.core.task.VirtualThreadTaskExecutor;

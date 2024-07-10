@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.workflow.domain.WfTaskBackNode;
 import org.dromara.workflow.domain.vo.MultiInstanceVo;

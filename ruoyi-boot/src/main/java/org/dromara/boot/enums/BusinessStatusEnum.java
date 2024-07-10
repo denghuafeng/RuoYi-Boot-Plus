@@ -4,7 +4,7 @@ import cn.hutool.core.util.StrUtil;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 
 import java.util.Arrays;
 

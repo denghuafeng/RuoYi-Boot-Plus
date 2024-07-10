@@ -2,8 +2,8 @@ package org.dromara.demo.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import org.dromara.common.core.utils.MapstructUtils;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.MapstructUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.demo.domain.TestTree;
 import org.dromara.demo.domain.bo.TestTreeBo;
 import org.dromara.demo.domain.vo.TestTreeVo;

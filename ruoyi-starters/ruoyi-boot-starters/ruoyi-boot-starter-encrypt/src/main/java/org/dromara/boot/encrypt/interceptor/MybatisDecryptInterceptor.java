@@ -9,7 +9,7 @@ import org.apache.ibatis.executor.resultset.ResultSetHandler;
 import org.apache.ibatis.plugin.*;
 import org.dromara.boot.encrypt.core.EncryptorManager;
 import org.dromara.boot.encrypt.properties.EncryptorProperties;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.encrypt.annotation.EncryptField;
 import org.dromara.boot.encrypt.core.EncryptContext;
 import org.dromara.boot.encrypt.enumd.AlgorithmType;

@@ -1,8 +1,8 @@
 package org.dromara.boot.exception.base;
 
 import lombok.AllArgsConstructor;
-import org.dromara.common.core.utils.MessageUtils;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.MessageUtils;
+import org.dromara.boot.utils.StringUtils;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;

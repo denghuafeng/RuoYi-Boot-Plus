@@ -2,7 +2,7 @@ package org.dromara.monitor.controller;
 
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import org.dromara.boot.domain.R;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.system.domain.vo.CacheListInfoVo;
 import lombok.RequiredArgsConstructor;
 import org.redisson.spring.data.connection.RedissonConnectionFactory;

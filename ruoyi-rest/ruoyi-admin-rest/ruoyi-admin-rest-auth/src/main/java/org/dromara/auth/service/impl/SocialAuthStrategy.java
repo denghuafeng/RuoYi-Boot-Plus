@@ -16,7 +16,7 @@ import org.dromara.boot.domain.model.SocialLoginBody;
 import org.dromara.boot.enums.UserStatus;
 import org.dromara.boot.exception.ServiceException;
 import org.dromara.boot.exception.user.UserException;
-import org.dromara.common.core.utils.ValidatorUtils;
+import org.dromara.boot.utils.ValidatorUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.social.config.properties.SocialProperties;

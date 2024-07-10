@@ -18,9 +18,9 @@ import org.apache.poi.ss.util.WorkbookUtil;
 import org.apache.poi.xssf.usermodel.XSSFDataValidation;
 import org.dromara.boot.exception.ServiceException;
 import org.dromara.boot.service.DictService;
-import org.dromara.common.core.utils.SpringUtils;
-import org.dromara.common.core.utils.StreamUtils;
-import org.dromara.common.core.utils.StringUtils;
+import org.dromara.boot.utils.SpringUtils;
+import org.dromara.boot.utils.StreamUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.common.excel.annotation.ExcelDictFormat;
 import org.dromara.common.excel.annotation.ExcelEnumFormat;
 
