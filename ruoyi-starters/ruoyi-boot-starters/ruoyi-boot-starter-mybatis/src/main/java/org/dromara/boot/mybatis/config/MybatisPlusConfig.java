@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.OptimisticLockerInnerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.TenantLineInnerInterceptor;
-import org.dromara.common.core.factory.YmlPropertySourceFactory;
+import org.dromara.boot.factory.YmlPropertySourceFactory;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.boot.mybatis.handler.InjectionMetaObjectHandler;
 import org.dromara.boot.mybatis.handler.MybatisExceptionHandler;

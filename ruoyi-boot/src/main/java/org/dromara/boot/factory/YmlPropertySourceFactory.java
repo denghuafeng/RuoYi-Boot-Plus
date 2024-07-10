@@ -1,4 +1,4 @@
-package org.dromara.common.core.factory;
+package org.dromara.boot.factory;
 
 import org.dromara.common.core.utils.StringUtils;
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;

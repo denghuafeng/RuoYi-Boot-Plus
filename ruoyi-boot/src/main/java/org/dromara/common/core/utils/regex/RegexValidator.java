@@ -2,7 +2,7 @@ package org.dromara.common.core.utils.regex;
 
 import cn.hutool.core.exceptions.ValidateException;
 import cn.hutool.core.lang.Validator;
-import org.dromara.common.core.factory.RegexPatternPoolFactory;
+import org.dromara.boot.factory.RegexPatternPoolFactory;
 
 import java.util.regex.Pattern;
 

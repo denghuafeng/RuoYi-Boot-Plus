@@ -1,4 +1,4 @@
-package org.dromara.common.core.factory;
+package org.dromara.boot.factory;
 
 import cn.hutool.core.lang.PatternPool;
 import org.dromara.boot.constant.RegexConstants;
