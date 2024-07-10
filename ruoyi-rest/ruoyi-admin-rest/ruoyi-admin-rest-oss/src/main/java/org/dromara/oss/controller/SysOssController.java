@@ -4,7 +4,7 @@ package org.dromara.oss.controller;
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import cn.hutool.core.util.ObjectUtil;
 import org.dromara.boot.domain.R;
-import org.dromara.common.core.validate.QueryGroup;
+import org.dromara.boot.validate.QueryGroup;
 import org.dromara.boot.web.core.BaseController;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;

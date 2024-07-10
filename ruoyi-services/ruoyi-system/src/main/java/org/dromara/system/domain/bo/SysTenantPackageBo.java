@@ -1,7 +1,7 @@
 package org.dromara.system.domain.bo;
 
-import org.dromara.common.core.validate.AddGroup;
-import org.dromara.common.core.validate.EditGroup;
+import org.dromara.boot.validate.AddGroup;
+import org.dromara.boot.validate.EditGroup;
 import org.dromara.system.domain.SysTenantPackage;
 import io.github.linpeilie.annotations.AutoMapper;
 import io.github.linpeilie.annotations.AutoMapping;

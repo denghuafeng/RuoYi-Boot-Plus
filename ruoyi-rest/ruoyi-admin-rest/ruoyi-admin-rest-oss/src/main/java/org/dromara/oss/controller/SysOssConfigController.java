@@ -2,9 +2,9 @@ package org.dromara.oss.controller;
 
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import org.dromara.boot.domain.R;
-import org.dromara.common.core.validate.AddGroup;
-import org.dromara.common.core.validate.EditGroup;
-import org.dromara.common.core.validate.QueryGroup;
+import org.dromara.boot.validate.AddGroup;
+import org.dromara.boot.validate.EditGroup;
+import org.dromara.boot.validate.QueryGroup;
 import org.dromara.boot.web.core.BaseController;
 import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.boot.log.annotation.Log;

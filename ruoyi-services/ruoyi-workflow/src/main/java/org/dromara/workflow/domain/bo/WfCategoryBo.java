@@ -5,8 +5,8 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import org.dromara.common.core.validate.AddGroup;
-import org.dromara.common.core.validate.EditGroup;
+import org.dromara.boot.validate.AddGroup;
+import org.dromara.boot.validate.EditGroup;
 import org.dromara.boot.mybatis.core.domain.BaseEntity;
 import org.dromara.workflow.domain.WfCategory;
 

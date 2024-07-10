@@ -2,8 +2,8 @@ package org.dromara.workflow.domain.bo;
 
 import org.dromara.workflow.domain.WfNodeConfig;
 import org.dromara.boot.mybatis.core.domain.BaseEntity;
-import org.dromara.common.core.validate.AddGroup;
-import org.dromara.common.core.validate.EditGroup;
+import org.dromara.boot.validate.AddGroup;
+import org.dromara.boot.validate.EditGroup;
 import io.github.linpeilie.annotations.AutoMapper;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
