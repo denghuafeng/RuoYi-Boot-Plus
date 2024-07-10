@@ -1,6 +1,6 @@
 package org.dromara.demo.controller;
 
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.boot.websocket.dto.WebSocketMessageDto;
 import org.dromara.boot.websocket.utils.WebSocketUtils;
 import lombok.RequiredArgsConstructor;

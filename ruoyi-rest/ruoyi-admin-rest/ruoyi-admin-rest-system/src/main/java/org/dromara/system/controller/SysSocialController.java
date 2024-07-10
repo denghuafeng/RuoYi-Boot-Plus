@@ -1,7 +1,7 @@
 package org.dromara.system.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.web.core.BaseController;
 import org.dromara.system.domain.vo.SysSocialVo;

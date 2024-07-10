@@ -15,7 +15,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.constant.CacheNames;
 import org.dromara.boot.constant.UserConstants;
-import org.dromara.common.core.domain.dto.UserDTO;
+import org.dromara.boot.domain.dto.UserDTO;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.service.UserService;
 import org.dromara.common.core.utils.MapstructUtils;

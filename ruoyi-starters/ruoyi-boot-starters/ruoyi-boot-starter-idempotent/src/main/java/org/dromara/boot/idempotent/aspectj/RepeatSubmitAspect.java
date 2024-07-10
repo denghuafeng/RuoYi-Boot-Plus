@@ -12,7 +12,7 @@ import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.dromara.boot.constant.GlobalConstants;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.utils.MessageUtils;
 import org.dromara.common.core.utils.ServletUtils;

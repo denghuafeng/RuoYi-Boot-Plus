@@ -15,7 +15,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.dromara.boot.log.enums.BusinessStatus;
 import org.dromara.boot.log.event.OperLogEvent;
-import org.dromara.common.core.domain.model.LoginUser;
+import org.dromara.boot.domain.model.LoginUser;
 import org.dromara.common.core.utils.ServletUtils;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;

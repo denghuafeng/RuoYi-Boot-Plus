@@ -1,7 +1,7 @@
 package org.dromara.demo.controller;
 
 import cn.dev33.satoken.annotation.SaCheckPermission;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.common.core.validate.AddGroup;
 import org.dromara.common.core.validate.EditGroup;
 import org.dromara.common.core.validate.QueryGroup;

@@ -1,6 +1,6 @@
-package org.dromara.common.core.domain.model;
+package org.dromara.boot.domain.model;
 
-import org.dromara.common.core.domain.dto.RoleDTO;
+import org.dromara.boot.domain.dto.RoleDTO;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

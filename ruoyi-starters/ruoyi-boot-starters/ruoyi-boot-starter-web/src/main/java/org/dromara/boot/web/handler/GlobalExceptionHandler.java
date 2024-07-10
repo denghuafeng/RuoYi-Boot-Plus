@@ -6,7 +6,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
 import lombok.extern.slf4j.Slf4j;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.exception.base.BaseException;
 import org.dromara.common.core.utils.StreamUtils;

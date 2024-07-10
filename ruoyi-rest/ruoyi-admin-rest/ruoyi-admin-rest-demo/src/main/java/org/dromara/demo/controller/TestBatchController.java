@@ -1,7 +1,7 @@
 package org.dromara.demo.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.boot.web.core.BaseController;
 import org.dromara.demo.domain.TestDemo;
 import org.dromara.demo.mapper.TestDemoMapper;

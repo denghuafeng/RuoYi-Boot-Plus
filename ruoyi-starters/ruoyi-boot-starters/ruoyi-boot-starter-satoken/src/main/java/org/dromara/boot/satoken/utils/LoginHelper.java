@@ -10,7 +10,7 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import org.dromara.boot.constant.TenantConstants;
 import org.dromara.boot.constant.UserConstants;
-import org.dromara.common.core.domain.model.LoginUser;
+import org.dromara.boot.domain.model.LoginUser;
 import org.dromara.common.core.enums.UserType;
 
 import java.util.Set;

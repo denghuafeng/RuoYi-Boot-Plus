@@ -1,7 +1,7 @@
 package org.dromara.system.controller;
 
 import cn.dev33.satoken.annotation.SaCheckPermission;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.common.excel.utils.ExcelUtil;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;

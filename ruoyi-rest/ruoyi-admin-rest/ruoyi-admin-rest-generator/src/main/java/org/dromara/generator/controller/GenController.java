@@ -3,7 +3,7 @@ package org.dromara.generator.controller;
 import cn.dev33.satoken.annotation.SaCheckPermission;
 import cn.hutool.core.convert.Convert;
 import cn.hutool.core.io.IoUtil;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.boot.mybatis.helper.DataBaseHelper;
 import org.dromara.boot.web.core.BaseController;
 import org.dromara.boot.mybatis.core.page.PageQuery;

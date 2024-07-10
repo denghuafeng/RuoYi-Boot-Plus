@@ -5,7 +5,7 @@ import cn.hutool.core.util.ObjectUtil;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.web.core.BaseController;
 import org.dromara.boot.mybatis.core.page.PageQuery;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.log.enums.BusinessType;
 import org.dromara.common.excel.utils.ExcelUtil;

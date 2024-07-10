@@ -1,4 +1,4 @@
-package org.dromara.common.core.domain.model;
+package org.dromara.boot.domain.model;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

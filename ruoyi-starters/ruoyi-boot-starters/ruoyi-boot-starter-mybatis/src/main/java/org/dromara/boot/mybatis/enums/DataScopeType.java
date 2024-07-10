@@ -3,7 +3,7 @@ package org.dromara.boot.mybatis.enums;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.dromara.boot.mybatis.helper.DataPermissionHelper;
-import org.dromara.common.core.domain.model.LoginUser;
+import org.dromara.boot.domain.model.LoginUser;
 import org.dromara.common.core.utils.StringUtils;
 
 /**

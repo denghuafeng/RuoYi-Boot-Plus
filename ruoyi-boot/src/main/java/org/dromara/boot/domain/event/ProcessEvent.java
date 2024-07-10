@@ -1,4 +1,4 @@
-package org.dromara.common.core.domain.event;
+package org.dromara.boot.domain.event;
 
 import lombok.Data;
 

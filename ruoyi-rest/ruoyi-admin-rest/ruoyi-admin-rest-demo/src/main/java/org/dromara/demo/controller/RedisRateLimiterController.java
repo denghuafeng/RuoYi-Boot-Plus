@@ -1,6 +1,6 @@
 package org.dromara.demo.controller;
 
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.boot.ratelimiter.annotation.RateLimiter;
 import org.dromara.boot.ratelimiter.enums.LimitType;
 import lombok.extern.slf4j.Slf4j;

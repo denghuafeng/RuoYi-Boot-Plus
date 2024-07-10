@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import lombok.RequiredArgsConstructor;
 import org.dromara.boot.constant.Constants;
 import org.dromara.boot.constant.GlobalConstants;
-import org.dromara.common.core.domain.model.RegisterBody;
+import org.dromara.boot.domain.model.RegisterBody;
 import org.dromara.common.core.enums.UserType;
 import org.dromara.common.core.exception.user.CaptchaException;
 import org.dromara.common.core.exception.user.CaptchaExpireException;

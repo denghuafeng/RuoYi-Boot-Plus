@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;

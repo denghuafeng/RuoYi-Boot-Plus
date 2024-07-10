@@ -4,7 +4,7 @@ import cn.dev33.satoken.annotation.SaCheckPermission;
 import cn.hutool.core.convert.Convert;
 import lombok.RequiredArgsConstructor;
 import org.dromara.boot.constant.UserConstants;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;

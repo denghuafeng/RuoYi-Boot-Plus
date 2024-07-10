@@ -1,6 +1,6 @@
 package org.dromara.demo.controller;
 
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.demo.domain.TestDemoEncrypt;
 import org.dromara.demo.mapper.TestDemoEncryptMapper;
 import org.springframework.beans.factory.annotation.Autowired;

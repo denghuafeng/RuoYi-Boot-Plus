@@ -1,4 +1,4 @@
-package org.dromara.common.core.domain.model;
+package org.dromara.boot.domain.model;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
@@ -8,13 +8,13 @@ import org.hibernate.validator.constraints.Length;
 import static org.dromara.boot.constant.UserConstants.*;
 
 /**
- * 密码登录对象
+ * 用户注册对象
  *
  * @author Lion Li
  */
 @Data
 @EqualsAndHashCode(callSuper = true)
-public class PasswordLoginBody extends LoginBody {
+public class RegisterBody extends LoginBody {
 
     /**
      * 用户名
@@ -29,5 +29,7 @@ public class PasswordLoginBody extends LoginBody {
     @NotBlank(message = "{user.password.not.blank}")
     @Length(min = PASSWORD_MIN_LENGTH, max = PASSWORD_MAX_LENGTH, message = "{user.password.length.valid}")
     private String password;
+
+    private String userType;
 
 }

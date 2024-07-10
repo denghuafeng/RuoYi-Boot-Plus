@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.dromara.captcha.domain.vo.CaptchaVo;
 import org.dromara.boot.constant.Constants;
 import org.dromara.boot.constant.GlobalConstants;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.common.core.utils.SpringUtils;
 import org.dromara.common.core.utils.StringUtils;
 import org.dromara.common.core.utils.reflect.ReflectUtils;

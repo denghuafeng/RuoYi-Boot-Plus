@@ -1,7 +1,7 @@
 package org.dromara.demo.controller.queue;
 
 import cn.hutool.core.util.RandomUtil;
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.boot.redis.utils.QueueUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

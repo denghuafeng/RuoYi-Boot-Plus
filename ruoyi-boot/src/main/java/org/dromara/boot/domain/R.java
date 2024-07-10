@@ -1,4 +1,4 @@
-package org.dromara.common.core.domain;
+package org.dromara.boot.domain;
 
 import org.dromara.boot.constant.HttpStatus;
 import lombok.Data;

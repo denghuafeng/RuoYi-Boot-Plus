@@ -1,6 +1,6 @@
 package org.dromara.boot.web.core;
 
-import org.dromara.common.core.domain.R;
+import org.dromara.boot.domain.R;
 import org.dromara.common.core.utils.StringUtils;
 
 /**

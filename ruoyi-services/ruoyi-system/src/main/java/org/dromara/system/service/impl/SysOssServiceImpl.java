@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.dromara.boot.constant.CacheNames;
-import org.dromara.common.core.domain.dto.OssDTO;
+import org.dromara.boot.domain.dto.OssDTO;
 import org.dromara.common.core.exception.ServiceException;
 import org.dromara.common.core.service.OssService;
 import org.dromara.common.core.utils.MapstructUtils;

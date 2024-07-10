@@ -6,7 +6,7 @@ import org.dromara.boot.websocket.constant.WebSocketConstants;
 import org.dromara.boot.websocket.dto.WebSocketMessageDto;
 import org.dromara.boot.websocket.holder.WebSocketSessionHolder;
 import org.dromara.boot.websocket.utils.WebSocketUtils;
-import org.dromara.common.core.domain.model.LoginUser;
+import org.dromara.boot.domain.model.LoginUser;
 import org.springframework.web.socket.*;
 import org.springframework.web.socket.handler.AbstractWebSocketHandler;
 

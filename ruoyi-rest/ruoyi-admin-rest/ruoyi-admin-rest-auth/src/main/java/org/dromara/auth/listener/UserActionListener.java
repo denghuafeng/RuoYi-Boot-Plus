@@ -9,7 +9,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.constant.CacheConstants;
 import org.dromara.boot.constant.Constants;
-import org.dromara.common.core.domain.dto.UserOnlineDTO;
+import org.dromara.boot.domain.dto.UserOnlineDTO;
 import org.dromara.common.core.utils.MessageUtils;
 import org.dromara.common.core.utils.ServletUtils;
 import org.dromara.common.core.utils.SpringUtils;
