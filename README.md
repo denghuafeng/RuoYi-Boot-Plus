@@ -14,7 +14,7 @@
 [![JDK-17](https://img.shields.io/badge/JDK-17-green.svg)]()
 [![JDK-21](https://img.shields.io/badge/JDK-21-green.svg)]()
 
-## RuoYi-Boot-Plus（RuoYi-Vue-Plus 重构）：重构典范，打造精炼技术基座的深度解析
+## RuoYi-Boot-Plus：重构典范，打造精炼技术基座的深度解析
 > RuoYi-Vue-Plus原项目地址: [传送门](https://gitee.com/dromara/RuoYi-Vue-Plus)
 > RuoYi-Vue-Plus原项目文档地址: [plus-doc](https://plus-doc.dromara.org)
 > 
@@ -52,6 +52,7 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
 ruoyi-boot-plus [ruoyi-boot-parent]
 ├─ruoyi-admin  -- admin启动
 ├─ruoyi-boot  -- 核心模块
+├─ruoyi-data-services  -- 数据服务模块
 ├─ruoyi-dependencies -- 父级依赖
 │  ├─ruoyi-boot-dependencies  -- starters及集成其他模块依赖
 │  │  └─ruoyi-boot-starter-parent  -- 继承ruoyi-boot-dependencies及RuoYi-Vue-Plus环境插件邓基础配置
