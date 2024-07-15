@@ -1,4 +1,4 @@
-# RuoYi-Boot-Plus（RuoYi-Vue-Plus 重构）：重构典范，打造精炼技术基座的深度解析
+# RuoYi-Boot-Plus（RuoYi-Vue-Plus 重构版）
 <div style="height: 10px; clear: both;"></div>
 
 - - -
@@ -14,7 +14,7 @@
 [![JDK-17](https://img.shields.io/badge/JDK-17-green.svg)]()
 [![JDK-21](https://img.shields.io/badge/JDK-21-green.svg)]()
 
-## 原项目
+## RuoYi-Boot-Plus（RuoYi-Vue-Plus 重构）：重构典范，打造精炼技术基座的深度解析
 > RuoYi-Vue-Plus原项目地址: [传送门](https://gitee.com/dromara/RuoYi-Vue-Plus)
 > RuoYi-Vue-Plus原项目文档地址: [plus-doc](https://plus-doc.dromara.org)
 > 
