@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>org.dromara</groupId>
+        <groupId>org.dromara.boot</groupId>
         <artifactId>ruoyi-boot-parent</artifactId>
         <version>${revision}</version>
     </parent>
@@ -18,30 +18,30 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-launch</artifactId>
         </dependency>
 
         <!-- 代码生成-->
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-generator</artifactId>
         </dependency>
 
         <!--  demo模块  -->
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-demo</artifactId>
         </dependency>
 
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-admin-rest-demo</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-admin-rest-generator</artifactId>
         </dependency>
 

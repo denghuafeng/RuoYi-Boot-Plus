@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.dromara</groupId>
+        <groupId>org.dromara.boot</groupId>
         <artifactId>ruoyi-dependencies</artifactId>
         <version>${revision}</version>
     </parent>
@@ -14,32 +14,32 @@
         <dependencies>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-system</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-job</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-generator</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-demo</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <!--  工作流模块  -->
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-workflow</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>

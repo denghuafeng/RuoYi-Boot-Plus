@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.dromara</groupId>
+        <groupId>org.dromara.boot</groupId>
         <artifactId>ruoyi-tools</artifactId>
         <version>${revision}</version>
     </parent>
@@ -35,58 +35,58 @@
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-social</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-ratelimiter</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-mail</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-system</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-job</artifactId>
         </dependency>
 
         <!--  工作流模块  -->
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-workflow</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-admin-rest-auth</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-admin-rest-monitor</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-admin-rest-oss</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-admin-rest-system</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-admin-rest-workflow</artifactId>
         </dependency>
 

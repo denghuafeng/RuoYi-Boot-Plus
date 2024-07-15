@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.dromara</groupId>
+        <groupId>org.dromara.boot</groupId>
         <artifactId>ruoyi-dependencies</artifactId>
         <version>${revision}</version>
     </parent>
@@ -14,43 +14,43 @@
         <dependencies>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-admin-rest-auth</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-admin-rest-demo</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-admin-rest-generator</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-admin-rest-monitor</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-admin-rest-oss</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-admin-rest-system</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.dromara</groupId>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-admin-rest-workflow</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>

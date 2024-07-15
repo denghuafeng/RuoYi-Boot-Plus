@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.dromara</groupId>
+        <groupId>org.dromara.boot</groupId>
         <artifactId>ruoyi-public-rest</artifactId>
         <version>${revision}</version>
     </parent>
@@ -15,35 +15,35 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-doc</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-ratelimiter</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-mail</artifactId>
         </dependency>
 
         <!-- 短信模块 -->
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-sms</artifactId>
         </dependency>
 
         <!-- web服务 -->
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-web</artifactId>
         </dependency>
 
         <!-- satoken -->
         <dependency>
-            <groupId>org.dromara</groupId>
+            <groupId>org.dromara.boot</groupId>
             <artifactId>ruoyi-boot-starter-satoken</artifactId>
         </dependency>
 
