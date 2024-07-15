@@ -31,7 +31,6 @@
         <lock4j.version>2.2.7</lock4j.version>
         <dynamic-ds.version>4.3.1</dynamic-ds.version>
         <alibaba-ttl.version>2.14.4</alibaba-ttl.version>
-        <snailjob.version>1.0.1</snailjob.version>
         <bouncycastle.version>1.76</bouncycastle.version>
         <justauth.version>1.16.6</justauth.version>
         <!-- 离线IP地址定位库 -->
@@ -43,8 +42,7 @@
         <sms4j.version>3.2.1</sms4j.version>
         <!-- 限制框架中的fastjson版本 -->
         <fastjson.version>1.2.83</fastjson.version>
-        <!--工作流配置-->
-        <flowable.version>7.0.0</flowable.version>
+
         <commons-compress.version>1.26.2</commons-compress.version>
         <xnio-api.version>3.8.16.Final</xnio-api.version>
     </properties>
@@ -71,13 +69,7 @@
                 <scope>import</scope>
             </dependency>
 
-            <dependency>
-                <groupId>org.flowable</groupId>
-                <artifactId>flowable-bom</artifactId>
-                <version>${flowable.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+
 
             <!-- JustAuth 的依赖配置-->
             <dependency>
@@ -244,22 +236,6 @@
                 <version>${lock4j.version}</version>
             </dependency>
 
-            <!-- SnailJob Client -->
-            <dependency>
-                <groupId>com.aizuda</groupId>
-                <artifactId>snail-job-client-starter</artifactId>
-                <version>${snailjob.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.aizuda</groupId>
-                <artifactId>snail-job-client-job-core</artifactId>
-                <version>${snailjob.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.aizuda</groupId>
-                <artifactId>snail-job-server-starter</artifactId>
-                <version>${snailjob.version}</version>
-            </dependency>
 
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -304,6 +280,9 @@
                 <artifactId>xnio-api</artifactId>
                 <version>${xnio-api.version}</version>
             </dependency>
+
+
+
         </dependencies>
     </dependencyManagement>
 

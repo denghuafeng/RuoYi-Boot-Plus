@@ -17,6 +17,7 @@
         <module>ruoyi-services-dependencies</module>
         <module>ruoyi-rest-dependencies</module>
         <module>ruoyi-tools-dependencies</module>
+        <module>ruoyi-extensions-dependencies</module>
     </modules>
     <build>
         <plugins>

@@ -199,6 +199,14 @@
 
             <dependency>
                 <groupId>org.dromara</groupId>
+                <artifactId>ruoyi-extensions-dependencies</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara</groupId>
                 <artifactId>ruoyi-services-dependencies</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
                 <type>pom</type>
@@ -212,6 +220,8 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
