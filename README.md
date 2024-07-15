@@ -45,3 +45,67 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
 重构后的 RuoYi-Vue-Plus 采用了类似于 Spring Boot 的使用方式，开发者只需在项目中引入相应的依赖，即可快速启动开发工作。这种设计降低了学习和使用的门槛，使得项目能够更好地适应未来业务和技术的变化。
 
 通过重构，RuoYi-Vue-Plus 不仅在技术架构上变得更加成熟和稳健，还为开发者提供了更高效、便捷的开发体验。技术基座与业务代码的彻底分离，为项目的长期发展奠定了坚实的基础，同时也为追求高质量软件工程实践的团队提供了有力的支持。这标志着 RuoYi-Vue-Plus 正朝着更专业化、更现代化的方向迈进，为开发者和企业带来了更大的价值。
+
+#### 目录结构
+
+```
+ruoyi-boot-plus [ruoyi-boot-parent]
+├─ruoyi-admin  -- admin启动
+├─ruoyi-boot  -- 核心模块
+├─ruoyi-dependencies -- 父级依赖
+│  ├─ruoyi-boot-dependencies  -- starters及集成其他模块依赖
+│  │  └─ruoyi-boot-starter-parent  -- 继承ruoyi-boot-dependencies及RuoYi-Vue-Plus环境插件邓基础配置
+│  ├─ruoyi-build-dependencies  -- 基础构建依赖
+│  ├─ruoyi-services-dependencies  -- 服务模块依赖
+│  ├─ruoyi-rest-dependencies  -- 接口模块
+│  ├─ruoyi-tools-dependencies  -- 工具模块依赖
+│  └─ruoyi-extensions-dependencies  -- 扩展模块依赖
+├─ruoyi-extensions -- 扩展模块
+│  ├─ruoyi-monitor-admin  -- 监控
+│  └─ruoyi-snailjob-server  -- snailjob
+├─ruoyi-rest -- 控制层/接口模块
+│  ├─ruoyi-admin-rest  -- 后台管理接口
+│  │  ├─ruoyi-admin-rest-auth  --授权接口
+│  │  ├─ruoyi-admin-rest-demo  --demo接口
+│  │  ├─ruoyi-admin-rest-generator  --代码生成器接口
+│  │  ├─ruoyi-admin-rest-monitor  --监控接口
+│  │  ├─ruoyi-admin-rest-oss  --oss接口模块
+│  │  ├─ruoyi-admin-rest-system  --系统接口
+│  │  └─ruoyi-admin-rest-workflow  --工作流接口
+│  └─ruoyi-public-rest  -- 公共接口模块
+│     └─ruoyi-public-rest-captcha  --验证码接口
+├─ruoyi-services -- 服务模块
+│  ├─ruoyi-demo  -- demo
+│  ├─ruoyi-generator  -- 代码生成器
+│  ├─ruoyi-job  -- 任务调度器
+│  ├─ruoyi-system  -- 系统
+│  └─ruoyi-workflow  -- 工作流
+├─ruoyi-starters -- 控制层/接口模块
+│  ├─ruoyi-boot-starters  -- boot-starters                  
+│  │  ├─ruoyi-boot-starter  --核心模块依赖及自动化配置
+│  │  ├─ruoyi-boot-starter-doc  --demo接口
+│  │  ├─ruoyi-boot-starter-encrypt  --encrypt
+│  │  ├─ruoyi-boot-starter-excel  --excel
+│  │  ├─ruoyi-boot-starter-idempotent  --idempotent
+│  │  ├─ruoyi-boot-starter-job  --job
+│  │  ├─ruoyi-boot-starter-json  --json
+│  │  ├─ruoyi-boot-starter-log  --log
+│  │  ├─ruoyi-boot-starter-mail  --mail
+│  │  ├─ruoyi-boot-starter-mybatis  --mybatis
+│  │  ├─ruoyi-boot-starter-oss  --oss
+│  │  ├─ruoyi-boot-starter-ratelimiter  --ratelimiter
+│  │  ├─ruoyi-boot-starter-redis  --redis
+│  │  ├─ruoyi-boot-starter-satoken  --satoken
+│  │  ├─ruoyi-boot-starter-security  --security
+│  │  ├─ruoyi-boot-starter-sensitive  --sensitive
+│  │  ├─ruoyi-boot-starter-sms  --sms
+│  │  ├─ruoyi-boot-starter-social  --social
+│  │  ├─ruoyi-boot-starter-tenant  --tenant
+│  │  ├─ruoyi-boot-starter-translation  --translation
+│  │  ├─ruoyi-boot-starter-web  --web
+│  │  └─ruoyi-boot-starter-websocket  --websocket
+│  └─ruoyi-cloud-starters  -- cloud starter模
+├─ruoyi-tools -- 工具模块
+│  ├─ruoyi-boot-launch  -- 基础服务和基础starter模块依赖                                                                                                                                                                                                                                                                                                                                                                                                                                                                      启动
+│  └─ruoyi-boot-loader  -- 基础starter依赖模块
+```
