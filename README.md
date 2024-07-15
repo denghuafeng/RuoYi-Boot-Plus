@@ -14,8 +14,8 @@
 [![JDK-17](https://img.shields.io/badge/JDK-17-green.svg)]()
 [![JDK-21](https://img.shields.io/badge/JDK-21-green.svg)]()
 
-## RuoYi-Boot-Plus：重构典范，企业级开发的卓越基石
-> 在追求软件工程极致的征途中，对RuoYi-Vue-Plus的精髓进行了深度淬炼，将其重塑为RuoYi-Boot-Plus —— 一个专为企业级应用量身定制的开发基石。借力于“第一性原理”的智慧启迪，回归技术的本质，精心规划项目结构与依赖，使其犹如Spring Boot源码项目般规范、高效，实现了技术基座与业务代码的彻底分离，确保了技术底座的平滑升级，业务逻辑却能一如既往地稳健运行。
+## RuoYi-Boot-Plus：重构典范，企业级开发的一站式微服务/单体架构解决方案
+> 在追求卓越软件工程实践的道路上，对 RuoYi-Vue-Plus 进行了深度重构，提炼其核心价值，重塑为 RuoYi-Boot-Plus —— 一个专为现代企业级应用量身打造的技术基座。RuoYi-Boot-Plus 采纳了 Spring Boot 的设计哲学，通过对项目结构和依赖管理的精心规划，实现了技术栈与业务代码的彻底分离，确保了技术升级的平滑进行，业务逻辑不受干扰。
 
 ### 项目重塑：RuoYi-Boot-Plus，技术与业务的优雅分离
 
@@ -39,8 +39,8 @@
 
 #### 持续同步与优化：始终引领技术潮流
 
-> 承诺，RuoYi-Boot-Plus 将定期同步其源码，力求始终保持为最新的稳定版本，确保开发者能够享受到最前沿的技术成果和最佳的开发体验。无论是追求高效开发的团队，还是注重技术创新的个人开发者，RuoYi-Boot-Plus 都将成为您构建卓越应用的坚实后盾，助您在企业级开发的征途上，稳步前行，迈向成功。
+> 承诺，RuoYi-Boot-Plus 将定期同步RuoYi-Vue-Plus源码，力求始终保持为最新的稳定版本，确保开发者能够享受到最前沿的技术成果和最佳的开发体验。无论是追求高效开发的团队，还是注重技术创新的个人开发者，RuoYi-Boot-Plus 都将成为您构建卓越应用的坚实后盾，助您在企业级开发的征途上，稳步前行，迈向成功。
 
-> 原项目地址: [传送门](https://gitee.com/dromara/RuoYi-Vue-Plus)
+> RuoYi-Vue-Plus原项目地址: [传送门](https://gitee.com/dromara/RuoYi-Vue-Plus)
 
-> 原项目文档地址: [plus-doc](https://plus-doc.dromara.org)
+> RuoYi-Vue-Plus原项目文档地址: [plus-doc](https://plus-doc.dromara.org)
