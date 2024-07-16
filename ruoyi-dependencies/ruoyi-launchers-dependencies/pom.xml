@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.dromara.boot</groupId>
+        <artifactId>ruoyi-dependencies</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>ruoyi-launchers-dependencies</artifactId>
+    <packaging>pom</packaging>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- launch -->
+            <dependency>
+                <groupId>org.dromara.boot</groupId>
+                <artifactId>ruoyi-boot-launcher-admin</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara.boot</groupId>
+                <artifactId>ruoyi-boot-launcher-front</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>

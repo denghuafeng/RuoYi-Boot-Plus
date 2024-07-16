@@ -227,6 +227,13 @@
                 <scope>import</scope>
             </dependency>
 
+            <dependency>
+                <groupId>org.dromara.boot</groupId>
+                <artifactId>ruoyi-launchers-dependencies</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
