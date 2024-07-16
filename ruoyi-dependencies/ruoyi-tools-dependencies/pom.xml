@@ -12,12 +12,7 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- launch -->
-            <dependency>
-                <groupId>org.dromara.boot</groupId>
-                <artifactId>ruoyi-boot-launch</artifactId>
-                <version>${ruoyi-boot-plus.version}</version>
-            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
