@@ -80,16 +80,16 @@
 
 
     <modules>
+        <module>ruoyi-applications</module>
         <module>ruoyi-boot</module>
-        <module>ruoyi-admin</module>
-        <module>ruoyi-services</module>
-        <module>ruoyi-rest</module>
-        <module>ruoyi-extensions</module>
-        <module>ruoyi-dependencies</module>
-        <module>ruoyi-starters</module>
         <module>ruoyi-data-services</module>
-        <module>ruoyi-tools</module>
+        <module>ruoyi-dependencies</module>
+        <module>ruoyi-extensions</module>
         <module>ruoyi-launchers</module>
+        <module>ruoyi-rest</module>
+        <module>ruoyi-services</module>
+        <module>ruoyi-starters</module>
+        <module>ruoyi-tools</module>
     </modules>
     <packaging>pom</packaging>
 
