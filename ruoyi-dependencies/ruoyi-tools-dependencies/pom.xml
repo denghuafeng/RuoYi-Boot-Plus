@@ -12,14 +12,6 @@
 
     <dependencyManagement>
         <dependencies>
-
-            <!-- loader -->
-            <dependency>
-                <groupId>org.dromara.boot</groupId>
-                <artifactId>ruoyi-boot-loader</artifactId>
-                <version>${ruoyi-boot-plus.version}</version>
-            </dependency>
-
             <!-- launch -->
             <dependency>
                 <groupId>org.dromara.boot</groupId>

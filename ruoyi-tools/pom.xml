@@ -10,7 +10,7 @@
     <artifactId>ruoyi-tools</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>ruoyi-boot-loader</module>
+      <!--  <module>ruoyi-boot-loader</module>-->
         <module>ruoyi-boot-launch</module>
     </modules>
 

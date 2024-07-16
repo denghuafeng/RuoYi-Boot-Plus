@@ -191,6 +191,12 @@
 
             <dependency>
                 <groupId>org.dromara.boot</groupId>
+                <artifactId>ruoyi-boot-starter-coverage</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-tools-dependencies</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
                 <type>pom</type>

@@ -19,7 +19,7 @@
 
         <dependency>
             <groupId>org.dromara.boot</groupId>
-            <artifactId>ruoyi-boot-loader</artifactId>
+            <artifactId>ruoyi-boot-starter-coverage</artifactId>
         </dependency>
 
     </dependencies>
