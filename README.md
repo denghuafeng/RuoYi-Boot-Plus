@@ -122,6 +122,7 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 ├─ruoyi-starters -- 控制层/接口模块
 │  ├─ruoyi-boot-starters  -- boot-starters                  
 │  │  ├─ruoyi-boot-starter  --核心模块依赖及自动化配置
+│  │  ├─ruoyi-boot-starter-coverage  -基础starter依赖引用
 │  │  ├─ruoyi-boot-starter-doc  --demo接口
 │  │  ├─ruoyi-boot-starter-encrypt  --encrypt
 │  │  ├─ruoyi-boot-starter-excel  --excel
