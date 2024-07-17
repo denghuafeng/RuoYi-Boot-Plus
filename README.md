@@ -128,7 +128,7 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 │  ├─ruoyi-boot-launchers  -- 单体启动器
 │  │  ├─ruoyi-boot-launcher-admin  --后台管理单体启动器-
 │  │  └─ruoyi-boot-launcher-front  --前台单体启动
-│  └─ruoyi-cloud-launchers  -- 公共接口模块
+│  └─ruoyi-cloud-launchers  -- 微服务启动器
 ├─ruoyi-rest -- 控制层/接口模块
 │  ├─ruoyi-admin-rest  -- 后台管理接口
 │  │  ├─ruoyi-admin-rest-auth  --授权接口
@@ -171,7 +171,7 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 │  │  ├─ruoyi-boot-starter-translation  --translation
 │  │  ├─ruoyi-boot-starter-web  --web
 │  │  └─ruoyi-boot-starter-websocket  --websocket
-│  └─ruoyi-cloud-starters  -- cloud starter模
+│  └─ruoyi-cloud-starters  -- 微服务starter模块
 ├─ruoyi-tools -- 工具模块
 
 ```
