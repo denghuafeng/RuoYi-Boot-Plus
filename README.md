@@ -73,6 +73,35 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
 使用任意坐标时，仅书写GAV中的G和A，V由RuoYi-Boot-Vue和SpringBoot提供
 如发生坐标错误，再指定version（要小心版本冲突）
 
+3.业务模块创建引用基础starter依赖，参考ruoyi-demo和ruoyi-system
+```
+    <dependencies>
+        <!-- 基础starter依赖-->
+        <dependency>
+            <groupId>org.dromara.boot</groupId>
+            <artifactId>ruoyi-boot-starter-coverage</artifactId>
+        </dependency>
+    </dependencies>
+
+```
+
+4.后台管理启动模块依赖,参考ruoyi-admin,然后根据需求，看是否要引用生成代码模块等等。
+```
+        <dependency>
+            <groupId>org.dromara.boot</groupId>
+            <artifactId>ruoyi-boot-launcher-admin</artifactId>
+        </dependency>
+
+```
+
+5.前台管理启动模块依赖,参考ruoyi-front，类似商城前台项目
+```
+        <dependency>
+            <groupId>org.dromara.boot</groupId>
+            <artifactId>ruoyi-boot-launcher-front</artifactId>
+        </dependency>
+
+```
 
 #### 结语
 通过重构，RuoYi-Vue-Plus 不仅在技术架构上变得更加成熟和稳健，还为开发者提供了更高效、便捷的开发体验。技术基座与业务代码的彻底分离，为项目的长期发展奠定了坚实的基础，同时也为追求高质量软件工程实践的团队提供了有力的支持。这标志着 RuoYi-Vue-Plus 正朝着更专业化、更现代化的方向迈进，为开发者和企业带来了更大的价值。
