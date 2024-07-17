@@ -97,6 +97,11 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 ├─ruoyi-extensions -- 扩展模块
 │  ├─ruoyi-monitor-admin  -- 监控
 │  └─ruoyi-snailjob-server  -- snailjob
+├─ruoyi-launchers -- 启动器模块
+│  ├─ruoyi-boot-launchers  -- 单体启动器
+│  │  ├─ruoyi-boot-launcher-admin  --后台管理单体启动器-
+│  │  └─ruoyi-boot-launcher-front  --前台单体启动
+│  └─ruoyi-cloud-launchers  -- 公共接口模块
 ├─ruoyi-rest -- 控制层/接口模块
 │  ├─ruoyi-admin-rest  -- 后台管理接口
 │  │  ├─ruoyi-admin-rest-auth  --授权接口
