@@ -117,7 +117,7 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 ├─ruoyi-data-services  -- 数据服务模块
 ├─ruoyi-dependencies -- 父级依赖
 │  ├─ruoyi-boot-dependencies  -- starters及集成其他模块依赖
-│  │  └─ruoyi-boot-starter-parent  -- 继承ruoyi-boot-dependencies及RuoYi-Vue-Plus环境插件邓基础配置
+│  │  └─ruoyi-boot-starter-parent  -- 继承ruoyi-boot-dependencies及RuoYi-Vue-Plus环境插件等基础配置
 │  ├─ruoyi-build-dependencies  -- 基础构建依赖
 │  ├─ruoyi-services-dependencies  -- 服务模块依赖
 │  ├─ruoyi-rest-dependencies  -- 接口模块
