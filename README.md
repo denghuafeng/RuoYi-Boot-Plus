@@ -70,7 +70,7 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
 
 ```
 实际开发
-使用任意坐标时，仅书写GAV中的G和A，V由RuoYi-Boot-Vue和SpringBoot提供
+使用任意坐标时，仅书写GAV中的G和A，V(version)由RuoYi-Boot-Vue和SpringBoot提供
 如发生坐标错误，再指定version（要小心版本冲突）
 
 3.业务模块创建引用基础starter依赖，参考ruoyi-demo和ruoyi-system
