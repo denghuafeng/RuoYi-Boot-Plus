@@ -11,25 +11,26 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import me.zhyd.oauth.model.AuthResponse;
 import me.zhyd.oauth.model.AuthUser;
+import org.dromara.auth.domain.vo.LoginVo;
+import org.dromara.auth.service.IAuthStrategy;
+import org.dromara.auth.service.SysLoginService;
 import org.dromara.boot.domain.model.LoginUser;
 import org.dromara.boot.domain.model.SocialLoginBody;
 import org.dromara.boot.enums.UserStatus;
 import org.dromara.boot.exception.ServiceException;
 import org.dromara.boot.exception.user.UserException;
-import org.dromara.boot.utils.ValidatorUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.social.config.properties.SocialProperties;
 import org.dromara.boot.social.utils.SocialUtils;
 import org.dromara.boot.tenant.helper.TenantHelper;
+import org.dromara.boot.utils.StreamUtils;
+import org.dromara.boot.utils.ValidatorUtils;
 import org.dromara.system.domain.vo.SysClientVo;
 import org.dromara.system.domain.vo.SysSocialVo;
 import org.dromara.system.domain.vo.SysUserVo;
 import org.dromara.system.mapper.SysUserMapper;
 import org.dromara.system.service.ISysSocialService;
-import org.dromara.auth.domain.vo.LoginVo;
-import org.dromara.auth.service.IAuthStrategy;
-import org.dromara.auth.service.SysLoginService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -83,7 +84,7 @@ public class SocialAuthStrategy implements IAuthStrategy {
         }
         SysSocialVo social;
         if (TenantHelper.isEnable()) {
-            Optional<SysSocialVo> opt = list.stream().filter(x -> x.getTenantId().equals(loginBody.getTenantId())).findAny();
+            Optional<SysSocialVo> opt = StreamUtils.findAny(list, x -> x.getTenantId().equals(loginBody.getTenantId()));
             if (opt.isEmpty()) {
                 throw new ServiceException("对不起，你没有权限登录当前租户！");
             }

@@ -6,8 +6,9 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
+import org.dromara.boot.utils.StreamUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.workflow.domain.WfTaskBackNode;
 import org.dromara.workflow.domain.vo.MultiInstanceVo;
 import org.dromara.workflow.mapper.WfTaskBackNodeMapper;
@@ -56,7 +57,7 @@ public class WfTaskBackNodeServiceImpl implements IWfTaskBackNodeService {
             wfTaskBackNode.setOrderNo(0);
             wfTaskBackNodeMapper.insert(wfTaskBackNode);
         } else {
-            WfTaskBackNode taskNode = list.stream().filter(e -> e.getNodeId().equals(wfTaskBackNode.getNodeId()) && e.getOrderNo() == 0).findFirst().orElse(null);
+            WfTaskBackNode taskNode = StreamUtils.findFirst(list, e -> e.getNodeId().equals(wfTaskBackNode.getNodeId()) && e.getOrderNo() == 0);
             if (ObjectUtil.isEmpty(taskNode)) {
                 wfTaskBackNode.setOrderNo(list.get(0).getOrderNo() + 1);
                 WfTaskBackNode node = getListByInstanceIdAndNodeId(wfTaskBackNode.getInstanceId(), wfTaskBackNode.getNodeId());

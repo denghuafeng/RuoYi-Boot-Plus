@@ -3,16 +3,17 @@ package org.dromara.demo.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import org.dromara.boot.utils.MapstructUtils;
-import org.dromara.boot.utils.StringUtils;
+import lombok.RequiredArgsConstructor;
+import org.dromara.boot.exception.ServiceException;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
+import org.dromara.boot.utils.MapstructUtils;
+import org.dromara.boot.utils.StringUtils;
 import org.dromara.demo.domain.TestDemo;
 import org.dromara.demo.domain.bo.TestDemoBo;
 import org.dromara.demo.domain.vo.TestDemoVo;
 import org.dromara.demo.mapper.TestDemoMapper;
 import org.dromara.demo.service.ITestDemoService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -99,7 +100,11 @@ public class TestDemoServiceImpl implements ITestDemoService {
     @Override
     public Boolean deleteWithValidByIds(Collection<Long> ids, Boolean isValid) {
         if (isValid) {
-            //TODO 做一些业务上的校验,判断是否需要校验
+            // 做一些业务上的校验,判断是否需要校验
+            List<TestDemo> list = baseMapper.selectBatchIds(ids);
+            if (list.size() != ids.size()) {
+                throw new ServiceException("您没有删除权限!");
+            }
         }
         return baseMapper.deleteByIds(ids) > 0;
     }

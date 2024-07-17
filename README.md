@@ -9,7 +9,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://gitee.com/dromara/RuoYi-Vue-Plus/blob/master/LICENSE)
 [![使用IntelliJ IDEA开发维护](https://img.shields.io/badge/IntelliJ%20IDEA-提供支持-blue.svg)](https://www.jetbrains.com/?from=RuoYi-Vue-Plus)
 <br>
-[![RuoYi-Vue-Plus](https://img.shields.io/badge/RuoYi_Vue_Plus-5.2.0-success.svg)](https://gitee.com/dromara/RuoYi-Vue-Plus)
+[![RuoYi-Vue-Plus](https://img.shields.io/badge/RuoYi_Vue_Plus-5.2.1-success.svg)](https://gitee.com/dromara/RuoYi-Vue-Plus)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-blue.svg)]()
 [![JDK-17](https://img.shields.io/badge/JDK-17-green.svg)]()
 [![JDK-21](https://img.shields.io/badge/JDK-21-green.svg)]()
@@ -73,21 +73,6 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
 使用任意坐标时，仅书写GAV中的G和A，V由RuoYi-Boot-Vue和SpringBoot提供
 如发生坐标错误，再指定version（要小心版本冲突）
 
-SpringBoot程序启动
-```
-@SpringBootApplication
-public class SpringBootQuickStartApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(SpringBootQuickStartApplication.class, args);
-    }
-}
-
-```
-SpringBoot在创建项目时，采用jar的打包方式
-
-SpringBoot的引导类是项目的入口，运行main方法就可以启动项目
-
-使用maven依赖管理变更起步依赖项
 
 #### 结语
 通过重构，RuoYi-Vue-Plus 不仅在技术架构上变得更加成熟和稳健，还为开发者提供了更高效、便捷的开发体验。技术基座与业务代码的彻底分离，为项目的长期发展奠定了坚实的基础，同时也为追求高质量软件工程实践的团队提供了有力的支持。这标志着 RuoYi-Vue-Plus 正朝着更专业化、更现代化的方向迈进，为开发者和企业带来了更大的价值。
