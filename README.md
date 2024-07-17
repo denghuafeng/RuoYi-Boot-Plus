@@ -50,11 +50,9 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
    <artifactId>ruoyi-boot-starter-parent</artifactId>
    <version>5.2.1</version>
 </parent>
-
 ```
 2.实际中有时候不想以ruoyi-boot-vue作为父类，可以换另外一种方式添加ruoyi-boot-vue依赖，此方式定义了若干个rouyi-boot-vue所有模块坐标版本号（依赖管理，而非依赖），以达到减少依赖冲突的目的
 ```XML
-
 <dependencyManagement>
     <dependencies>
         <!-- RuoYi-Boot-Vue的依赖配置-->
@@ -67,7 +65,6 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
         </dependency>
     </dependencies>
 </dependencyManagement>
-
 ```
 实际开发
 使用任意坐标时，仅书写GAV中的G和A，V(version)由RuoYi-Boot-Vue和SpringBoot提供
@@ -82,7 +79,6 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
         <artifactId>ruoyi-boot-starter-coverage</artifactId>
     </dependency>
 </dependencies>
-
 ```
 
 4.后台管理启动模块依赖,参考ruoyi-admin,然后根据需求，看是否要引用生成代码模块等等。
