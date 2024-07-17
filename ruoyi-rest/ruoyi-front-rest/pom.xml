@@ -3,17 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.dromara.boot</groupId>
-        <artifactId>ruoyi-boot-parent</artifactId>
+        <artifactId>ruoyi-rest</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>ruoyi-rest</artifactId>
+    <artifactId>ruoyi-front-rest</artifactId>
     <packaging>pom</packaging>
-
-    <modules>
-        <module>ruoyi-admin-rest</module>
-        <module>ruoyi-public-rest</module>
-        <module>ruoyi-front-rest</module>
-    </modules>
 
 </project>
