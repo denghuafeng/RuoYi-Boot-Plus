@@ -81,7 +81,9 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
 
 ```
 ruoyi-boot-plus [ruoyi-boot-parent]
-├─ruoyi-admin  -- admin启动
+├─ruoyi-applications -- 应用模块
+│  ├─ruoyi-admin  -- 后台管理应用
+│  └─ruoyi-front  -- 前台应用
 ├─ruoyi-boot  -- 核心模块
 ├─ruoyi-data-services  -- 数据服务模块
 ├─ruoyi-dependencies -- 父级依赖
@@ -138,6 +140,5 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 │  │  └─ruoyi-boot-starter-websocket  --websocket
 │  └─ruoyi-cloud-starters  -- cloud starter模
 ├─ruoyi-tools -- 工具模块
-│  ├─ruoyi-boot-launch  -- 基础服务和基础starter模块依赖                                                                                                                                                                                                                                                                                                                                                                                                                                                                      启动
-│  └─ruoyi-boot-loader  -- 基础starter依赖模块
+
 ```
