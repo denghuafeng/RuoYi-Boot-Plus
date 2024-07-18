@@ -1,4 +1,4 @@
-package org.dromara.common.sensitive.core;
+package org.dromara.boot.sensitive.core;
 
 /**
  * 脱敏服务

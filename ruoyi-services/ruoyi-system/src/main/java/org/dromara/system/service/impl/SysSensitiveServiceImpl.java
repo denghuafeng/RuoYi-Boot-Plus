@@ -3,7 +3,7 @@ package org.dromara.system.service.impl;
 import cn.dev33.satoken.stp.StpUtil;
 import org.dromara.boot.utils.StringUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
-import org.dromara.common.sensitive.core.SensitiveService;
+import org.dromara.boot.sensitive.core.SensitiveService;
 import org.dromara.boot.tenant.helper.TenantHelper;
 import org.springframework.stereotype.Service;
 

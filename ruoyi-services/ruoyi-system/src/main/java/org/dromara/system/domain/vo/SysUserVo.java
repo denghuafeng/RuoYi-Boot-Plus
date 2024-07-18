@@ -2,8 +2,8 @@ package org.dromara.system.domain.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import org.dromara.common.sensitive.annotation.Sensitive;
-import org.dromara.common.sensitive.core.SensitiveStrategy;
+import org.dromara.boot.sensitive.annotation.Sensitive;
+import org.dromara.boot.sensitive.core.SensitiveStrategy;
 import org.dromara.boot.translation.annotation.Translation;
 import org.dromara.boot.translation.constant.TransConstant;
 import org.dromara.system.domain.SysUser;

@@ -1,9 +1,9 @@
-package org.dromara.common.sensitive.annotation;
+package org.dromara.boot.sensitive.annotation;
 
 import com.fasterxml.jackson.annotation.JacksonAnnotationsInside;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import org.dromara.common.sensitive.core.SensitiveStrategy;
-import org.dromara.common.sensitive.handler.SensitiveHandler;
+import org.dromara.boot.sensitive.core.SensitiveStrategy;
+import org.dromara.boot.sensitive.handler.SensitiveHandler;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

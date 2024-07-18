@@ -1,4 +1,4 @@
-package org.dromara.common.sensitive.core;
+package org.dromara.boot.sensitive.core;
 
 import cn.hutool.core.util.DesensitizedUtil;
 import lombok.AllArgsConstructor;
