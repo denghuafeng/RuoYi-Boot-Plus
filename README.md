@@ -44,17 +44,15 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
 模块化开发模式，后续将把所开发的模块都发布到了maven中央库，也可本地把源代码通过Maven install安装到本地，然后通过类似于 Spring Boot 的使用方式来进行项目搭建，搭建方式有两种。
 
 1.继承ruoyi-boot-starter-parent,定义了当前项目使用的所有模块坐标，以达到减少依赖配置的目的。
-```
+```XML
 <parent>
    <groupId>org.dromara.boot</groupId>
    <artifactId>ruoyi-boot-starter-parent</artifactId>
    <version>5.2.1</version>
 </parent>
-
 ```
 2.实际中有时候不想以ruoyi-boot-vue作为父类，可以换另外一种方式添加ruoyi-boot-vue依赖，此方式定义了若干个rouyi-boot-vue所有模块坐标版本号（依赖管理，而非依赖），以达到减少依赖冲突的目的
-```
-
+```XML
 <dependencyManagement>
     <dependencies>
         <!-- RuoYi-Boot-Vue的依赖配置-->
@@ -67,40 +65,36 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
         </dependency>
     </dependencies>
 </dependencyManagement>
-
 ```
 实际开发
-使用任意坐标时，仅书写GAV中的G和A，V由RuoYi-Boot-Vue和SpringBoot提供
+使用任意坐标时，仅书写GAV中的G和A，V(version)由RuoYi-Boot-Vue和SpringBoot提供
 如发生坐标错误，再指定version（要小心版本冲突）
 
 3.业务模块创建引用基础starter依赖，参考ruoyi-demo和ruoyi-system
-```
-    <dependencies>
-        <!-- 基础starter依赖-->
-        <dependency>
-            <groupId>org.dromara.boot</groupId>
-            <artifactId>ruoyi-boot-starter-coverage</artifactId>
-        </dependency>
-    </dependencies>
-
+```XML
+<dependencies>
+    <!-- 基础starter依赖-->
+    <dependency>
+        <groupId>org.dromara.boot</groupId>
+        <artifactId>ruoyi-boot-starter-coverage</artifactId>
+    </dependency>
+</dependencies>
 ```
 
 4.后台管理启动模块依赖,参考ruoyi-admin,然后根据需求，看是否要引用生成代码模块等等。
-```
-        <dependency>
-            <groupId>org.dromara.boot</groupId>
-            <artifactId>ruoyi-boot-launcher-admin</artifactId>
-        </dependency>
-
+```XML
+<dependency>
+    <groupId>org.dromara.boot</groupId>
+    <artifactId>ruoyi-boot-launcher-admin</artifactId>
+</dependency>
 ```
 
 5.前台管理启动模块依赖,参考ruoyi-front，类似商城前台项目
-```
-        <dependency>
-            <groupId>org.dromara.boot</groupId>
-            <artifactId>ruoyi-boot-launcher-front</artifactId>
-        </dependency>
-
+```XML
+<dependency>
+    <groupId>org.dromara.boot</groupId>
+    <artifactId>ruoyi-boot-launcher-front</artifactId>
+</dependency>
 ```
 
 #### 结语
@@ -130,7 +124,7 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 │  ├─ruoyi-boot-launchers  -- 单体启动器
 │  │  ├─ruoyi-boot-launcher-admin  --后台管理单体启动器-
 │  │  └─ruoyi-boot-launcher-front  --前台单体启动
-│  └─ruoyi-cloud-launchers  -- 公共接口模块
+│  └─ruoyi-cloud-launchers  -- 微服务启动器
 ├─ruoyi-rest -- 控制层/接口模块
 │  ├─ruoyi-admin-rest  -- 后台管理接口
 │  │  ├─ruoyi-admin-rest-auth  --授权接口
@@ -173,7 +167,7 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 │  │  ├─ruoyi-boot-starter-translation  --translation
 │  │  ├─ruoyi-boot-starter-web  --web
 │  │  └─ruoyi-boot-starter-websocket  --websocket
-│  └─ruoyi-cloud-starters  -- cloud starter模
+│  └─ruoyi-cloud-starters  -- 微服务starter模块
 ├─ruoyi-tools -- 工具模块
 
 ```
