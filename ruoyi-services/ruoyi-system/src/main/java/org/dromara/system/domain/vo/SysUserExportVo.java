@@ -1,10 +1,8 @@
 package org.dromara.system.domain.vo;
 
 import com.alibaba.excel.annotation.ExcelProperty;
-import org.dromara.common.excel.annotation.ExcelDictFormat;
-import org.dromara.common.excel.convert.ExcelDictConvert;
-import io.github.linpeilie.annotations.AutoMapper;
-import io.github.linpeilie.annotations.ReverseAutoMapping;
+import org.dromara.boot.excel.annotation.ExcelDictFormat;
+import org.dromara.boot.excel.convert.ExcelDictConvert;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

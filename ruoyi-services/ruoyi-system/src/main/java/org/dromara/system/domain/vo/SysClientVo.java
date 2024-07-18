@@ -3,8 +3,8 @@ package org.dromara.system.domain.vo;
 import org.dromara.system.domain.SysClient;
 import com.alibaba.excel.annotation.ExcelIgnoreUnannotated;
 import com.alibaba.excel.annotation.ExcelProperty;
-import org.dromara.common.excel.annotation.ExcelDictFormat;
-import org.dromara.common.excel.convert.ExcelDictConvert;
+import org.dromara.boot.excel.annotation.ExcelDictFormat;
+import org.dromara.boot.excel.convert.ExcelDictConvert;
 import io.github.linpeilie.annotations.AutoMapper;
 import lombok.Data;
 

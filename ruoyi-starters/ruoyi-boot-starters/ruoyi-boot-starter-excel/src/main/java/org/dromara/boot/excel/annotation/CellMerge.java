@@ -1,6 +1,6 @@
-package org.dromara.common.excel.annotation;
+package org.dromara.boot.excel.annotation;
 
-import org.dromara.common.excel.core.CellMergeStrategy;
+import org.dromara.boot.excel.core.CellMergeStrategy;
 
 import java.lang.annotation.*;
 
