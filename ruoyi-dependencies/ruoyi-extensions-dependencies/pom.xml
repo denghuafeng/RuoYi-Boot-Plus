@@ -13,9 +13,9 @@
     <properties>
         <snailjob.version>1.1.0</snailjob.version>
         <!--工作流配置-->
-        <flowable.version>7.0.0</flowable.version>
+        <flowable.version>7.0.1</flowable.version>
         <batik-all.version>1.17</batik-all.version>
-        <flowable-json-converter.version>6.8.0</flowable-json-converter.version>
+        <flowable-json-converter.version>6.8.1</flowable-json-converter.version>
     </properties>
     <!-- 依赖声明 -->
     <dependencyManagement>
