@@ -76,7 +76,7 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
     <!-- 基础starter依赖-->
     <dependency>
         <groupId>org.dromara.boot</groupId>
-        <artifactId>ruoyi-boot-starter-coverage</artifactId>
+        <artifactId>ruoyi-spring-boot-starter</artifactId>
     </dependency>
 </dependencies>
 ```
@@ -145,7 +145,6 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 ├─ruoyi-starters -- 控制层/接口模块
 │  ├─ruoyi-boot-starters  -- boot-starters                  
 │  │  ├─ruoyi-boot-starter  --核心模块依赖及自动化配置
-│  │  ├─ruoyi-boot-starter-coverage  -基础starter依赖引用
 │  │  ├─ruoyi-boot-starter-doc  --demo接口
 │  │  ├─ruoyi-boot-starter-encrypt  --encrypt
 │  │  ├─ruoyi-boot-starter-excel  --excel
@@ -166,8 +165,9 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 │  │  ├─ruoyi-boot-starter-tenant  --tenant
 │  │  ├─ruoyi-boot-starter-translation  --translation
 │  │  ├─ruoyi-boot-starter-web  --web
-│  │  └─ruoyi-boot-starter-websocket  --websocket
+│  │  ├─ruoyi-boot-starter-websocket  --websocket
+│  │  └─ruoyi-spring-boot-starter  -基础starter依赖引用
 │  └─ruoyi-cloud-starters  -- 微服务starter模块
-├─ruoyi-tools -- 工具模块
+└─ruoyi-tools -- 工具模块
 
 ```
