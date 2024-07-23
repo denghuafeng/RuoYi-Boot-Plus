@@ -64,6 +64,8 @@ public class GenTableServiceImpl implements IGenTableService {
     private final GenTableColumnMapper genTableColumnMapper;
     private final IdentifierGenerator identifierGenerator;
 
+    private static final String[] TABLE_IGNORE = new String[]{"sj_", "act_", "flw_", "gen_"};
+
     /**
      * 查询业务字段列表
      *
@@ -121,16 +123,27 @@ public class GenTableServiceImpl implements IGenTableService {
         // 获取查询条件
         String tableName = genTable.getTableName();
         String tableComment = genTable.getTableComment();
-        // 获取分页参数
-        Integer pageNum = pageQuery.getPageNum();
-        Integer pageSize = pageQuery.getPageSize();
 
         LinkedHashMap<String, Table<?>> tablesMap = ServiceProxy.metadata().tables();
         if (CollUtil.isEmpty(tablesMap)) {
             return TableDataInfo.build();
         }
+        List<String> tableNames = baseMapper.selectTableNameList(genTable.getDataName());
+        String[] tableArrays;
+        if (CollUtil.isNotEmpty(tableNames)) {
+            tableArrays = tableNames.toArray(new String[0]);
+        } else {
+            tableArrays = new String[0];
+        }
         // 过滤并转换表格数据
         List<GenTable> tables = tablesMap.values().stream()
+            .filter(x -> !StringUtils.containsAnyIgnoreCase(x.getName(), TABLE_IGNORE))
+            .filter(x -> {
+                if (CollUtil.isEmpty(tableNames)) {
+                    return true;
+                }
+                return !StringUtils.containsAnyIgnoreCase(x.getName(), tableArrays);
+            })
             .filter(x -> {
                 boolean nameMatches = true;
                 boolean commentMatches = true;
@@ -154,10 +167,10 @@ public class GenTableServiceImpl implements IGenTableService {
                 return gen;
             }).toList();
 
-        // 创建分页对象，并设置总记录数
-        IPage<GenTable> page = new Page<>(pageNum, pageSize, tables.size());
-        // 使用CollUtil进行分页，并设置分页记录
-        page.setRecords(CollUtil.page(pageNum - 1, pageSize, tables));
+        IPage<GenTable> page = pageQuery.build();
+        page.setTotal(tables.size());
+        // 手动分页 set数据
+        page.setRecords(CollUtil.page((int) page.getCurrent() - 1, (int) page.getSize(), tables));
         return TableDataInfo.build(page);
     }
 
@@ -179,6 +192,7 @@ public class GenTableServiceImpl implements IGenTableService {
         }
 
         List<Table<?>> tableList = tablesMap.values().stream()
+            .filter(x -> !StringUtils.containsAnyIgnoreCase(x.getName(), TABLE_IGNORE))
             .filter(x -> tableNameSet.contains(x.getName())).toList();
 
         if (ArrayUtil.isEmpty(tableList)) {

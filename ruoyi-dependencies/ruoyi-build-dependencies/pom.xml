@@ -43,7 +43,7 @@
         <!-- 限制框架中的fastjson版本 -->
         <fastjson.version>1.2.83</fastjson.version>
         <!-- 面向运行时的D-ORM依赖 -->
-        <anyline.version>8.7.2-20240717</anyline.version>
+        <anyline.version>8.7.2-20240722</anyline.version>
         <commons-compress.version>1.26.2</commons-compress.version>
         <xnio-api.version>3.8.16.Final</xnio-api.version>
     </properties>
