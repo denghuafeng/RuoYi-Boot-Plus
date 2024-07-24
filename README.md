@@ -37,7 +37,7 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
 
 ## 📲功能列表
 - [X] 支持类似spring boot使用方式
-- [ ] 支持单体/微服务自由切换
+- [ ] 支持一套代码单体/微服务自由切换
 - [ ] 支持ruoyi定制化Spring Initializer脚手架
 
 
