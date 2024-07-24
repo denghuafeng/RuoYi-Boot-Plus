@@ -36,10 +36,6 @@
 - [ ] 支持一套代码真正意义上兼容多数据库。
 - [ ] ruoyi定制化Spring Initializer脚手架
 
-## 📋更新说明
-点击查看<a href="/CHANGELOG.md" target="_blank">更新记录</a>
-#### 用心做开源，我们也很需要你的鼓励！右上角Star🌟，等你点亮！
-
 ## 🔐使用方式
 重构后的 RuoYi-Vue-Plus 采用了类似于 Spring Boot 的使用方式，开发者只需在项目中引入相应的依赖，即可快速启动开发工作。这种设计降低了学习和使用的门槛，使得项目能够更好地适应未来业务和技术的变化。
 
@@ -195,3 +191,10 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 └─ruoyi-tools -- 工具模块
 
 ```
+
+## 📋更新说明
+点击查看<a href="/REFACTORLOG.md" target="_blank">重构记录</a>
+
+点击查看<a href="/CHANGELOG.md" target="_blank">更新记录</a>
+
+#### 用心做开源，我们也很需要你的鼓励！右上角Star🌟，等你点亮！

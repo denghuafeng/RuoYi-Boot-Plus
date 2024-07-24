@@ -1,0 +1,18 @@
+# 重构记录
+- 拆分ruoyi-common模块: ruoyi-common-encrypt、ruoyi-common-job、
+    - **ruoyi-common-core** 命名为 **ruoyi-boot**，org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-log** 命名为 **ruoyi-boot-starter-log**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-redis** 命名为 **ruoyi-boot-starter-redis**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-security** 命名为 **ruoyi-boot-starter-security**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-translation** 命名为 **ruoyi-boot-starter-translation**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-web** 命名为 **ruoyi-boot-starter-web**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-websocket** 命名为 **ruoyi-boot-starter-websocket**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-sensitive** 命名为 **ruoyi-boot-starter-sensitive**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-social** 命名为 **ruoyi-boot-starter-social**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-sms** 命名为 **ruoyi-boot-starter-sms**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-mail** 命名为 **ruoyi-boot-starter-mail**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-oss** 命名为 **ruoyi-boot-starter-oss**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-ratelimiter** 命名为 **ruoyi-boot-starter-ratelimiter**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-idempotent** 命名为 **ruoyi-boot-starter-idempotent**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-encrypt** 命名为 **ruoyi-boot-starter-encrypt**,org.dromara.common命名为org.dromara.boot
+    - **ruoyi-common-job** 命名为 **ruoyi-boot-starter-job**,org.dromara.common命名为org.dromara.boot
