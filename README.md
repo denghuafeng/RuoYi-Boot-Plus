@@ -92,6 +92,9 @@
 ## 🎯 重构成效概览
 RuoYi-Vue-Plus重构，技术架构更稳健，赋能企业开发，多维覆盖开发者群体，满足不同开发者需求，优化开发体验，技术栈迭代无忧升级静默，技术基座与业务分离，奠定长远发展基石，支撑高质量工程实践。迈向专业化、现代化，创造更大价值。
 
+## 📋更新说明
+<a href="/REFACTORLOG.md" target="_blank">重构记录</a>|<a href="/CHANGELOG.md" target="_blank">更新记录</a>
+
 ## 📲愿景功能单
 - [X] 支持类似spring boot使用方式
 - [ ] 支持一套代码单体/微服务自由切换
@@ -191,6 +194,4 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 
 ```
 
-## 📋更新说明
-<a href="/REFACTORLOG.md" target="_blank">重构记录</a>|<a href="/CHANGELOG.md" target="_blank">更新记录</a>
 #### 用心做开源，我们也很需要你的鼓励！右上角Star🌟，等你点亮！
