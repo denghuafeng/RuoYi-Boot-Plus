@@ -58,7 +58,7 @@ RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和�
    <version>5.2.1</version>
 </parent>
 ```
-2.实际中有时候不想以ruoyi-boot-vue作为父类，可以换另外一种方式添加ruoyi-boot-vue依赖，此方式定义了若干个rouyi-boot-vue所有模块坐标版本号（依赖管理，而非依赖），以达到减少依赖冲突的目的
+2.实际中有时候不想以ruoyi-boot-vue作为父类，可以换另外一种方式添加ruoyi-boot-vue依赖，此方式定义了若干个rouyi-boot-vue所有模块坐标版本号（依赖管理，而非依赖），以达到减少依赖冲突的目的，其他配置参考ruoyi-boot-parent.pom。
 ```XML
 <dependencyManagement>
     <dependencies>
