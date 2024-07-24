@@ -109,19 +109,19 @@ RuoYi-Vue-Plus重构，技术架构更稳健，赋能企业开发，多维覆盖
 
 - 🚩master 
 
-同步[RuoYi-Vue-Plus](https://gitee.com/dromara/RuoYi-Vue-Plus)5.x分支，正式稳定版本，具体版本升级内容看更新标签
+同步[RuoYi-Vue-Plus 5.x分支](https://gitee.com/dromara/RuoYi-Vue-Plus)，正式稳定版本，具体版本升级内容看更新标签
 
 - 🧐dev
 
-同步[RuoYi-Vue-Plus](https://gitee.com/dromara/RuoYi-Vue-Plus)dev分支，开发的分支（代码可能随时会推，不保证运行和使用）
+同步[RuoYi-Vue-Plus dev分支](https://gitee.com/dromara/RuoYi-Vue-Plus/tree/dev/)，开发的分支（代码可能随时会推，不保证运行和使用）
 
 - 📌ruoyi-vue v3.8.8
 
-3.x分支，代码同步更新若依官方分离版本[RuoYi-Vue](https://gitee.com/dromara/RuoYi-Vue-Plus)
+3.x分支，代码同步更新若依官方分离版本[RuoYi-Vue](https://gitee.com/y_project/RuoYi-Vue)
 
-- 📦️ruoyi-vue-plus V4.8.2
+- 📦️ruoyi-vue-plus v4.8.2
 
-4.x分支，同步[RuoYi-Vue-Plus](https://gitee.com/dromara/RuoYi-Vue-Plus)4.X分支，目前已停止新增功能，只限于bug的维护，可以平滑过渡至5.x版本
+4.x分支，同步[RuoYi-Vue-Plus 4.X分支](https://gitee.com/dromara/RuoYi-Vue-Plus/tree/4.X/)，目前已停止新增功能，只限于bug的维护，可以平滑过渡至5.x版本
 
 ## 🖥源码结构
 
