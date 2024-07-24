@@ -2,8 +2,6 @@
 <div style="height: 10px; clear: both;"></div>
 
 - - -
-## 平台简介
-
 [![码云Gitee](https://gitee.com/denghuafeng/ruoyi-boot-plus/badge/star.svg?theme=blue)](https://gitee.com/dromara/RuoYi-Vue-Plus)
 [![GitHub](https://img.shields.io/github/stars/denghuafeng/RuoYi-Boot-Plus.svg?style=social&label=Stars)](https://github.com/dromara/RuoYi-Vue-Plus)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://gitee.com/dromara/RuoYi-Vue-Plus/blob/master/LICENSE)
@@ -19,7 +17,7 @@
 > RuoYi-Vue-Plus原项目地址: [传送门](https://gitee.com/dromara/RuoYi-Vue-Plus)
 > RuoYi-Vue-Plus原项目文档地址: [plus-doc](https://plus-doc.dromara.org)
 >
-## 📝项目结构重构目标
+## 📝平台简介：项目结构重构目标
 RuoYi-Vue-Plus 项目的重构目标是提升其可维护性、可扩展性和专业度，使其更加贴合现代软件工程的优秀实践。通过深度重构，项目被重塑为一个纯粹的技术基座，与业务代码完全分离，确保技术栈的独立升级和管理，同时不影响业务逻辑的正常运行。
 
 ## ✨特性
