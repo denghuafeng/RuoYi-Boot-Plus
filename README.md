@@ -33,11 +33,11 @@
 ## 📲愿景功能单
 - [X] 支持类似spring boot使用方式
 - [ ] 支持一套代码单体/微服务自由切换
-- [ ] 支持ruoyi定制化Spring Initializer脚手架
-
+- [ ] 支持一套代码真正意义上兼容多数据库。
+- [ ] ruoyi定制化Spring Initializer脚手架
 
 ## 📋更新说明
-点击查看<a href="/" target="_blank">更新记录</a>
+点击查看<a href="/CHANGELOG.md" target="_blank">更新记录</a>
 #### 用心做开源，我们也很需要你的鼓励！右上角Star🌟，等你点亮！
 
 ## 🔐使用方式
@@ -45,7 +45,7 @@
 
 模块化开发模式，后续将把所开发的模块都发布到了maven中央库，也可本地把源代码通过Maven install安装到本地，然后通过类似于 Spring Boot 的使用方式来进行项目搭建，搭建方式有两种。
 
-1.继承ruoyi-boot-starter-parent,定义了当前项目使用的所有模块坐标，以达到减少依赖配置的目的。
+**1.继承ruoyi-boot-starter-parent**
 ```XML
 <parent>
    <groupId>org.dromara.boot</groupId>
@@ -53,7 +53,9 @@
    <version>5.2.1</version>
 </parent>
 ```
-2.实际中有时候不想以ruoyi-boot-vue作为父类，可以换另外一种方式添加ruoyi-boot-vue依赖，此方式定义了若干个rouyi-boot-vue所有模块坐标版本号（依赖管理，而非依赖），以达到减少依赖冲突的目的，其他配置参考ruoyi-boot-parent.pom。
+**2.添加ruoyi-boot-vue依赖**
+> 实际中有时候不想以ruoyi-boot-vue作为父类，可以用此方式定义了若干个rouyi-boot-vue所有模块坐标版本号（依赖管理，而非依赖），以达到减少依赖冲突的目的，其他配置参考ruoyi-boot-parent.pom。
+> 实际开发中，使用任意坐标时，仅书写GAV中的G和A，V(version)由RuoYi-Boot-Vue和SpringBoot提供，如发生坐标错误，再指定version（要小心版本冲突）。
 ```XML
 <dependencyManagement>
     <dependencies>
@@ -68,11 +70,8 @@
     </dependencies>
 </dependencyManagement>
 ```
-实际开发
-使用任意坐标时，仅书写GAV中的G和A，V(version)由RuoYi-Boot-Vue和SpringBoot提供
-如发生坐标错误，再指定version（要小心版本冲突）
 
-3.业务模块创建引用基础starter依赖，参考ruoyi-demo和ruoyi-system
+**业务模块创建引用基础starter依赖：参考ruoyi-demo和ruoyi-system**
 ```XML
 <dependencies>
     <!-- 基础starter依赖-->
@@ -83,7 +82,7 @@
 </dependencies>
 ```
 
-4.后台管理启动模块依赖,参考ruoyi-admin,然后根据需求，看是否要引用生成代码模块等等。
+**后台管理启动模块依赖：参考ruoyi-admin,然后根据需求，看是否要引用生成代码模块等等。**
 ```XML
 <dependency>
     <groupId>org.dromara.boot</groupId>
@@ -91,13 +90,14 @@
 </dependency>
 ```
 
-5.前台管理启动模块依赖,参考ruoyi-front，类似商城前台项目
+**前台管理启动模块依赖,参考ruoyi-front，类似商城前台项目**
 ```XML
 <dependency>
     <groupId>org.dromara.boot</groupId>
     <artifactId>ruoyi-boot-launcher-front</artifactId>
 </dependency>
 ```
+
 ## 🎯 重构成效概览
 RuoYi-Vue-Plus重构，技术架构更稳健，赋能企业开发，多维覆盖开发者群体，满足不同开发者需求，优化开发体验，技术栈迭代无忧升级静默，技术基座与业务分离，奠定长远发展基石，支撑高质量工程实践。迈向专业化、现代化，创造更大价值。
 
