@@ -193,5 +193,3 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 └─ruoyi-tools -- 工具模块
 
 ```
-
-#### 用心做开源，我们也很需要你的鼓励！右上角Star🌟，等你点亮！
