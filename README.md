@@ -12,7 +12,7 @@
 [![JDK-17](https://img.shields.io/badge/JDK-17-green.svg)]()
 [![JDK-21](https://img.shields.io/badge/JDK-21-green.svg)]()
 
-# RuoYi-Boot-Plus：重构典范，打造坚稳技术基石
+# RuoYi-Boot-Plus：重构典范，打造技术基石
 > RuoYi-Vue-Plus原项目地址: [传送门](https://gitee.com/dromara/RuoYi-Vue-Plus)
 > RuoYi-Vue-Plus原项目文档地址: [plus-doc](https://plus-doc.dromara.org)
 
