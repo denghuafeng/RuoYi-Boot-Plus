@@ -11,12 +11,11 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2-blue.svg)]()
 [![JDK-17](https://img.shields.io/badge/JDK-17-green.svg)]()
 [![JDK-21](https://img.shields.io/badge/JDK-21-green.svg)]()
-# 🍕支持作者
-如果你在使用中或使用过后，觉得框架不错，希望你能帮我点个 ⭐ Star，这将是对我极大的鼓励与支持。
-## RuoYi-Boot-Plus：重构典范，打造精炼技术基座的深度解析
+
+# RuoYi-Boot-Plus：重构典范，打造精炼技术基座的深度解析
 > RuoYi-Vue-Plus原项目地址: [传送门](https://gitee.com/dromara/RuoYi-Vue-Plus)
 > RuoYi-Vue-Plus原项目文档地址: [plus-doc](https://plus-doc.dromara.org)
->
+
 ## 📝重构愿景：打造坚稳技术基石
 RuoYi-Vue-Plus重构聚焦提升维护性、扩展性与专业度，贴合现代软件工程实践。重塑为技术基座，与业务代码剥离，确保技术独立演进，业务逻辑运行如常。
 
@@ -103,9 +102,12 @@ RuoYi-Vue-Plus重构聚焦提升维护性、扩展性与专业度，贴合现代
     <artifactId>ruoyi-boot-launcher-front</artifactId>
 </dependency>
 ```
-
 ## 🎯 重构成效概览
 RuoYi-Vue-Plus重构，技术架构更稳健，赋能企业开发，多维覆盖开发者群体，满足不同开发者需求，优化开发体验，技术栈迭代无忧升级静默，技术基座与业务分离，奠定长远发展基石，支撑高质量工程实践。迈向专业化、现代化，创造更大价值。
+
+## 🍕支持作者
+如果你在使用中或使用过后，觉得框架不错，希望你能帮我点个 ⭐ Star，这将是对我极大的鼓励与支持。
+
 
 ## 🔀分支说明
 
