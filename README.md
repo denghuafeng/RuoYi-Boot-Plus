@@ -55,7 +55,9 @@
 ```
 **2.添加ruoyi-boot-vue依赖**
 > 实际中有时候不想以ruoyi-boot-vue作为父类，可以用此方式定义了若干个rouyi-boot-vue所有模块坐标版本号（依赖管理，而非依赖），以达到减少依赖冲突的目的，其他配置参考ruoyi-boot-parent.pom。
+
 > 实际开发中，使用任意坐标时，仅书写GAV中的G和A，V(version)由RuoYi-Boot-Vue和SpringBoot提供，如发生坐标错误，再指定version（要小心版本冲突）。
+
 ```XML
 <dependencyManagement>
     <dependencies>
