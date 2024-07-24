@@ -30,11 +30,7 @@
 * 🙈 非侵入式用户：无需触碰RuoYi-Vue-Plus源码，RuoYi-Boot-Plus配置先行，功能定制无忧，专注业务不改码。
 * 🧐 轻配置高手：微调配置项，驾驭大部分开发场景，免底层代码深潜，业务创新焦点不偏移。
 
-## 📲愿景功能单
-- [X] 支持类似spring boot使用方式
-- [ ] 支持一套代码单体/微服务自由切换
-- [ ] 支持一套代码真正意义上兼容多数据库。
-- [ ] ruoyi定制化Spring Initializer脚手架
+
 
 ## 🔐使用方式
 重构后的 RuoYi-Vue-Plus 采用了类似于 Spring Boot 的使用方式，开发者只需在项目中引入相应的依赖，即可快速启动开发工作。这种设计降低了学习和使用的门槛，使得项目能够更好地适应未来业务和技术的变化。
@@ -95,9 +91,14 @@
     <artifactId>ruoyi-boot-launcher-front</artifactId>
 </dependency>
 ```
-
 ## 🎯 重构成效概览
 RuoYi-Vue-Plus重构，技术架构更稳健，赋能企业开发，多维覆盖开发者群体，满足不同开发者需求，优化开发体验，技术栈迭代无忧升级静默，技术基座与业务分离，奠定长远发展基石，支撑高质量工程实践。迈向专业化、现代化，创造更大价值。
+
+## 📲愿景功能单
+- [X] 支持类似spring boot使用方式
+- [ ] 支持一套代码单体/微服务自由切换
+- [ ] 支持一套代码真正意义上兼容多数据库。
+- [ ] ruoyi定制化Spring Initializer脚手架
 
 ## 🌟诚邀共鉴
 若你在体验中感受到本开源项目的魅力，或在使用后对其品质有所认同，恳请你慷慨地点亮那颗闪耀的 ⭐ Star。这不仅是一份简单的认可，更是对我莫大的鼓舞与坚定的支持。你的每一个星标，都将化作我前进的动力，共同见证开源精神的光辉。
@@ -193,8 +194,5 @@ ruoyi-boot-plus [ruoyi-boot-parent]
 ```
 
 ## 📋更新说明
-点击查看<a href="/REFACTORLOG.md" target="_blank">重构记录</a>
-
-点击查看<a href="/CHANGELOG.md" target="_blank">更新记录</a>
-
+<a href="/REFACTORLOG.md" target="_blank">重构记录</a>|<a href="/CHANGELOG.md" target="_blank">更新记录</a>
 #### 用心做开源，我们也很需要你的鼓励！右上角Star🌟，等你点亮！
