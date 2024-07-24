@@ -12,11 +12,11 @@
 [![JDK-17](https://img.shields.io/badge/JDK-17-green.svg)]()
 [![JDK-21](https://img.shields.io/badge/JDK-21-green.svg)]()
 
-# RuoYi-Boot-Plus：重构典范，打造精炼技术基座的深度解析
+# RuoYi-Boot-Plus：重构典范，打造坚稳技术基石
 > RuoYi-Vue-Plus原项目地址: [传送门](https://gitee.com/dromara/RuoYi-Vue-Plus)
 > RuoYi-Vue-Plus原项目文档地址: [plus-doc](https://plus-doc.dromara.org)
 
-## 📝重构愿景：打造坚稳技术基石
+## 📝重构愿景
 RuoYi-Vue-Plus重构聚焦提升维护性、扩展性与专业度，贴合现代软件工程实践。重塑为技术基座，与业务代码剥离，确保技术独立演进，业务逻辑运行如常。
 
 ## ✨特性
