@@ -12,6 +12,7 @@
     <modules>
         <module>ruoyi-boot-launcher-admin</module>
         <module>ruoyi-boot-launcher-front</module>
+        <module>ruoyi-boot-launcher</module>
     </modules>
 
 </project>
