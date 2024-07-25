@@ -1,6 +1,6 @@
 package ${packageName}.service.impl;
 
-import org.dromara.common.core.utils.MapstructUtils;
+import org.dromara.boot.utils.MapstructUtils;
     #if($table.crud)
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.mybatis.core.page.PageQuery;
@@ -9,6 +9,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import lombok.RequiredArgsConstructor;
+import org.dromara.boot.utils.StringUtils;
 import org.springframework.stereotype.Service;
 import ${packageName}.domain.bo.${ClassName}Bo;
 import ${packageName}.domain.vo.${ClassName}Vo;
