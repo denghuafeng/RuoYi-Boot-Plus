@@ -9,8 +9,8 @@
     <version>${revision}</version>
 
     <name>ruoyi-boot-plus</name>
-    <url>https://gitee.com/dromara/ruoyi-boot-plus</url>
-    <description>ruoyi-boot-plus多租户管理系统</description>
+    <url>https://gitee.com/denghuafeng/ruoyi-boot-plus</url>
+    <description>ruoyi-boot-plus(RuoYi-Vue-Plus技术基座)</description>
 
     <properties>
         <revision>5.2.1</revision>
