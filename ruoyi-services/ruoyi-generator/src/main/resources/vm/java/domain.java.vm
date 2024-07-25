@@ -12,6 +12,7 @@ import core.org.dromara.boot.tenant.TenantEntity;
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import org.dromara.boot.mybatis.core.domain.BaseEntity;
 #foreach ($import in $importList)
 import ${import};
 #end
