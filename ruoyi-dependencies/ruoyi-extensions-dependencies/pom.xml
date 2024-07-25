@@ -12,6 +12,7 @@
 
     <properties>
         <snailjob.version>1.1.0</snailjob.version>
+        <okio-jvm.version>3.9.0</okio-jvm.version>
         <!--工作流配置-->
         <flowable.version>7.0.1</flowable.version>
         <batik-all.version>1.17</batik-all.version>
@@ -35,6 +36,19 @@
                 <groupId>com.aizuda</groupId>
                 <artifactId>snail-job-server-starter</artifactId>
                 <version>${snailjob.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.squareup.okio</groupId>
+                        <artifactId>okio-jvm</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup.okio</groupId>
+                <artifactId>okio-jvm</artifactId>
+                <version>${okio-jvm.version}</version>
+                <scope>runtime</scope>
             </dependency>
 
 
@@ -64,6 +78,9 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+
+
+
         </dependencies>
     </dependencyManagement>
 </project>
