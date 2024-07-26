@@ -30,7 +30,7 @@
 * 🙈 非侵入式用户：无需触碰RuoYi-Vue-Plus源码，RuoYi-Boot-Plus配置先行，功能定制无忧，专注业务不改码。
 * 🧐 轻配置高手：微调配置项，驾驭大部分开发场景，免底层代码深潜，业务创新焦点不偏移。
 
-## 🔐使用方式
+## 🔐创建方式
 重构后的 RuoYi-Vue-Plus 采用了类似于 Spring Boot 的使用方式，开发者只需在项目中引入相应的依赖，即可快速启动开发工作。这种设计降低了学习和使用的门槛，使得项目能够更好地适应未来业务和技术的变化。
 
 模块化开发模式，后续将把所开发的模块都发布到了maven中央库，也可本地把源代码通过Maven install安装到本地，然后通过类似于 Spring Boot 的使用方式来进行项目搭建，搭建方式有两种。
@@ -62,8 +62,9 @@
     </dependencies>
 </dependencyManagement>
 ```
+## 🤡使用步骤 ##
 
-**业务模块创建引用基础starter依赖：参考ruoyi-demo和ruoyi-system**
+**1.业务模块创建引用基础starter依赖：参考ruoyi-demo和ruoyi-system**
 ```XML
 <dependencies>
     <!-- 基础starter依赖-->
@@ -74,7 +75,7 @@
 </dependencies>
 ```
 
-**后台管理启动模块依赖：参考ruoyi-admin,然后根据需求，看是否要引用生成代码模块等等。**
+**2.后台管理启动模块依赖：参考ruoyi-admin,然后根据需求，看是否要引用生成代码模块等等。**
 ```XML
 <dependency>
     <groupId>org.dromara.boot</groupId>
@@ -82,13 +83,45 @@
 </dependency>
 ```
 
-**前台管理启动模块依赖,参考ruoyi-front，类似商城前台项目**
+**3.前台管理启动模块依赖,参考ruoyi-front，类似商城前台项目**
 ```XML
 <dependency>
     <groupId>org.dromara.boot</groupId>
     <artifactId>ruoyi-boot-launcher-front</artifactId>
 </dependency>
 ```
+
+**支持扫描不同包，即公司或自己域名的包命名，**
+
+**4.需要配置MyBatisPlus的mapper和domain多包扫描。**
+```yml
+mybatis-plus:
+  # 多包名使用 例如 org.dromara.**.mapper,org.xxx.**.mapper
+  mapperPackage: org.dromara.**.mapper,cc.dhf.**.mapper
+  # 实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: org.dromara.**.domain,cc.dhf.**.domain
+```
+
+**5.启动的时候设置RuoYiApplicationContextInitializer，为了扫描RuoYi-Boot-Vue项目的包。**
+```java
+/**
+* Admin启动程序
+  */
+  @SpringBootApplication
+  public class AdminApplication {
+
+  public static void main(String[] args) {
+  SpringApplication application = new SpringApplication(AdminApplication.class);
+  application.setApplicationStartup(new BufferingApplicationStartup(2048));
+  application.addInitializers(new RuoYiApplicationContextInitializer());
+  application.run(args);
+  System.out.println("(♥◠‿◠)ﾉﾞ  Admin启动成功   ლ(´ڡ`ლ)ﾞ");
+  }
+
+}
+```
+
+[点击查看完整项目创建示例](https://gitee.com/denghuafeng/ruoyi-boot-examples)
 ## 🎯重构成效
 RuoYi-Vue-Plus重构，技术架构更稳健，赋能企业开发，多维覆盖开发者群体，满足不同开发者需求，优化开发体验，技术栈迭代无忧升级静默，技术基座与业务分离，奠定长远发展基石，支撑高质量工程实践。迈向专业化、现代化，创造更大价值。
 
