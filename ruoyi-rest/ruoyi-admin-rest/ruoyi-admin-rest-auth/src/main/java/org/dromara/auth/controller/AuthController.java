@@ -25,8 +25,8 @@ import org.dromara.boot.social.config.properties.SocialLoginConfigProperties;
 import org.dromara.boot.social.config.properties.SocialProperties;
 import org.dromara.boot.social.utils.SocialUtils;
 import org.dromara.boot.tenant.helper.TenantHelper;
-import org.dromara.boot.websocket.dto.WebSocketMessageDto;
-import org.dromara.boot.websocket.utils.WebSocketUtils;
+import org.dromara.boot.sse.dto.SseMessageDto;
+import org.dromara.boot.sse.utils.SseMessageUtils;
 import org.dromara.system.domain.bo.SysTenantBo;
 import org.dromara.system.domain.vo.SysClientVo;
 import org.dromara.system.domain.vo.SysTenantVo;
@@ -102,11 +102,11 @@ public class AuthController {
 
         Long userId = LoginHelper.getUserId();
         scheduledExecutorService.schedule(() -> {
-            WebSocketMessageDto dto = new WebSocketMessageDto();
+            SseMessageDto dto = new SseMessageDto();
             dto.setMessage("欢迎登录RuoYi-Vue-Plus后台管理系统");
-            dto.setSessionKeys(List.of(userId));
-            WebSocketUtils.publishMessage(dto);
-        }, 3, TimeUnit.SECONDS);
+            dto.setUserIds(List.of(userId));
+            SseMessageUtils.publishMessage(dto);
+        }, 5, TimeUnit.SECONDS);
         return R.ok(loginVo);
     }
 

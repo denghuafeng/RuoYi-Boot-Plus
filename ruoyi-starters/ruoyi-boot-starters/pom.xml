@@ -34,5 +34,6 @@
         <module>ruoyi-boot-starter-web</module>
         <module>ruoyi-boot-starter-websocket</module>
         <module>ruoyi-spring-boot-starter</module>
+        <module>ruoyi-boot-starter-sse</module>
     </modules>
 </project>

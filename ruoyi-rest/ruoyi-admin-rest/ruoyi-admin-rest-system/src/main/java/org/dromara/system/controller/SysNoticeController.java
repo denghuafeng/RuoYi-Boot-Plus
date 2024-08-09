@@ -9,7 +9,7 @@ import org.dromara.boot.log.enums.BusinessType;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.web.core.BaseController;
-import org.dromara.boot.websocket.utils.WebSocketUtils;
+import org.dromara.boot.sse.utils.SseMessageUtils;
 import org.dromara.system.domain.bo.SysNoticeBo;
 import org.dromara.system.domain.vo.SysNoticeVo;
 import org.dromara.system.service.ISysNoticeService;
@@ -62,7 +62,7 @@ public class SysNoticeController extends BaseController {
             return R.fail();
         }
         String type = dictService.getDictLabel("sys_notice_type", notice.getNoticeType());
-        WebSocketUtils.publishAll("[" + type + "] " + notice.getNoticeTitle());
+        SseMessageUtils.publishAll("[" + type + "] " + notice.getNoticeTitle());
         return R.ok();
     }
 

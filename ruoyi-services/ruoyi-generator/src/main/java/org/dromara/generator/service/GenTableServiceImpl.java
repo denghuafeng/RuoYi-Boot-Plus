@@ -23,13 +23,14 @@ import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
 import org.dromara.boot.constant.Constants;
 import org.dromara.boot.exception.ServiceException;
-import org.dromara.boot.utils.StreamUtils;
-import org.dromara.boot.utils.StringUtils;
-import org.dromara.boot.utils.file.FileUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.mybatis.core.page.PageQuery;
 import org.dromara.boot.mybatis.core.page.TableDataInfo;
 import org.dromara.boot.satoken.utils.LoginHelper;
+import org.dromara.boot.utils.SpringUtils;
+import org.dromara.boot.utils.StreamUtils;
+import org.dromara.boot.utils.StringUtils;
+import org.dromara.boot.utils.file.FileUtils;
 import org.dromara.generator.constant.GenConstants;
 import org.dromara.generator.domain.GenTable;
 import org.dromara.generator.domain.GenTableColumn;
@@ -142,7 +143,7 @@ public class GenTableServiceImpl implements IGenTableService {
                 if (CollUtil.isEmpty(tableNames)) {
                     return true;
                 }
-                return !StringUtils.containsAnyIgnoreCase(x.getName(), tableArrays);
+                return !StringUtils.equalsAnyIgnoreCase(x.getName(), tableArrays);
             })
             .filter(x -> {
                 boolean nameMatches = true;
@@ -268,7 +269,7 @@ public class GenTableServiceImpl implements IGenTableService {
                 int row = baseMapper.insert(table);
                 if (row > 0) {
                     // 保存列信息
-                    List<GenTableColumn> genTableColumns = selectDbTableColumnsByName(tableName, dataName);
+                    List<GenTableColumn> genTableColumns = SpringUtils.getAopProxy(this).selectDbTableColumnsByName(tableName, dataName);
                     List<GenTableColumn> saveColumns = new ArrayList<>();
                     for (GenTableColumn column : genTableColumns) {
                         GenUtils.initColumnField(column, table);
@@ -292,12 +293,9 @@ public class GenTableServiceImpl implements IGenTableService {
      * @return 列信息
      */
     @DS("#dataName")
-    private List<GenTableColumn> selectDbTableColumnsByName(String tableName, String dataName) {
-        Table<?> table = ServiceProxy.metadata().table(tableName);
-        if (Objects.isNull(table)) {
-            return new ArrayList<>();
-        }
-        LinkedHashMap<String, Column> columns = table.getColumns();
+    @Override
+    public List<GenTableColumn> selectDbTableColumnsByName(String tableName, String dataName) {
+        LinkedHashMap<String, Column> columns = ServiceProxy.metadata().columns(tableName);
         List<GenTableColumn> tableColumns = new ArrayList<>();
         columns.forEach((columnName, column) -> {
             GenTableColumn tableColumn = new GenTableColumn();
@@ -408,7 +406,7 @@ public class GenTableServiceImpl implements IGenTableService {
         List<GenTableColumn> tableColumns = table.getColumns();
         Map<String, GenTableColumn> tableColumnMap = StreamUtils.toIdentityMap(tableColumns, GenTableColumn::getColumnName);
 
-        List<GenTableColumn> dbTableColumns = selectDbTableColumnsByName(table.getTableName(), table.getDataName());
+        List<GenTableColumn> dbTableColumns = SpringUtils.getAopProxy(this).selectDbTableColumnsByName(table.getTableName(), table.getDataName());
         if (CollUtil.isEmpty(dbTableColumns)) {
             throw new ServiceException("同步数据失败，原表结构不存在");
         }

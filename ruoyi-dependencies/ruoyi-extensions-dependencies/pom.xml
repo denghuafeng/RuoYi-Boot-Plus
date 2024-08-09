@@ -11,7 +11,9 @@
     <packaging>pom</packaging>
 
     <properties>
-        <snailjob.version>1.1.0</snailjob.version>
+
+
+        <snailjob.version>1.1.1</snailjob.version>
         <okio-jvm.version>3.9.0</okio-jvm.version>
         <!--工作流配置-->
         <flowable.version>7.0.1</flowable.version>
@@ -32,6 +34,7 @@
                 <artifactId>snail-job-client-job-core</artifactId>
                 <version>${snailjob.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>com.aizuda</groupId>
                 <artifactId>snail-job-server-starter</artifactId>

@@ -197,6 +197,12 @@
 
             <dependency>
                 <groupId>org.dromara.boot</groupId>
+                <artifactId>ruoyi-boot-starter-sse</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dromara.boot</groupId>
                 <artifactId>ruoyi-tools-dependencies</artifactId>
                 <version>${ruoyi-boot-plus.version}</version>
                 <type>pom</type>

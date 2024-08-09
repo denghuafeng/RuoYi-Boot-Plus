@@ -95,6 +95,11 @@
             <artifactId>ruoyi-boot-starter-websocket</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.dromara.boot</groupId>
+            <artifactId>ruoyi-boot-starter-sse</artifactId>
+        </dependency>
+
         <!--一下启动模块依赖引用-->
         <!--        <dependency>
                     <groupId>org.dromara.boot</groupId>

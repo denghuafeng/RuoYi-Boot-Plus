@@ -7,6 +7,9 @@ import cn.hutool.core.util.ObjectUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.dromara.auth.domain.vo.LoginVo;
+import org.dromara.auth.service.IAuthStrategy;
+import org.dromara.auth.service.SysLoginService;
 import org.dromara.boot.constant.Constants;
 import org.dromara.boot.constant.GlobalConstants;
 import org.dromara.boot.domain.model.LoginUser;
@@ -16,21 +19,18 @@ import org.dromara.boot.enums.UserStatus;
 import org.dromara.boot.exception.user.CaptchaException;
 import org.dromara.boot.exception.user.CaptchaExpireException;
 import org.dromara.boot.exception.user.UserException;
-import org.dromara.boot.utils.MessageUtils;
-import org.dromara.boot.utils.StringUtils;
-import org.dromara.boot.utils.ValidatorUtils;
 import org.dromara.boot.json.utils.JsonUtils;
 import org.dromara.boot.redis.utils.RedisUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.tenant.helper.TenantHelper;
+import org.dromara.boot.utils.MessageUtils;
+import org.dromara.boot.utils.StringUtils;
+import org.dromara.boot.utils.ValidatorUtils;
 import org.dromara.boot.web.config.properties.CaptchaProperties;
 import org.dromara.system.domain.SysUser;
 import org.dromara.system.domain.vo.SysClientVo;
 import org.dromara.system.domain.vo.SysUserVo;
 import org.dromara.system.mapper.SysUserMapper;
-import org.dromara.auth.domain.vo.LoginVo;
-import org.dromara.auth.service.IAuthStrategy;
-import org.dromara.auth.service.SysLoginService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -62,11 +62,12 @@ public class PasswordAuthStrategy implements IAuthStrategy {
         if (captchaEnabled) {
             validateCaptcha(tenantId, username, code, uuid);
         }
-
-        SysUserVo user = loadUserByUsername(tenantId, username);
-        loginService.checkLogin(LoginType.PASSWORD, tenantId, username, () -> !BCrypt.checkpw(password, user.getPassword()));
-        // 此处可根据登录用户的数据不同 自行创建 loginUser
-        LoginUser loginUser = loginService.buildLoginUser(user);
+        LoginUser loginUser = TenantHelper.dynamic(tenantId, () -> {
+            SysUserVo user = loadUserByUsername(username);
+            loginService.checkLogin(LoginType.PASSWORD, tenantId, username, () -> !BCrypt.checkpw(password, user.getPassword()));
+            // 此处可根据登录用户的数据不同 自行创建 loginUser
+            return loginService.buildLoginUser(user);
+        });
         loginUser.setClientKey(client.getClientKey());
         loginUser.setDeviceType(client.getDeviceType());
         SaLoginModel model = new SaLoginModel();
@@ -107,18 +108,16 @@ public class PasswordAuthStrategy implements IAuthStrategy {
         }
     }
 
-    private SysUserVo loadUserByUsername(String tenantId, String username) {
-        return TenantHelper.dynamic(tenantId, () -> {
-            SysUserVo user = userMapper.selectVoOne(new LambdaQueryWrapper<SysUser>().eq(SysUser::getUserName, username));
-            if (ObjectUtil.isNull(user)) {
-                log.info("登录用户：{} 不存在.", username);
-                throw new UserException("user.not.exists", username);
-            } else if (UserStatus.DISABLE.getCode().equals(user.getStatus())) {
-                log.info("登录用户：{} 已被停用.", username);
-                throw new UserException("user.blocked", username);
-            }
-            return user;
-        });
+    private SysUserVo loadUserByUsername(String username) {
+        SysUserVo user = userMapper.selectVoOne(new LambdaQueryWrapper<SysUser>().eq(SysUser::getUserName, username));
+        if (ObjectUtil.isNull(user)) {
+            log.info("登录用户：{} 不存在.", username);
+            throw new UserException("user.not.exists", username);
+        } else if (UserStatus.DISABLE.getCode().equals(user.getStatus())) {
+            log.info("登录用户：{} 已被停用.", username);
+            throw new UserException("user.blocked", username);
+        }
+        return user;
     }
 
 }

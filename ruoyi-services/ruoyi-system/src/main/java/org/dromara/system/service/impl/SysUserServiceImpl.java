@@ -17,19 +17,16 @@ import org.dromara.boot.constant.CacheNames;
 import org.dromara.boot.constant.UserConstants;
 import org.dromara.boot.domain.dto.UserDTO;
 import org.dromara.boot.exception.ServiceException;
+import org.dromara.boot.mybatis.core.page.PageQuery;
+import org.dromara.boot.mybatis.core.page.TableDataInfo;
+import org.dromara.boot.mybatis.helper.DataBaseHelper;
+import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.service.UserService;
 import org.dromara.boot.utils.MapstructUtils;
 import org.dromara.boot.utils.SpringUtils;
 import org.dromara.boot.utils.StreamUtils;
 import org.dromara.boot.utils.StringUtils;
-import org.dromara.boot.mybatis.core.page.PageQuery;
-import org.dromara.boot.mybatis.core.page.TableDataInfo;
-import org.dromara.boot.mybatis.helper.DataBaseHelper;
-import org.dromara.boot.satoken.utils.LoginHelper;
-import org.dromara.system.domain.SysDept;
-import org.dromara.system.domain.SysUser;
-import org.dromara.system.domain.SysUserPost;
-import org.dromara.system.domain.SysUserRole;
+import org.dromara.system.domain.*;
 import org.dromara.system.domain.bo.SysUserBo;
 import org.dromara.system.domain.vo.SysPostVo;
 import org.dromara.system.domain.vo.SysRoleVo;
@@ -473,17 +470,14 @@ public class SysUserServiceImpl implements ISysUserService, UserService {
      */
     private void insertUserRole(Long userId, Long[] roleIds, boolean clear) {
         if (ArrayUtil.isNotEmpty(roleIds)) {
-            // 判断是否具有此角色的操作权限
-            List<SysRoleVo> roles = roleMapper.selectRoleList(new LambdaQueryWrapper<>());
-            if (CollUtil.isEmpty(roles)) {
-                throw new ServiceException("没有权限访问角色的数据");
-            }
-            List<Long> roleList = StreamUtils.toList(roles, SysRoleVo::getRoleId);
+            List<Long> roleList = new ArrayList<>(List.of(roleIds));
             if (!LoginHelper.isSuperAdmin(userId)) {
                 roleList.remove(UserConstants.SUPER_ADMIN_ID);
             }
-            List<Long> canDoRoleList = StreamUtils.filter(List.of(roleIds), roleList::contains);
-            if (CollUtil.isEmpty(canDoRoleList)) {
+            // 判断是否具有此角色的操作权限
+            List<SysRoleVo> roles = roleMapper.selectRoleList(
+                new QueryWrapper<SysRole>().in("r.role_id", roleList));
+            if (CollUtil.isEmpty(roles)) {
                 throw new ServiceException("没有权限访问角色的数据");
             }
             if (clear) {
@@ -491,7 +485,7 @@ public class SysUserServiceImpl implements ISysUserService, UserService {
                 userRoleMapper.delete(new LambdaQueryWrapper<SysUserRole>().eq(SysUserRole::getUserId, userId));
             }
             // 新增用户与角色管理
-            List<SysUserRole> list = StreamUtils.toList(canDoRoleList, roleId -> {
+            List<SysUserRole> list = StreamUtils.toList(roleList, roleId -> {
                 SysUserRole ur = new SysUserRole();
                 ur.setUserId(userId);
                 ur.setRoleId(roleId);
