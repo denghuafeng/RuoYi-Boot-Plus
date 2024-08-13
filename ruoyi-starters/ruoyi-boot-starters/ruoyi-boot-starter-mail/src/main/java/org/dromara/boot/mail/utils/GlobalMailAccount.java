@@ -1,6 +1,7 @@
 package org.dromara.boot.mail.utils;
 
 import cn.hutool.core.io.IORuntimeException;
+import cn.hutool.extra.mail.MailAccount;
 
 /**
  * 全局邮件帐户，依赖于邮件配置文件{@link MailAccount#MAIL_SETTING_PATHS}

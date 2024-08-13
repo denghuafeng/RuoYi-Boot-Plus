@@ -11,8 +11,6 @@
     <packaging>pom</packaging>
 
     <properties>
-
-
         <snailjob.version>1.1.1</snailjob.version>
         <okio-jvm.version>3.9.0</okio-jvm.version>
         <!--工作流配置-->

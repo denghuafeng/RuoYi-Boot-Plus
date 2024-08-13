@@ -8,7 +8,7 @@ import org.dromara.boot.utils.SpringUtils;
 import org.dromara.boot.sse.dto.SseMessageDto;
 
 /**
- * 工具类
+ * SSE工具类
  *
  * @author Lion Li
  */
