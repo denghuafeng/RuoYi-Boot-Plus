@@ -1,4 +1,4 @@
-package org.dromara.auth.service;
+package org.dromara.auth.service.impl;
 
 import cn.dev33.satoken.exception.NotLoginException;
 import cn.dev33.satoken.stp.StpUtil;
@@ -10,6 +10,7 @@ import com.baomidou.lock.annotation.Lock4j;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import me.zhyd.oauth.model.AuthUser;
+import org.dromara.auth.service.ISysLoginService;
 import org.dromara.boot.constant.CacheConstants;
 import org.dromara.boot.constant.Constants;
 import org.dromara.boot.constant.TenantConstants;
@@ -47,7 +48,7 @@ import java.util.function.Supplier;
 @RequiredArgsConstructor
 @Slf4j
 @Service
-public class SysLoginService {
+public class SysLoginService implements ISysLoginService {
 
     @Value("${user.password.maxRetryCount}")
     private Integer maxRetryCount;

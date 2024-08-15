@@ -8,7 +8,6 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.dromara.auth.domain.vo.LoginVo;
 import org.dromara.auth.service.IAuthStrategy;
-import org.dromara.auth.service.SysLoginService;
 import org.dromara.boot.constant.Constants;
 import org.dromara.boot.constant.GlobalConstants;
 import org.dromara.boot.domain.model.EmailLoginBody;

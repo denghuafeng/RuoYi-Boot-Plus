@@ -15,7 +15,6 @@ import org.dromara.system.domain.vo.SysClientVo;
 import org.dromara.system.domain.vo.SysUserVo;
 import org.dromara.auth.domain.vo.LoginVo;
 import org.dromara.auth.service.IAuthStrategy;
-import org.dromara.auth.service.SysLoginService;
 import org.springframework.stereotype.Service;
 
 /**

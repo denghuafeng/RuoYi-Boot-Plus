@@ -38,8 +38,8 @@ import org.dromara.auth.domain.vo.LoginTenantVo;
 import org.dromara.auth.domain.vo.LoginVo;
 import org.dromara.auth.domain.vo.TenantListVo;
 import org.dromara.auth.service.IAuthStrategy;
-import org.dromara.auth.service.SysLoginService;
-import org.dromara.auth.service.SysRegisterService;
+import org.dromara.auth.service.impl.SysLoginService;
+import org.dromara.auth.service.impl.SysRegisterService;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 

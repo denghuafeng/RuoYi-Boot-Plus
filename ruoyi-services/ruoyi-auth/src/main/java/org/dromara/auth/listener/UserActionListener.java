@@ -20,7 +20,7 @@ import org.dromara.boot.log.event.LogininforEvent;
 import org.dromara.boot.redis.utils.RedisUtils;
 import org.dromara.boot.satoken.utils.LoginHelper;
 import org.dromara.boot.tenant.helper.TenantHelper;
-import org.dromara.auth.service.SysLoginService;
+import org.dromara.auth.service.impl.SysLoginService;
 import org.springframework.stereotype.Component;
 
 import java.time.Duration;

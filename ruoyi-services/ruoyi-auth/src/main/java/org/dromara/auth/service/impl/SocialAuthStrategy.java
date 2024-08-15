@@ -13,7 +13,6 @@ import me.zhyd.oauth.model.AuthResponse;
 import me.zhyd.oauth.model.AuthUser;
 import org.dromara.auth.domain.vo.LoginVo;
 import org.dromara.auth.service.IAuthStrategy;
-import org.dromara.auth.service.SysLoginService;
 import org.dromara.boot.domain.model.LoginUser;
 import org.dromara.boot.domain.model.SocialLoginBody;
 import org.dromara.boot.enums.UserStatus;
