@@ -44,6 +44,12 @@
                 <version>${ruoyi-boot-plus.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.dromara.boot</groupId>
+                <artifactId>ruoyi-auth</artifactId>
+                <version>${ruoyi-boot-plus.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

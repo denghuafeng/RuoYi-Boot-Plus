@@ -3,19 +3,24 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.dromara.boot</groupId>
-        <artifactId>ruoyi-admin-rest</artifactId>
+        <artifactId>ruoyi-services</artifactId>
         <version>${revision}</version>
     </parent>
 
-    <artifactId>ruoyi-admin-rest-auth</artifactId>
+    <artifactId>ruoyi-auth</artifactId>
     <packaging>jar</packaging>
 
-    <name>ruoyi-admin-rest-auth</name>
+    <name>ruoyi-auth</name>
 
     <dependencies>
         <dependency>
             <groupId>org.dromara.boot</groupId>
-            <artifactId>ruoyi-auth</artifactId>
+            <artifactId>ruoyi-boot-starter-social</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.dromara.boot</groupId>
+            <artifactId>ruoyi-system</artifactId>
         </dependency>
     </dependencies>
 </project>
