@@ -33,7 +33,7 @@ public interface GlobalConstants {
     String SOCIAL_AUTH_CODE_KEY = GLOBAL_REDIS_KEY + "social_auth_codes:";
 
     /**
-     * springboot基础包扫描
+     * 本项目基础包扫描
      */
-    String[] BASE_PACKAGES={"org.dromara.boot","org.dromara.system","org.dromara.job", "org.dromara.demo"};
+    String[] BASE_PACKAGES={"org.dromara.boot","org.dromara.system","org.dromara.auth","org.dromara.generator","org.dromara.job","org.dromara.workflow", "org.dromara.demo"};
 }
