@@ -35,5 +35,5 @@ public interface GlobalConstants {
     /**
      * 本项目基础包扫描
      */
-    String[] BASE_PACKAGES={"org.dromara.boot","org.dromara.system","org.dromara.auth","org.dromara.generator","org.dromara.job","org.dromara.workflow", "org.dromara.demo"};
+    String[] BASE_PACKAGES = {"org.dromara.boot", "org.dromara.system", "org.dromara.auth", "org.dromara.generator", "org.dromara.job", "org.dromara.workflow", "org.dromara.demo", "org.dromara.oss", "org.dromara.monitor", "org.dromara.captcha"};
 }
