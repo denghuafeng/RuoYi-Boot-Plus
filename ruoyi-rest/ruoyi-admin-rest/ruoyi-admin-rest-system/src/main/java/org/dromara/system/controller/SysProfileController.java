@@ -5,13 +5,14 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.io.FileUtil;
 import lombok.RequiredArgsConstructor;
 import org.dromara.boot.domain.R;
-import org.dromara.boot.utils.StringUtils;
-import org.dromara.boot.utils.file.MimeTypeUtils;
 import org.dromara.boot.encrypt.annotation.ApiEncrypt;
 import org.dromara.boot.idempotent.annotation.RepeatSubmit;
 import org.dromara.boot.log.annotation.Log;
 import org.dromara.boot.log.enums.BusinessType;
+import org.dromara.boot.mybatis.helper.DataPermissionHelper;
 import org.dromara.boot.satoken.utils.LoginHelper;
+import org.dromara.boot.utils.StringUtils;
+import org.dromara.boot.utils.file.MimeTypeUtils;
 import org.dromara.boot.web.core.BaseController;
 import org.dromara.system.domain.bo.SysUserBo;
 import org.dromara.system.domain.bo.SysUserPasswordBo;
@@ -72,7 +73,8 @@ public class SysProfileController extends BaseController {
         if (StringUtils.isNotEmpty(user.getEmail()) && !userService.checkEmailUnique(user)) {
             return R.fail("修改用户'" + username + "'失败，邮箱账号已存在");
         }
-        if (userService.updateUserProfile(user) > 0) {
+        int rows = DataPermissionHelper.ignore(() -> userService.updateUserProfile(user));
+        if (rows > 0) {
             return R.ok();
         }
         return R.fail("修改个人信息异常，请联系管理员");
