@@ -102,25 +102,6 @@ mybatis-plus:
   typeAliasesPackage: org.dromara.**.domain,cc.dhf.**.domain
 ```
 
-**5.启动的时候设置RuoYiApplicationContextInitializer，为了扫描RuoYi-Boot-Vue项目的包。**
-```java
-/**
-* Admin启动程序
-  */
-  @SpringBootApplication
-  public class AdminApplication {
-
-  public static void main(String[] args) {
-  SpringApplication application = new SpringApplication(AdminApplication.class);
-  application.setApplicationStartup(new BufferingApplicationStartup(2048));
-  application.addInitializers(new RuoYiApplicationContextInitializer());
-  application.run(args);
-  System.out.println("(♥◠‿◠)ﾉﾞ  Admin启动成功   ლ(´ڡ`ლ)ﾞ");
-  }
-
-}
-```
-
 [点击查看完整项目创建示例](https://gitee.com/denghuafeng/ruoyi-boot-examples)
 ## 🎯重构成效
 RuoYi-Vue-Plus重构，技术架构更稳健，赋能企业开发，多维覆盖开发者群体，满足不同开发者需求，优化开发体验，技术栈迭代无忧升级静默，技术基座与业务分离，奠定长远发展基石，支撑高质量工程实践。迈向专业化、现代化，创造更大价值。
