@@ -15,7 +15,7 @@
     <properties>
         <revision>5.2.1</revision>
         <ruoyi-boot-plus.version>5.2.1</ruoyi-boot-plus.version>
-        <spring-boot.version>3.2.8</spring-boot.version>
+        <spring-boot.version>3.2.9</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>21</java.version>
@@ -23,7 +23,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <resource.delimiter>@</resource.delimiter>
         <lombok.version>1.18.32</lombok.version>
-        <mapstruct-plus.version>1.4.3</mapstruct-plus.version>
+        <mapstruct-plus.version>1.4.4</mapstruct-plus.version>
         <mapstruct-plus.lombok.version>0.2.0</mapstruct-plus.lombok.version>
         <therapi-javadoc.version>0.15.0</therapi-javadoc.version>
 

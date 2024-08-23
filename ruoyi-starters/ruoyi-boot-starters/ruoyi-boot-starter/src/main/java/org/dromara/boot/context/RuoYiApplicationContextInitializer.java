@@ -9,6 +9,7 @@ import org.springframework.lang.NonNull;
 
 /**
  * 项目基础包扫描
+ * @author 邓华锋
  */
 public class RuoYiApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {
 

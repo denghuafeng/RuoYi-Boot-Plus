@@ -11,10 +11,10 @@
     <packaging>pom</packaging>
 
     <properties>
-        <spring-boot.version>3.2.8</spring-boot.version>
+        <spring-boot.version>3.2.9</spring-boot.version>
         <undertow.version>2.3.15.Final</undertow.version>
         <lombok.version>1.18.34</lombok.version>
-        <mapstruct-plus.version>1.4.3</mapstruct-plus.version>
+        <mapstruct-plus.version>1.4.4</mapstruct-plus.version>
         <mapstruct-plus.lombok.version>0.2.0</mapstruct-plus.lombok.version>
         <therapi-javadoc.version>0.15.0</therapi-javadoc.version>
         <mybatis.version>3.5.16</mybatis.version>
