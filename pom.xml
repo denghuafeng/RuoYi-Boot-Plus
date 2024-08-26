@@ -13,8 +13,8 @@
     <description>ruoyi-boot-plus(RuoYi-Vue-Plus技术基座)</description>
 
     <properties>
-        <revision>5.2.1</revision>
-        <ruoyi-boot-plus.version>5.2.1</ruoyi-boot-plus.version>
+        <revision>5.2.2</revision>
+        <ruoyi-boot-plus.version>5.2.2</ruoyi-boot-plus.version>
         <spring-boot.version>3.2.9</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
