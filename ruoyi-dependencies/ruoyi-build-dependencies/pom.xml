@@ -48,6 +48,7 @@
         <anyline.version>8.7.2-20240808</anyline.version>
         <commons-compress.version>1.26.2</commons-compress.version>
         <xnio-api.version>3.8.16.Final</xnio-api.version>
+        <commons-io.version>2.15.0</commons-io.version>
     </properties>
 
     <!-- 依赖声明 -->
@@ -331,6 +332,12 @@
                 <groupId>io.undertow</groupId>
                 <artifactId>undertow-websockets-jsr</artifactId>
                 <version>${undertow.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
             </dependency>
 
         </dependencies>
