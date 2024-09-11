@@ -12,7 +12,7 @@
 
     <properties>
         <snailjob.version>1.1.2</snailjob.version>
-        <okio-jvm.version>3.9.0</okio-jvm.version>
+        <scala-library.version>2.13.9</scala-library.version>
         <!--工作流配置-->
         <flowable.version>7.0.1</flowable.version>
         <batik-all.version>1.17</batik-all.version>
@@ -39,19 +39,16 @@
                 <version>${snailjob.version}</version>
                 <exclusions>
                     <exclusion>
-                        <groupId>com.squareup.okio</groupId>
-                        <artifactId>okio-jvm</artifactId>
+                        <groupId>org.scala-lang</groupId>
+                        <artifactId>scala-library</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
-
             <dependency>
-                <groupId>com.squareup.okio</groupId>
-                <artifactId>okio-jvm</artifactId>
-                <version>${okio-jvm.version}</version>
-                <scope>runtime</scope>
+                <groupId>org.scala-lang</groupId>
+                <artifactId>scala-library</artifactId>
+                <version>${scala-library.version}</version>
             </dependency>
-
 
             <dependency>
                 <groupId>org.flowable</groupId>
