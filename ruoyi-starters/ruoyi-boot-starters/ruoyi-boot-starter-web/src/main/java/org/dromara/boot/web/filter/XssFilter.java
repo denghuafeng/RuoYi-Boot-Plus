@@ -1,11 +1,13 @@
 package org.dromara.boot.web.filter;
 
-import org.dromara.boot.utils.StringUtils;
-import org.springframework.http.HttpMethod;
-
 import jakarta.servlet.*;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.dromara.boot.utils.SpringUtils;
+import org.dromara.boot.utils.StringUtils;
+import org.dromara.boot.web.config.properties.XssProperties;
+import org.springframework.http.HttpMethod;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,13 +25,8 @@ public class XssFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        String tempExcludes = filterConfig.getInitParameter("excludes");
-        if (StringUtils.isNotEmpty(tempExcludes)) {
-            String[] url = tempExcludes.split(StringUtils.SEPARATOR);
-            for (int i = 0; url != null && i < url.length; i++) {
-                excludes.add(url[i]);
-            }
-        }
+        XssProperties properties = SpringUtils.getBean(XssProperties.class);
+        excludes.addAll(properties.getExcludeUrls());
     }
 
     @Override
